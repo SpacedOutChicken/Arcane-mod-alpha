@@ -1,0 +1,96 @@
+[
+	{
+		"name": "Humanity",
+		"era": "Tier 0 Era",
+		"uniques": [
+			"[3] Free Social Policies",
+			"Only available <before adopting [Undeath]>",
+			"Only available <before adopting [Demonology]>"
+		],
+		"policies": [
+			{
+				"name": "Human",
+				"uniques": [
+					"Provides [1] [Rations]",
+					"Only available <before adopting [Orc]>"
+				],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Orc",
+				"uniques": [
+					"[+10]% Strength <for [All] units>",
+					"Only available <before adopting [Human]>"
+				],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Humanity Complete"
+			}
+		]
+	},
+	{
+		"name": "Undeath",
+		"era": "Tier 0 Era",
+		"uniques": [
+			"[3] Free Social Policies",
+			"Only available <before adopting [Humanity]>",
+			"Only available <before adopting [Demonology]>"
+		],
+		"policies": [
+			{
+				"name": "Ghost",
+				"uniques": [
+					"Provides [1] [Mana]",
+					"Only available <before adopting [Vampire]>"
+				],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Vampire",
+				"uniques": [
+					"[+5] HP when healing",
+					"Only available <before adopting [Ghost]>"
+				],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Undeath Complete"
+			}
+		]
+	},
+	{
+		"name": "Demonology",
+		"era": "Tier 0 Era",
+		"uniques": [
+			"[3] Free Social Policies",
+			"Only available <before adopting [Humanity]>",
+			"Only available <before adopting [Undeath]>"
+		],
+		"policies": [
+			{
+				"name": "Imp",
+				"uniques": [
+					"Only available <before adopting [Incubus]>"
+				],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Incubus",
+				"uniques": [
+					"Only available <before adopting [Imp]>"
+				],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Demonology Complete"
+			}
+		]
+	}
+]

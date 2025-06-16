@@ -1,0 +1,149 @@
+[
+	{
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+	},
+	{
+		"name": "Kartvel",
+		"leaderName": "Temur",
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "Sample text.",
+        "startIntroPart2": "Sample text.",
+
+        "declaringWar": "Your men will fall just at the sight of my cavalry!",
+		"attacked": "Ha ha ha, we will be very glad to head out to war again.",
+		"defeated": "I am Kartvel's king. You can take my lands, my people, my kingdom, but you will never break our spirits.",
+		"denounced": "You actually seem sharper than what I had originally thought.",
+		"introduction": "Stranger, welcome to our kingdom! I am Temur.",
+
+		"neutralHello": "Oh, welcome!",
+		"hateHello": "Oh, it is you.",
+		"tradeRequest": "My friend, it is my belief that this settlement can benefit both our peoples.",
+        "outerColor": [8, 8, 166],
+		"innerColor": [249, 247, 3],
+
+		"uniqueName": "For the Homeland",
+		"uniques": [
+			"[+15]% Strength <for [non-[Air]] units> <when fighting in [Friendly Land] tiles>",
+			"Provides [1] [Mana] <for every [Cities]>",
+			"[-10]% Strength <for [Spell] units>",
+			"Human",
+			"Adopt [Humanity]"
+		],
+		"cities": ["Dyfed", "Harlech", "Ynys Gwales"]
+	},
+    {
+		"name": "Annwn",
+		"leaderName": "Arawn",
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text.",
+		"declaringWar": "You stand in the way of my people. Let us solve this like warriors!",
+		"attacked": "You shall never overcome us!",
+		"defeated": "Our bodies lie fallen, but tales of our deeds shall forever linger.",
+		"introduction": "Greetings from Annwn.",
+		"tradeRequest": "I am not always this generous, but we hope you take this rare opportunity we give you.",
+		"outerColor": [27,53,63],
+		"innerColor": [213,249,255],
+		"uniqueName": "Strength of Life",
+		"uniques": ["[10] HP when healing <for [All] units>", "Human", "Adopt [Humanity]"],
+		"cities": ["Dyfed", "Harlech", "Ynys Gwales"]
+	},
+	{
+		"name": "Wildmen",
+		"leaderName": "Speaks-to-Beasts",
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text.",
+		"declaringWar": "Prepare to be destroyed! Ragh!",
+		"attacked": "Haha! You'll soon regret messing with us!",
+		"defeated": "At least let our companions run free.",
+		"introduction": "Hawou! We are the Wildmen.",
+		"tradeRequest": "Shall we exchange?",
+		"outerColor": [81,0,9],
+		"innerColor": [255,120,0],
+		"uniqueName": "Masters of the Wild",
+		"uniques": [
+			"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [75]% chance>",
+			"When defeating a [Barbarian] unit, earn [10] Gold and recruit it <with [67]% chance>",
+			"[+33]% Strength <vs [Beastman] units>",
+			"[-10]% Strength <for [non-[Beastman]] units> <vs [non-[Beastman]] units>",
+			"[+10]% Strength <for [Beastman] units>",
+			"[-75]% Production when constructing [{non-[Beastman]} {Military}] units [in all cities]",
+			"[Gold] cost of purchasing [{non-[Beastman]} {Military}] units [+50]%",
+			"[+15]% maintenance costs <for [{non-[Beastman]} {Military}] units>",
+			"[-15]% maintenance costs <for [Beastman] units>",
+			"Beast",
+			"Human",
+			"Adopt [Humanity]"
+		],
+		"cities": ["Horsetown", "Bearville", "Wolfpack"]
+	},
+
+	{
+		"name": "Infernal Army",
+		"leaderName": "Beelzebub",
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text",
+		"declaringWar": "We shall own you all, body and soul!",
+		"attacked": "Bah! See if you can match our power!",
+		"defeated": "Now we can only return to the abyss from where we came.",
+		"introduction": "Behold the unstoppable Infernal Army!",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		"outerColor": [51,25,0],
+        "innerColor": [255,255,102],
+		"uniqueName": "Hell's Fury",
+		"uniques": ["No damage penalty for wounded units", "Demonic", "Adopt [Demonology]"],
+		"cities": ["Malebolge", "Hel", "Hades"]
+	},
+
+	{
+		"name": "Revenants",
+		"leaderName": "Koschei",
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text",
+		"declaringWar": "Your flesh shall make an excellent feast.",
+		"attacked": "Pitiful fool! Now we shall destroy you!",
+		"defeated": "I swear that we will rise again, as we always have.",
+		"introduction": "Do you feel the cold chill of death in our presence?",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		"outerColor": [179, 178, 184],
+		"innerColor": [37, 43, 33],
+		"uniqueName": "Resurrection",
+		"uniques": ["Undead", "Adopt [Undeath]"],
+		"cities": ["Lichtown", "Mummyville", "Zombieland"]
+	},
+
+	{
+		"name": "Brussels",
+		"adjective": ["Bruxellois"],
+		"cityStateType": "Magical",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I guess you weren't here for the sprouts after all...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [127, 177, 236],
+		"cities": ["Brussels"]
+	},
+
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+        "innerColor": [185,12,12],
+		"uniques": [
+			"Can only heal by pillaging",
+			"Excluded from map editor",
+			"Human",
+			"Beast",
+			"Beastman"
+		]
+	}
+]

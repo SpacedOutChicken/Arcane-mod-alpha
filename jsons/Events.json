@@ -1,0 +1,55 @@
+[
+    {
+        "name": "Cast Spell",
+        "text": "We have accumulated enough mana to cast a spell!",
+        "choices": [
+            {
+                "text": "Summon a Bolt",
+                "uniques": [
+                    "Free [Bolt] appears <hidden from users>",
+                    "Provides [-1] [Concentration] <for [1] turns> <hidden from users>",
+                    "Triggers a [Cast Spell] event <upon turn start> <when above [0] [Concentration]> <hidden from users>",
+                    "Only available <after discovering [Fire]> <when above [0] [Concentration]> <when above [20] [Mana]> <when number of [[Air] Units] is less than [[Cities] * 6]> <hidden from users>",
+                    "Instantly gain [-20] [Mana] <hidden from users>"
+                ]
+            },
+            {
+                "text": "Invigorate our soldiers",
+                "uniques": [
+                    "Provides [-3] [Concentration] <for [2] turns> <hidden from users>",
+                    "[non-[Air]] units gain the [Vigor] promotion <hidden from users>",
+                    "Provides [-10] [Mana] <for [2] turns> <hidden from users>",
+                    "Instantly gain [-100] [Mana] <hidden from users>",
+                    "Only available <when above [2] [Concentration]> <after discovering [Healing]> <when above [100] [Mana]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Summon a Meteor",
+                "uniques": [
+                    "Provides [-3] [Concentration] <for [3] turns> <hidden from users>",
+                    "Provides [-10] [Mana] <for [3] turns> <hidden from users>",
+                    "Instantly gain [-100] [Mana] <hidden from users>",
+                    "Free [Meteor] appears <hidden from users>",
+                    "Only available <when above [2] [Concentration]> <after discovering [Doom Spells]> <when above [100] [Mana]> <when number of [[Air] Units] is less than [[Cities] * 6]> <hidden from users>"
+                ]
+            },
+            {
+                "text": "Build up our mana",
+                "uniques": [
+                    "Instantly gain [5] [Mana] <for every [Concentration]> <hidden from users>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Den Builder appears",
+        "presentation": "None",
+        "choices": [
+            {
+                "uniques": [
+                    "Free [Den Builder] appears"
+                ]
+            }
+        ]
+    }
+]

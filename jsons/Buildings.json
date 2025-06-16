@@ -1,0 +1,31 @@
+[
+	{
+		"name": "Palace",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["Indicates the capital city", "Provides [3] [Concentration]", "Provides [1] [Mana]"]
+	},
+
+	{
+		"name": "Altar",
+		"uniqueTo": "Demonic",
+		"cost": 30,
+		"science": 1,
+		"uniques": ["Provides [1] [Mana]"]
+	},
+
+	{
+		"name": "Beast Lair",
+		"uniqueTo": "Wildmen",
+		"cost": 1,
+		"production": 1,
+		"uniques": [
+			"Automatically built in all cities where it is buildable",
+			"Must have an owned [Tame Beast den] within [3] tiles"
+		]
+	}
+]

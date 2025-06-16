@@ -1,0 +1,61 @@
+[
+    {
+		"columnNumber": 0,
+		"era": "Tier 0 Era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Mysticism",
+				"row": 6,
+				"quote": "",
+				"uniques": ["Starting tech"]
+			}
+		]
+	},
+    {
+        "columnNumber": 1,
+        "era": "Tier 0 Era",
+        "techCost": 20,
+        "buildingCost": 40,
+		"wonderCost": 185,
+        "techs": [
+            {
+				"name": "Fire",
+				"row": 2,
+                "prerequisites": ["Mysticism"],
+				"quote": ""
+            },
+            {
+				"name": "Healing",
+				"row": 6,
+                "prerequisites": ["Mysticism"],
+				"quote": ""
+            },
+            {
+				"name": "Doom Spells",
+				"row": 10,
+                "prerequisites": ["Mysticism"],
+				"quote": "",
+                "uniques": ["Triggers the following global alert: [The chill of doom hangs in the air!]"]
+            }
+        ]
+    },
+    {
+        "columnNumber": 2,
+		"era": "Tier 0 Era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+        "techs": [
+            {
+                "name": "Enlightenment",
+                "row": 6,
+                "prerequisites": ["Fire", "Healing", "Doom Spells"],
+                "quote": "",
+                "uniques": ["Can be continually researched", "Instantly gain [20] [Mana]"]
+            }
+        ]
+    }
+]

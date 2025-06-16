@@ -1,0 +1,36 @@
+{
+    "name": "Global uniques",
+    "uniques": [
+        "[+2 Culture] [in all cities]",
+        "[-2 Culture] <for every [Cities]>",
+        "[-20]% [Culture] [in all cities] <during a Golden Age>",
+
+        "[-100]% Golden Age length",
+        "Instantly gain [-1] [Golden Age points] <for every [Happiness]> <upon turn end>",
+
+        "[-1 Science] per [1] population [in all cities]",
+
+        "Notified of new Barbarian encampments",
+
+        "[+1] Unit Supply <for every [Owned [Farm] Tiles]>",
+        "[+1] Unit Supply <for every [Owned [Graveyard] Tiles]>",
+        "[+2] Unit Supply <for every [Owned [Tame Beast den] Tiles]>",
+
+        "Triggers a [Cast Spell] event <upon turn start> <every [2] turns> <when above [20] [Mana]> <when above [2] [Concentration]>",
+
+        "Improves movement speed on roads",
+        "Roads connect tiles across rivers",
+
+        "Enables embarkation for land units",
+        "Enables [All] units to enter ocean tiles",
+
+        "Enables conversion of city production to [Gold]",
+
+        "[{Military} {Undead}] units gain the [Enslave Worker] promotion",
+        "[{Military} {Demonic}] units gain the [Enslave Worker] promotion",
+        "[{Zombie Slave} {Human}] units gain the [Dead Worker] promotion <upon turn end>"
+    ],
+    "unitUniques": [
+        "Free [Den Builder] appears <upon entering a [Barbarian encampment] tile> <for [Wildmen] Civilizations> <for [non-[Den Builder]] units>"
+    ]
+}

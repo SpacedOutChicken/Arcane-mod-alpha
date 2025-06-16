@@ -1,0 +1,20 @@
+
+TechIcons.png
+size: 256, 128
+format: RGBA8888
+filter: MipMapLinearLinear, Linear
+repeat: none
+TechIcons/Enlightenment
+  rotate: false
+  xy: 4, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Mysticism
+  rotate: false
+  xy: 112, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

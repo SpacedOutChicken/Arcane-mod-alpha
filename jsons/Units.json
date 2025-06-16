@@ -1,0 +1,115 @@
+[
+    {
+        "name": "Settler",
+        "unitType": "Civilian",
+        "cost": 40,
+        "movement": 2,
+        "uniques": ["Founds a new city <by consuming this unit>"]
+    },
+    {
+        "name": "Serf",
+        "unitType": "Civilian",
+        "cost": 30,
+        "movement": 2,
+        "uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"]
+    },
+    {
+        "name": "Zombie Slave",
+        "uniqueTo": "Undead",
+        "replaces": "Serf",
+        "unitType": "Civilian",
+        "cost": 30,
+        "movement": 2,
+        "uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", "Unbuildable", "Cannot be purchased"]
+    },
+    {
+        "name": "Slave",
+        "uniqueTo": "Demonic",
+        "replaces": "Serf",
+        "unitType": "Civilian",
+        "cost": 30,
+        "movement": 2,
+        "uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", "Unbuildable", "Cannot be purchased"]
+    },
+    {
+		"name": "Warrior",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"attackSound": "metalhit",
+        "uniques": ["Never appears as a Barbarian unit"]
+	},
+    {
+        "name": "Bowman",
+        "unitType": "Archery",
+        "movement": 2,
+        "strength": 5,
+        "rangedStrength": 7,
+        "range": 2,
+        "cost": 40,
+        "attackSound": "arrow",
+        "uniques": ["Never appears as a Barbarian unit"]
+    },
+    {
+        "name": "Bug",
+        "uniqueTo": "Beast",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 6,
+        "cost": 20,
+        "uniques": ["Beastman", "Ignores terrain cost", "Unbuildable <for [Major] Civilizations> <in cities without a [Beast Lair]>", "Cannot be purchased <in cities without a [Beast Lair]>"]
+    },
+
+    {
+        "name": "Bolt",
+        "unitType": "Spell",
+        "movement": 1,
+        "range": 1000,
+        "strength": 10,
+        "rangedStrength": 10,
+        "attackSound": "missile",
+        "uniques": ["Unbuildable", "Cannot be purchased"]
+    },
+    {
+        "name": "Chain Lightning",
+        "unitType": "Spell",
+        "cost": 1,
+        "movement": 1,
+        "range": 1000,
+        "strength": 20,
+        "rangedStrength": 20,
+        "attackSound": "missile",
+        "uniques": [
+            //"Unbuildable",
+            //"Cannot be purchased",
+            "Free [Chain Lightning] appears <upon losing at least [1] HP in a single attack> <with [25]% chance>"
+        ]
+    },
+    {
+        "name": "Meteor",
+        "unitType": "Spell",
+        "movement": 1,
+        "range": 1000,
+        "strength": 150,
+        "rangedStrength": 150,
+        "attackSound": "nuke",
+        "uniques": [
+            "Unbuildable",
+            "Cannot be purchased",
+            "Nuclear weapon of Strength [1]",
+            "Blast radius [2]"
+        ]
+    },
+
+    {
+        "name": "Den Builder",
+        "unitType": "Civilian",
+        "uniqueTo": "Wildmen",
+        "movement": 4,
+        "uniques": [
+            "Unbuildable",
+            "Can instantly construct a [Tame Beast den] improvement <by consuming this unit>"
+        ]
+    }
+]

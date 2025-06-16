@@ -1,0 +1,14 @@
+{
+    "isBaseRuleset": true,
+    "uniques": [
+        "Disable religion"
+    ],
+    "constants":{
+        "maxXPfromBarbarians":60,
+        "minimalCityDistance":3,
+        "minimalCityDistanceOnDifferentContinents":3,
+        "cityWorkRange":3
+    },
+    "tileset": "FantasyHex",
+    "unitset": "FantasyHex"
+}

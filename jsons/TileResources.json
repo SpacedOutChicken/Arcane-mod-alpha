@@ -1,0 +1,50 @@
+[
+    // quest marker for campaigns
+	{
+		"name": "Quest Marker",
+		"resourceType": "Bonus",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Excluded from map editor",
+			"Stockpiled",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	// strategic resources
+    {
+		"name": "Rations",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+    {
+		"name": "Corpses",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+    {
+		"name": "Mana",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Stockpiled",
+			"Excluded from map editor"
+		]
+	},
+    {
+		"name": "Concentration",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Excluded from map editor",
+			"Cannot be traded"
+		]
+	}
+]

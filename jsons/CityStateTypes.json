@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Magical",
+        "friendBonusUniques": [
+            "Provides [2] [Rations] <for [non-[Demonic]] Civilizations>"
+        ],
+        "allyBonusUniques": [
+            "Provides [4] [Rations] <for [non-[Demonic]] Civilizations>"
+        ],
+        "color": [139, 96, 255]
+    }
+]
