@@ -4,50 +4,200 @@
         "text": "We have accumulated enough mana to cast a spell!",
         "choices": [
             {
-                "text": "Summon a Bolt",
+                "text": "Summon an attack spell",
                 "uniques": [
-                    "Free [Bolt] appears <hidden from users>",
-                    "Provides [-1] [Concentration] <for [1] turns> <hidden from users>",
-                    "Triggers a [Cast Spell] event <upon turn start> <when above [0] [Concentration]> <hidden from users>",
-                    "Only available <after discovering [Fire]> <when above [0] [Concentration]> <when above [20] [Mana]> <when number of [[Air] Units] is less than [[Cities] * 6]> <hidden from users>",
-                    "Instantly gain [-20] [Mana] <hidden from users>"
+                    "Triggers a [Attack Spell] event <hidden from users>",
+                    "Only available <when number of [[Air] Units] is less than [[Cities] * 6]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    {
+                        "text": "Summon an offensive spell to target an enemy"
+                    }
                 ]
             },
             {
-                "text": "Invigorate our soldiers",
+                "text": "Bless our soldiers",
                 "uniques": [
-                    "Provides [-3] [Concentration] <for [2] turns> <hidden from users>",
-                    "[non-[Air]] units gain the [Vigor] promotion <hidden from users>",
-                    "Provides [-10] [Mana] <for [2] turns> <hidden from users>",
-                    "Instantly gain [-100] [Mana] <hidden from users>",
-                    "Only available <when above [2] [Concentration]> <after discovering [Healing]> <when above [100] [Mana]> <hidden from users>"
+                    "Triggers a [Bless Soldiers] event <hidden from users>"
+                ],
+                "civilopediaText": [
+                    {
+                        "text": "Grant our soldiers additional powers"
+                    }
                 ]
             },
             {
-                "text": "Summon a Meteor",
+                "text": "Bless our land",
                 "uniques": [
-                    "Provides [-3] [Concentration] <for [3] turns> <hidden from users>",
-                    "Provides [-10] [Mana] <for [3] turns> <hidden from users>",
-                    "Instantly gain [-100] [Mana] <hidden from users>",
-                    "Free [Meteor] appears <hidden from users>",
-                    "Only available <when above [2] [Concentration]> <after discovering [Doom Spells]> <when above [100] [Mana]> <when number of [[Air] Units] is less than [[Cities] * 6]> <hidden from users>"
+                    "Triggers a [Bless Land] event <hidden from users>"
+                ],
+                "civilopediaText": [
+                    {
+                        "text": "Grant our cities and territories strength and prosperity"
+                    }
+                ]
+            },
+            {
+                "text": "Summon a doomsday spell",
+                "uniques": [
+                    "Triggers a [Doomsday Spell] event <hidden from users>",
+                    "Only available <when number of [[Air] Units] is less than [[Cities] * 6]> <when nuclear weapons are enabled> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    {
+                        "text": "Summon an attack spell of awesome destructive power"
+                    }
                 ]
             },
             {
                 "text": "Build up our mana",
                 "uniques": [
-                    "Instantly gain [5] [Mana] <for every [Concentration]> <hidden from users>"
+                    "Instantly gain [5] [Mana] <hidden from users>"
                 ]
             }
         ]
     },
     {
-        "name": "Den Builder appears",
-        "presentation": "None",
+        "name": "Attack Spell",
+        "text": "Choose an attack spell",
         "choices": [
             {
+                "text": "Fire Spell",
                 "uniques": [
-                    "Free [Den Builder] appears"
+                    "Free [Fireball] appears <hidden from users>",
+                    "Provides [-1] [Concentration] <for [1] turns> <hidden from users>",
+                    "Only available <after discovering [Fire]> <when above [0] [Concentration]> <when above [20] [Mana]>",
+                    "Instantly gain [-20] [Mana] <hidden from users>"
+                ],
+                "civilopediaText": [
+                    {
+                        "text": "A simple but powerful blast of fire"
+                    }
+                ]
+            },
+            {
+                "text": "Lightning Spell",
+                "uniques": [
+                    "Free [Chain Lightning] appears <hidden from users>",
+                    "Provides [-1] [Concentration] <for [1] turns> <hidden from users>",
+                    "Only available <after discovering [Fire]> <when above [0] [Concentration]> <when above [20] [Mana]>",
+                    "Instantly gain [-20] [Mana] <hidden from users>"
+                ],
+                "civilopediaText": [
+                    {
+                        "text": "This spell strikes multiple times"
+                    }
+                ]
+            },
+            {
+                "text": "Ice Spell",
+                "uniques": [
+                    "Free [Ice Storm] appears <hidden from users>",
+                    "Provides [-1] [Concentration] <for [1] turns> <hidden from users>",
+                    "Only available <after discovering [Fire]> <when above [0] [Concentration]> <when above [20] [Mana]>",
+                    "Instantly gain [-20] [Mana] <hidden from users>"
+                ],
+                "civilopediaText": [
+                    {
+                        "text": "A chilling ice storm that freezes its target"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Bless Soldiers",
+        "text": "Choose a blessing for our soldiers",
+        "choices": [
+            {
+                "text": "Invigorate our soldiers",
+                "uniques": [
+                    "Provides [-1] [Concentration] <for [2] turns> <hidden from users>",
+                    "[non-[Air]] units gain the [Vigor] promotion <hidden from users>",
+                    "Provides [-10] [Mana] <for [2] turns> <hidden from users>",
+                    "Instantly gain [-100] [Mana] <hidden from users>",
+                    "Only available <when above [0] [Concentration]> <after discovering [Healing]> <when above [100] [Mana]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    {
+                        "text": "Heal our soldiers and grant them speed and strength"
+                    }
+                ]
+            },
+            {
+                "text": "Mobilize our soldiers",
+                "uniques": [
+                    "Provides [-1] [Concentration] <for [5] turns> <hidden from users>",
+                    "[non-[Air]] units gain the [Grant Teleportation] promotion <hidden from users>",
+                    "Provides [-10] [Mana] <for [5] turns> <hidden from users>",
+                    "Instantly gain [-100] [Mana] <hidden from users>",
+                    "Only available <when above [0] [Concentration]> <after discovering [Healing]> <when above [100] [Mana]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    {
+                        "text": "Grant our soldiers the power of extraordinarily swift movement"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Bless Land",
+        "text": "Choose a blessing for our territory",
+        "choices": [
+            {
+                "text": "Grant us defense",
+                "uniques": [
+                    "Provides [-1] [Concentration] <for [5] turns> <hidden from users>",
+                    "Provides [-10] [Mana] <for [3] turns> <hidden from users>",
+                    "Instantly gain [-100] [Mana] <hidden from users>",
+                    "[+25]% Strength for cities <for [3] turns> <hidden from users>",
+                    "[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles> <for [3] turns> <hidden from users>",
+                    "Enemy [Land] units must spend [1] extra movement points when inside your territory <for [3] turns> <hidden from users>",
+                    "Only available <when above [0] [Concentration]> <after discovering [Healing]> <when above [100] [Mana]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    {
+                        "text": "Grant strength to cities and soldiers and impede our enemy's movements within our lands"
+                    }
+                ]
+            },
+            {
+                "text": "Grant us prosperity",
+                "uniques": [
+                    "Provides [-1] [Concentration] <for [5] turns> <hidden from users>",
+                    "Provides [-5] [Mana] <for [5] turns> <hidden from users>",
+                    "Instantly gain [-100] [Mana] <hidden from users>",
+                    "[+25]% growth [in all cities] <for [5] turns> <hidden from users>",
+                    "[+25]% [Production] [in all cities] <for [5] turns> <hidden from users>",
+                    "[+25]% [Gold] [in all cities] <for [5] turns> <hidden from users>",
+                    "Only available <when above [0] [Concentration]> <after discovering [Healing]> <when above [100] [Mana]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    {
+                        "text": "Grant growth and productivity to all of our cities"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Doomsday Spell",
+        "text": "Choose a doomsday spell",
+        "choices": [
+            {
+                "text": "Summon a Meteor",
+                "uniques": [
+                    "Provides [-1] [Concentration] <for [3] turns> <hidden from users>",
+                    "Provides [-10] [Mana] <for [3] turns> <hidden from users>",
+                    "Instantly gain [-100] [Mana] <hidden from users>",
+                    "Free [Meteor] appears <hidden from users>",
+                    "Only available <when above [0] [Concentration]> <after discovering [Doom Spells]> <when above [100] [Mana]> <when number of [[Air] Units] is less than [[Cities] * 6]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    {
+                        "text": "Summon a meteor that leaves a vast wound wherever it strikes"
+                    }
                 ]
             }
         ]

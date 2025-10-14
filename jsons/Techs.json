@@ -37,8 +37,7 @@
 				"name": "Doom Spells",
 				"row": 10,
                 "prerequisites": ["Mysticism"],
-				"quote": "",
-                "uniques": ["Triggers the following global alert: [The chill of doom hangs in the air!]"]
+				"quote": ""
             }
         ]
     },

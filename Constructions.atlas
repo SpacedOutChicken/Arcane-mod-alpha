@@ -11,6 +11,13 @@ ConstructionIcons/Circle
   orig: 178, 178
   offset: 0, 0
   index: -1
+UnitActionIcons/Paradrop
+  rotate: false
+  xy: 398, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Settler
   rotate: false
   xy: 4, 4

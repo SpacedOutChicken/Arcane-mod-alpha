@@ -60,30 +60,81 @@
         "cost": 20,
         "uniques": ["Beastman", "Ignores terrain cost", "Unbuildable <for [Major] Civilizations> <in cities without a [Beast Lair]>", "Cannot be purchased <in cities without a [Beast Lair]>"]
     },
+    {
+        "name": "Crossbowman",
+        "unitType": "Archery",
+        "movement": 2,
+        "strength": 12,
+        "rangedStrength": 15,
+        "range": 2,
+        "cost": 100,
+        "attackSound": "arrow",
+        "uniques": ["Never appears as a Barbarian unit", "Can only be built <in cities with a [Barracks]>"]
+    },
 
     {
-        "name": "Bolt",
+        "name": "Fireball",
         "unitType": "Spell",
         "movement": 1,
         "range": 1000,
-        "strength": 10,
-        "rangedStrength": 10,
+        "strength": 30,
+        "rangedStrength": 30,
         "attackSound": "missile",
         "uniques": ["Unbuildable", "Cannot be purchased"]
     },
     {
         "name": "Chain Lightning",
         "unitType": "Spell",
-        "cost": 1,
         "movement": 1,
         "range": 1000,
         "strength": 20,
         "rangedStrength": 20,
         "attackSound": "missile",
         "uniques": [
-            //"Unbuildable",
-            //"Cannot be purchased",
-            "Free [Chain Lightning] appears <upon losing at least [1] HP in a single attack> <with [25]% chance>"
+            "Unbuildable",
+            "Cannot be purchased",
+            "Free [Lightning] appears <upon losing at least [1] HP in a single attack>"
+        ]
+    },
+    {
+        "name": "Lightning",
+        "unitType": "Spell",
+        "movement": 1,
+        "range": 1000,
+        "strength": 15,
+        "rangedStrength": 15,
+        "attackSound": "missile",
+        "uniques": [
+            "Unbuildable",
+            "Cannot be purchased",
+            "Free [Spark] appears <upon losing at least [1] HP in a single attack>"
+        ]
+    },
+    {
+        "name": "Spark",
+        "unitType": "Spell",
+        "movement": 1,
+        "range": 1000,
+        "strength": 10,
+        "rangedStrength": 10,
+        "attackSound": "missile",
+        "uniques": [
+            "Unbuildable",
+            "Cannot be purchased"
+        ]
+    },
+    {
+        "name": "Ice Storm",
+        "unitType": "Spell",
+        "movement": 1,
+        "range": 1000,
+        "strength": 15,
+        "rangedStrength": 15,
+        "attackSound": "missile",
+        "uniques": [
+            "Unbuildable",
+            "Cannot be purchased",
+            "[Target Unit] gains the [Frozen] status for [3] turn(s) <upon damaging a [non-[Air]] unit>"
         ]
     },
     {

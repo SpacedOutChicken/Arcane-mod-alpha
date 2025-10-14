@@ -4,9 +4,40 @@
 		"outerColor": [255,255,255]
 	},
 	{
+		"name": "The Second Empire",
+		"leaderName": "Leo",
+		"preferredVictoryType": "Domination",
+		"adjective": ["Imperial"],
+
+        "startIntroPart1": "Sample text.",
+        "startIntroPart2": "Sample text.",
+
+        "declaringWar": "Your men will fall just at the sight of my cavalry!",
+		"attacked": "Ha ha ha, we will be very glad to head out to war again.",
+		"defeated": "Alas!",
+		"denounced": "You actually seem sharper than what I had originally thought.",
+		"introduction": "Stranger, welcome to our kingdom! I am Leo.",
+
+		"neutralHello": "Oh, welcome!",
+		"hateHello": "Oh, it is you.",
+		"tradeRequest": "My friend, it is my belief that this settlement can benefit both our peoples.",
+        "outerColor": [8, 8, 166],
+		"innerColor": [249, 247, 3],
+
+		"uniqueName": "Ingenuity",
+		"uniques": [
+			"[+1 Science] [in all cities]",
+			"Each city founded increases Science cost of Technologies [50]% less than normal",
+			"Human",
+			"Adopt [Humanity]"
+		],
+		"cities": ["Oradour"]
+	},
+	{
 		"name": "Kartvel",
 		"leaderName": "Temur",
 		"preferredVictoryType": "Domination",
+		"adjective": ["Kartvelian"],
 
         "startIntroPart1": "Sample text.",
         "startIntroPart2": "Sample text.",
@@ -55,6 +86,7 @@
 		"name": "Wildmen",
 		"leaderName": "Speaks-to-Beasts",
 		"preferredVictoryType": "Domination",
+		"adjective": ["Wildman"],
 
 		"startIntroPart1": "Sample text.",
 		"startIntroPart2": "Sample text.",
@@ -70,7 +102,7 @@
 			"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [75]% chance>",
 			"When defeating a [Barbarian] unit, earn [10] Gold and recruit it <with [67]% chance>",
 			"[+33]% Strength <vs [Beastman] units>",
-			"[-10]% Strength <for [non-[Beastman]] units> <vs [non-[Beastman]] units>",
+			"[-10]% Strength <for [{non-[Beastman]} {non-[Air]}] units> <vs [non-[Beastman]] units>",
 			"[+10]% Strength <for [Beastman] units>",
 			"[-75]% Production when constructing [{non-[Beastman]} {Military}] units [in all cities]",
 			"[Gold] cost of purchasing [{non-[Beastman]} {Military}] units [+50]%",
@@ -106,6 +138,7 @@
 		"name": "Revenants",
 		"leaderName": "Koschei",
 		"preferredVictoryType": "Domination",
+		"adjective": ["Revenant"],
 
 		"startIntroPart1": "Sample text.",
 		"startIntroPart2": "Sample text",
@@ -120,11 +153,210 @@
 		"uniques": ["Undead", "Adopt [Undeath]"],
 		"cities": ["Lichtown", "Mummyville", "Zombieland"]
 	},
+	{
+		"name": "The Vanity",
+		"leaderName": "Xaltotun",
+		"preferredVictoryType": "Domination",
+		"adjective": ["Vanity"],
+
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text",
+		"declaringWar": "Your flesh shall make an excellent feast.",
+		"attacked": "Pitiful fool! Now we shall destroy you!",
+		"defeated": "I swear that we will rise again, as we always have.",
+		"introduction": "Do you feel the cold chill of death in our presence?",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		"outerColor": [0, 0, 50],
+		"innerColor": [239, 180, 0],
+		"uniqueName": "Fleshcraft",
+		"uniques": ["Undead", "Adopt [Undeath]", "[+1 Science] [in all cities]"],
+		"cities": ["Lichtown", "Mummyville", "Zombieland"]
+	},
+	{
+		"name": "The Aberrant",
+		"leaderName": "Ahriman",
+		"preferredVictoryType": "Domination",
+		"adjective": ["Aberrant"],
+
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text",
+		"declaringWar": "Your flesh shall make an excellent feast.",
+		"attacked": "Pitiful fool! Now we shall destroy you!",
+		"defeated": "I swear that we will rise again, as we always have.",
+		"introduction": "Do you feel the cold chill of death in our presence?",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+		"outerColor": [255, 255, 255],
+		"innerColor": [184, 0, 0],
+		"uniqueName": "Fleshcraft",
+		"uniques": ["Undead", "Adopt [Undeath]"],
+		"cities": ["Lichtown", "Mummyville", "Zombieland"]
+	},
+	{
+		"name": "Wyrmfolk",
+		"leaderName": "Guivre",
+		"adjective": ["Wyrm"],
+		"startBias": ["Lava"],
+		"preferredVictoryType": "Domination",
+		//"personality": "Nebuchadnezzar II",
+
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text.",
+
+		"declaringWar": "The dragon wants the blood of soldiers!",
+		"attacked": "Oh well, I presume you know what you're doing.",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "Are you real or a phantom?",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+
+		"outerColor": [27,53,63],
+		"innerColor": [213,249,255],
+		"uniqueName": "Draconian Wrath",
+		"uniques": [
+            "New [Dragon] units start with [15] XP [in all cities]",
+			"[-33]% maintenance costs <for [Dragon] units>",
+			"Human",
+			"Adopt [Humanity]"
+		],
+		"cities": ["Draco"]
+	},
+	{
+		"name": "Sol Invictus",
+		"leaderName": "Aurelian",
+		"adjective": ["Sol"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+		//"personality": "Nebuchadnezzar II",
+
+		"startIntroPart1": "Sample text.",
+		"startIntroPart2": "Sample text.",
+
+		"declaringWar": "The demon wants the blood of soldiers!",
+		"attacked": "Oh well, I presume you know what you're doing.",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "Are you real or a phantom?",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+
+		"outerColor": [255, 252, 3],
+		"innerColor": [83, 0, 208],
+		"uniqueName": "Unconquered Sun",
+		"uniques": [
+			"[+50]% XP gained from combat <for [Military] units>",
+			"[+25]% Strength <for [Wounded] units>",
+			"Human",
+			"Adopt [Humanity]"
+		],
+		"cities": ["Sol"]
+	},
+		{
+		"name": "The Abyssals",
+		"leaderName": "Etrigan",
+		"adjective": ["Abyssal"],
+		"preferredVictoryType": "Domination",
+		//"personality": "Nebuchadnezzar II",
+
+		"startIntroPart1": "Start text.",
+		"startIntroPart2": "Start text.",
+
+		"declaringWar": "We shall conquer all!",
+		"attacked": "Oh well, I presume you know what you're doing.",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "Are you real or a phantom?",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+
+		"outerColor": [153,5,3],
+        "innerColor": [244,232,54],
+
+		"uniqueName": "Harvest of Souls",
+		"uniques": [
+			"Earn [10]% of killed [Military] unit's [Strength] as [Corpses]",
+			"Provides [2] [Mana] <for every [[Annexed] Cities]>",
+			"Demonic",
+			"Adopt [Demonology]"
+		],
+		"cities": ["The Abyss", "The Pit"]
+	},
+	{
+		"name": "Shadows",
+		"leaderName": "Fantomas",
+		"adjective": ["Shadow"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "We shall conquer all!",
+		"attacked": "Oh well, I presume you know what you're doing.",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "Are you real or a phantom?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+		
+		"outerColor": [51,25,0],
+        "innerColor": [255,255,102],
+		
+		"uniqueName": "Network",
+		"uniques": [
+			"Gain [15] Influence with a [Military] gift to a City-State",
+			"[-25]% City-State Influence degradation",
+			"City-State Influence recovers at twice the normal rate",
+			"City-State territory always counts as friendly territory",
+			"Demonic",
+			"Adopt [Demonology]"
+		],
+		"cities": ["Shadowlands"]
+	},
+	{
+		"name": "Mystagogues",
+		"leaderName": "Caligari",
+		"adjective": ["Mystagogue"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "We shall conquer all!",
+		"attacked": "Oh well, I presume you know what you're doing.",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "Are you real or a phantom?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+		
+		"outerColor": [18, 66, 22],
+        "innerColor": [255, 56, 56],
+		
+		"uniqueName": "Leave No Stone Unturned",
+		"uniques": [
+			"Each city founded increases Science cost of Technologies [75]% less than normal",
+			"[+2 Science] [in all cities]",
+			"Demonic",
+			"Adopt [Demonology]"
+		],
+		"cities": ["Myst"]
+	},
 
 	{
 		"name": "Brussels",
 		"adjective": ["Bruxellois"],
 		"cityStateType": "Magical",
+		"uniques": ["Human"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -141,7 +373,6 @@
 		"uniques": [
 			"Can only heal by pillaging",
 			"Excluded from map editor",
-			"Human",
 			"Beast",
 			"Beastman"
 		]

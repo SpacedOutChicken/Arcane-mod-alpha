@@ -1,21 +1,41 @@
 [
     {
 		  "name": "Vigor",
-		  "uniques": ["[This Unit] heals [50] HP", "[This Unit] gains the [Invigorated] status for [3] turn(s)", "Doing so will consume this opportunity to choose a Promotion"]
+		  "uniques": ["[This Unit] heals [25] HP", "[This Unit] gains [1] movement", "[This Unit] gains the [Invigorated] status for [3] turn(s)", "Doing so will consume this opportunity to choose a Promotion"]
     },
     {
       "name": "Invigorated",
       "uniques": ["[+1] Movement", "No damage penalty for wounded units"]
     },
     {
+      "name": "Grant Teleportation",
+      "uniques": ["[This Unit] gains the [Teleportation] status for [3] turn(s)", "[This Unit] gains [1] movement", "Doing so will consume this opportunity to choose a Promotion"]
+    },
+    {
+      "name": "Teleportation",
+      "uniques": [
+        "[+1] Movement",
+        "Can pass through impassable tiles",
+        "Ignores terrain cost",
+        "Ignores Zone of Control",
+        "[1] Movement point cost to disembark",
+        "[1] Movement point cost to embark",
+        "May Paradrop up to [50] tiles from inside friendly territory"
+      ]
+    },
+    {
+      "name": "Frozen",
+      "uniques": [
+        "[-1] Movement",
+        "[-15]% Strength <when attacking>"
+      ]
+    },
+    {
       "name": "Heal Instantly",
       "uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
       "unitTypes": ["Sword", "Archery"]
     },
-    {
-      "name": "Enslave Worker",
-      "uniques": ["Free [Serf] appears <upon defeating a [Military] unit>"]
-    },
+    
     {
       "name": "Dead Worker",
       "uniques": ["Instantly gain [1] [Corpses]", "[This Unit] is destroyed"]

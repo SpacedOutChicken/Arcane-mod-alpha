@@ -1,0 +1,33 @@
+Tile improvements:
+* ones for demons
+* ones for undead
+* improve stacking set for humans
+
+Buildings:
+* ones for demons
+* ones for undead
+* improve stacking set for humans
+
+Units:
+* set for demons
+* set for undead
+* set for humans
+* special set for dragons
+* special set for wild beasts
+
+Techs:
+* tech tree
+* increasing costs for spells
+
+Policies:
+* 9 for each race, choose 4
+
+Lovely icons:
+https://thenounproject.com/icon/wolf-3063406/
+https://thenounproject.com/browse/collection-icon/pokemon-23330/
+https://thenounproject.com/icon/comet-7350438/
+https://thenounproject.com/browse/collection-icon/celestial-and-witchcraft-jumpicon-glyph-207106/
+https://thenounproject.com/browse/collection-icon/role-playing-game-70773/
+
+Sounds:
+https://freesound.org/people/Scpsea/sounds/732119/

@@ -12,11 +12,9 @@
 
         "Notified of new Barbarian encampments",
 
-        "[+1] Unit Supply <for every [Owned [Farm] Tiles]>",
-        "[+1] Unit Supply <for every [Owned [Graveyard] Tiles]>",
-        "[+2] Unit Supply <for every [Owned [Tame Beast den] Tiles]>",
+        "[+1] Unit Supply <for every [Units]>",
 
-        "Triggers a [Cast Spell] event <upon turn start> <every [2] turns> <when above [20] [Mana]> <when above [2] [Concentration]>",
+        "Triggers a [Cast Spell] event <upon turn start> <every [2] turns> <when above [20] [Mana]> <when above [0] [Concentration]>",
 
         "Improves movement speed on roads",
         "Roads connect tiles across rivers",
@@ -26,11 +24,14 @@
 
         "Enables conversion of city production to [Gold]",
 
-        "[{Military} {Undead}] units gain the [Enslave Worker] promotion",
-        "[{Military} {Demonic}] units gain the [Enslave Worker] promotion",
-        "[{Zombie Slave} {Human}] units gain the [Dead Worker] promotion <upon turn end>"
+        "[{Zombie Slave} {Human}] units gain the [Dead Worker] promotion <upon turn end>",
+
+        "Nullifies Growth [in all cities]",
+        "Population loss from nuclear attacks [-100]% [in all cities]"
     ],
     "unitUniques": [
+        "Free [Serf] appears <upon defeating a [Military] unit> <for [Undead] Civilizations>",
+        "Free [Serf] appears <upon defeating a [Military] unit> <for [Demonic] Civilizations>",
         "Free [Den Builder] appears <upon entering a [Barbarian encampment] tile> <for [Wildmen] Civilizations> <for [non-[Den Builder]] units>"
     ]
 }

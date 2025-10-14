@@ -1,96 +1,194 @@
 
 game.png
-size: 2048, 128
+size: 2048, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+EmojiIcons/Gold
+  rotate: false
+  xy: 1192, 162
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+EmojiIcons/Science
+  rotate: false
+  xy: 1250, 162
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Barbarian encampment
-  rotate: false
-  xy: 112, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Graveyard
-  rotate: false
-  xy: 652, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Annwn
   rotate: false
   xy: 4, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+ImprovementIcons/Graveyard
+  rotate: false
+  xy: 436, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Railroad
+  rotate: false
+  xy: 652, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Remove Railroad
+  rotate: false
+  xy: 760, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Annwn
+  rotate: false
+  xy: 4, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Barbarians
   rotate: false
-  xy: 220, 4
+  xy: 112, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Infernal Army
   rotate: false
-  xy: 760, 4
+  xy: 436, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Kartvel
+  rotate: false
+  xy: 544, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Revenants
   rotate: false
-  xy: 1084, 4
+  xy: 760, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Wildmen
+NationIcons/Sol Invictus
   rotate: false
-  xy: 1192, 4
+  xy: 868, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-OtherIcons/Aircraft
-  rotate: false
-  xy: 1300, 54
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-ResourceIcons/Concentration
-  rotate: false
-  xy: 328, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Corpses
-  rotate: false
-  xy: 436, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Mana
+NationIcons/The Aberrant
   rotate: false
   xy: 868, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Rations
+NationIcons/The Vanity
+  rotate: false
+  xy: 976, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Wildmen
   rotate: false
   xy: 976, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitTypeIcons/DomainAir
+NationIcons/Wyrmfolk
+  rotate: false
+  xy: 1084, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/Aircraft
+  rotate: false
+  xy: 1084, 54
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+OtherIcons/ConvertGold
+  rotate: false
+  xy: 220, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Gold
+  rotate: false
+  xy: 220, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+OtherIcons/ConvertScience
+  rotate: false
+  xy: 220, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NotificationIcons/PickTech
+  rotate: false
+  xy: 220, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Science
+  rotate: false
+  xy: 220, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Concentration
+  rotate: false
+  xy: 112, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Corpses
+  rotate: false
+  xy: 328, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Mana
   rotate: false
   xy: 544, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Rations
+  rotate: false
+  xy: 652, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/DomainAir
+  rotate: false
+  xy: 328, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
