@@ -34,7 +34,7 @@
 		"cities": ["Oradour"]
 	},
 	{
-		"name": "Kartvel",
+		"name": "Kartvel", //  isolationist humans
 		"leaderName": "Temur",
 		"preferredVictoryType": "Domination",
 		"adjective": ["Kartvelian"],
@@ -62,24 +62,6 @@
 			"Human",
 			"Adopt [Humanity]"
 		],
-		"cities": ["Dyfed", "Harlech", "Ynys Gwales"]
-	},
-    {
-		"name": "Annwn",
-		"leaderName": "Arawn",
-		"preferredVictoryType": "Domination",
-
-		"startIntroPart1": "Sample text.",
-		"startIntroPart2": "Sample text.",
-		"declaringWar": "You stand in the way of my people. Let us solve this like warriors!",
-		"attacked": "You shall never overcome us!",
-		"defeated": "Our bodies lie fallen, but tales of our deeds shall forever linger.",
-		"introduction": "Greetings from Annwn.",
-		"tradeRequest": "I am not always this generous, but we hope you take this rare opportunity we give you.",
-		"outerColor": [27,53,63],
-		"innerColor": [213,249,255],
-		"uniqueName": "Strength of Life",
-		"uniques": ["[10] HP when healing <for [All] units>", "Human", "Adopt [Humanity]"],
 		"cities": ["Dyfed", "Harlech", "Ynys Gwales"]
 	},
 	{
@@ -113,25 +95,6 @@
 			"Adopt [Humanity]"
 		],
 		"cities": ["Horsetown", "Bearville", "Wolfpack"]
-	},
-
-	{
-		"name": "Infernal Army",
-		"leaderName": "Beelzebub",
-		"preferredVictoryType": "Domination",
-
-		"startIntroPart1": "Sample text.",
-		"startIntroPart2": "Sample text",
-		"declaringWar": "We shall own you all, body and soul!",
-		"attacked": "Bah! See if you can match our power!",
-		"defeated": "Now we can only return to the abyss from where we came.",
-		"introduction": "Behold the unstoppable Infernal Army!",
-		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
-		"outerColor": [51,25,0],
-        "innerColor": [255,255,102],
-		"uniqueName": "Hell's Fury",
-		"uniques": ["No damage penalty for wounded units", "Demonic", "Adopt [Demonology]"],
-		"cities": ["Malebolge", "Hel", "Hades"]
 	},
 
 	{

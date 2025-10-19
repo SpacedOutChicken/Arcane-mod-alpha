@@ -34,9 +34,10 @@
 		"turnsToBuild": 5,
 		"uniques": [
 			"[+1 Gold] <for every adjacent [Hut]>",
-			"Only available <in cities with a [Hut]>",
+			"Only available <in cities with a [Barracks]>",
 			"Unavailable <in tiles adjacent to [Mine] tiles>",
-			"Tile provides yield without assigned population"
+			"Tile provides yield without assigned population",
+			"Provides [1] [Rations]"
 		]
 	},
 	{

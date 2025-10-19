@@ -1,1 +1,20 @@
-{"isBaseRuleset":true,"constants":{"maxXPfromBarbarians":60,"cityStrengthBase":10,"cityStrengthPerPop":1,"cityStrengthFromTechsMultiplier":0,"cityStrengthFromTechsExponent":0,"cityStrengthFromTechsFullMultiplier":0,"cityStrengthFromGarrison":1,"minimalCityDistanceOnDifferentContinents":3,"cityExpandRange":3},"unitset":"FantasyHex","tileset":"FantasyHex","modUrl":"https://github.com/SpacedOutChicken/Arcane-mod-alpha","author":"SpacedOutChicken","lastUpdated":"2025-06-16T00:19:03Z","modSize":684,"topics":["unciv-mod","unciv-mod-rulesets"],"uniques":["Disable religion"]}
+{
+    "isBaseRuleset": true,
+    "uniques": [
+        "Disable religion"
+    ],
+    "tileset": "ArcaneHex",
+    "unitset": "None",
+    "constants": {
+        "maxXPfromBarbarians":60,
+        "cityStrengthBase": 10,
+        "cityStrengthPerPop":0.0,
+        "cityStrengthFromTechsMultiplier": 0,
+        "cityStrengthFromTechsExponent": 0,
+        "cityStrengthFromGarrison":1,
+        "unitSupplyPerPopulation": 0,
+        "minimalCityDistance": 3,
+        "minimalCityDistanceOnDifferentContinents":3,
+        "baseCityBombardRange": 2
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "useColorAsBaseTerrain": "false",
+    "fallbackTileSet": "FantasyHex",
+    "ruleVariants": {
+        // for civilopedia
+        "Grassland+River": ["Grassland","River-BottomLeft","River-Bottom","River-BottomRight"],
+
+        //base
+        "Grassland": ["Grassland","GrasslandIcon"],
+        "Plains": ["Plains","PlainsIcon"],
+        "Tundra": ["Tundra","TundraIcon"],
+        "Desert": ["Desert","DesertIcon"],
+        "Snow": ["Snow","SnowIcon"],
+        "Mountain": ["Mountain","MountainIcon"],
+        "Coast": ["Coast","CoastIcon"],
+        "Ocean": ["Ocean","OceanIcon"],
+        "Lakes": ["Lakes","LakesIcon"],
+
+        // hill
+        "Grassland+Hill": ["Grassland","HillIcon"],
+        "Plains+Hill": ["Plains","HillIcon"],
+        "Desert+Hill": ["Desert","HillIcon"],
+        "Tundra+Hill": ["Tundra", "HillIcon"],
+        "Snow+Hill": ["Snow","HillIcon"],
+
+        // forest and jungle
+        "Grassland+Forest": ["Grassland","ForestIcon"],
+        "Plains+Forest": ["Plains","ForestIcon"],
+        "Tundra+Forest": ["Tundra","ForestIcon"],
+        "Grassland+Jungle": ["Grassland","JungleIcon"],
+        "Plains+Jungle": ["Plains","JungleIcon"],
+
+        // hill with forest
+        "Grassland+Hill+Forest": ["Grassland","ForestHillIcon"],
+        "Plains+Hill+Forest": ["Plains","ForestHillIcon"],
+        "Tundra+Hill+Forest": ["Tundra","ForestHillIcon"],
+
+        // ice
+        "Coast+Ice": ["Coast","IceIcon"],
+        "Ocean+Ice": ["Ocean","IceIcon"],
+
+        // features
+        "Grassland+Swamp": ["Swamp","SwampIcon"],
+        "Mountain+Volcano": ["Mountain","VolcanoIcon"],
+        "Desert+Oasis": ["Desert","OasisIcon"],
+        "Coast+Atoll": ["Coast","AtollIcon"],
+
+        // barbarian encampment
+        "Grassland+Barbarian encampment": ["Grassland","BarbarianEncampmentIcon"],
+        "Plains+Barbarian encampment": ["Plains","BarbarianEncampmentIcon"],
+        "Tundra+Barbarian encampment": ["Tundra","BarbarianEncampmentIcon"],
+        "Desert+Barbarian encampment": ["Desert","BarbarianEncampmentIcon"],
+        "Snow+Barbarian encampment": ["Snow","BarbarianEncampmentIcon"],
+        "Grassland+Hill+Barbarian encampment": ["Grassland","BarbarianEncampmentIcon"],
+        "Plains+Hill+Barbarian encampment": ["Plains","BarbarianEncampmentIcon"],
+        "Desert+Hill+Barbarian encampment": ["Desert","BarbarianEncampmentIcon"],
+        "Tundra+Hill+Barbarian encampment": ["Tundra", "BarbarianEncampmentIcon"],
+        "Snow+Hill+Barbarian encampment": ["Snow","BarbarianEncampmentIcon"],
+        "Grassland+Hill+Forest+Barbarian encampment": ["Grassland","BarbarianEncampmentIcon"],
+        "Plains+Hill+Forest+Barbarian encampment": ["Plains","BarbarianEncampmentIcon"],
+        "Tundra+Hill+Forest+Barbarian encampment": ["Tundra","BarbarianEncampmentIcon"],
+        "Grassland+Swamp+Barbarian encampment": ["Swamp","BarbarianEncampmentIcon"],
+        "Desert+Oasis+Barbarian encampment": ["Desert","BarbarianEncampmentIcon"],
+        "Grassland+Forest+Barbarian encampment": ["Grassland","BarbarianEncampmentIcon"],
+        "Plains+Forest+Barbarian encampment": ["Plains","BarbarianEncampmentIcon"],
+        "Tundra+Forest+Barbarian encampment": ["Tundra","BarbarianEncampmentIcon"],
+        "Grassland+Jungle+Barbarian encampment": ["Grassland","BarbarianEncampmentIcon"],
+        "Plains+Jungle+Barbarian encampment": ["Plains","BarbarianEncampmentIcon"],
+
+        // ancient ruins
+        "Grassland+Ancient ruins": ["Grassland","AncientRuinsIcon"],
+        "Plains+Ancient ruins": ["Plains","AncientRuinsIcon"],
+        "Tundra+Ancient ruins": ["Tundra","AncientRuinsIcon"],
+        "Desert+Ancient ruins": ["Desert","AncientRuinsIcon"],
+        "Snow+Ancient ruins": ["Snow","AncientRuinsIcon"],
+        "Grassland+Hill+Ancient ruins": ["Grassland","AncientRuinsIcon"],
+        "Plains+Hill+Ancient ruins": ["Plains","AncientRuinsIcon"],
+        "Desert+Hill+Ancient ruins": ["Desert","AncientRuinsIcon"],
+        "Tundra+Hill+Ancient ruins": ["Tundra", "AncientRuinsIcon"],
+        "Snow+Hill+Ancient ruins": ["Snow","AncientRuinsIcon"],
+        "Grassland+Hill+Forest+Ancient ruins": ["Grassland","AncientRuinsIcon"],
+        "Plains+Hill+Forest+Ancient ruins": ["Plains","AncientRuinsIcon"],
+        "Tundra+Hill+Forest+Ancient ruins": ["Tundra","AncientRuinsIcon"],
+        "Grassland+Swamp+Ancient ruins": ["Swamp","AncientRuinsIcon"],
+        "Desert+Oasis+Ancient ruins": ["Desert","AncientRuinsIcon"],
+        "Grassland+Forest+Ancient ruins": ["Grassland","AncientRuinsIcon"],
+        "Plains+Forest+Ancient ruins": ["Plains","AncientRuinsIcon"],
+        "Tundra+Forest+Ancient ruins": ["Tundra","AncientRuinsIcon"],
+        "Grassland+Jungle+Ancient ruins": ["Grassland","AncientRuinsIcon"],
+        "Plains+Jungle+Ancient ruins": ["Plains","AncientRuinsIcon"],
+
+
+        // city center
+        "Grassland+City center": ["Grassland","CityCenterIcon"],
+        "Plains+City center": ["Plains","CityCenterIcon"],
+        "Tundra+City center": ["Tundra","CityCenterIcon"],
+        "Desert+City center": ["Desert","CityCenterIcon"],
+        "Snow+City center": ["Snow","CityCenterIcon"],
+        "Grassland+Hill+City center": ["Grassland","CityCenterIcon"],
+        "Plains+Hill+City center": ["Plains","CityCenterIcon"],
+        "Desert+Hill+City center": ["Desert","CityCenterIcon"],
+        "Tundra+Hill+City center": ["Tundra", "CityCenterIcon"],
+        "Snow+Hill+City center": ["Snow","CityCenterIcon"],
+        "Desert+Oasis+City center": ["Desert","CityCenterIcon"]
+    }
+}

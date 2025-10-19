@@ -11,7 +11,7 @@
 	{
 		"name": "Coast",
 		"type": "Water",
-		"food": 1,
+		"food": 2,
 		"movementCost": 1,
 		"RGB": [42, 206, 179],
 		"uniques": [
@@ -24,24 +24,25 @@
 		"type": "Land",
 		"food": 2,
 		"movementCost": 1,
-		"RGB": [107, 214, 152],
-		"uniques": [
+		"RGB": [0, 163, 0],
+        "uniques": [
 			"Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
-			"Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
-			"Occurs at temperature between [-0.5] and [0] and humidity between [0.6] and [0.7]",
-			"Occurs at temperature between [-0.5] and [-0.2] and humidity between [0.7] and [0.8]",
-			"Occurs at temperature between [0.7] and [1] and humidity between [0.7] and [1]",
-			"Occurs at temperature between [0.8] and [1] and humidity between [0.6] and [0.7]",
-			"Occurs at temperature between [0.9] and [1] and humidity between [0.5] and [0.6]",
-			"[+3] to Fertility for Map Generation",
-			"A Region is formed with at least [30]% [Grassland] tiles, with priority [7]",
-			"A Region can not contain more [Plains] tiles than [Grassland] tiles",
-			"Considered [Desirable] when determining start locations",
-			"Considered [Food] when determining start locations <in [Jungle] Regions>",
-			"Considered [Food] when determining start locations <in [Forest] Regions>",
-			"Considered [Food] when determining start locations <in [Hill] Regions>",
-			"Considered [Food] when determining start locations <in [Grassland] Regions>",
-			"Considered [Food] when determining start locations <in [Hybrid] Regions>"
+            "Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
+            "Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
+            "Occurs at temperature between [-0.5] and [1] and humidity between [0.9] and [1]",
+            "Occurs at temperature between [0.9] and [1] and humidity between [0.2] and [1]",
+            "Occurs at temperature between [0.8] and [0.9] and humidity between [0.6] and [1]",
+            "Occurs at temperature between [0.7] and [0.8] and humidity between [0.7] and [1]",
+            "Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.6]",
+            "[+3] to Fertility for Map Generation",
+            "A Region is formed with at least [30]% [Grassland] tiles, with priority [7]",
+            "A Region can not contain more [Plains] tiles than [Grassland] tiles",
+            "Considered [Desirable] when determining start locations",
+            "Considered [Food] when determining start locations <in [Jungle] Regions>",
+            "Considered [Food] when determining start locations <in [Forest] Regions>",
+            "Considered [Food] when determining start locations <in [Hill] Regions>",
+            "Considered [Food] when determining start locations <in [Grassland] Regions>",
+            "Considered [Food] when determining start locations <in [Hybrid] Regions>"
 		]
 	},
 	{
@@ -49,49 +50,27 @@
 		"type": "Land",
 		"food": 2,
 		"movementCost": 1,
-		"RGB": [61, 142, 93],
+		"RGB": [153, 180, 51],
 		"uniques": [
 			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
-			"Occurs at temperature between [-0.4] and [0.1] and humidity between [0.4] and [0.6]",
-			"Occurs at temperature between [0.2] and [0.4] and humidity between [0.4] and [0.5]",
-			"Occurs at temperature between [0.3] and [0.5] and humidity between [0.5] and [0.6]",
-			"Occurs at temperature between [0.9] and [1] and humidity between [0] and [0.2]",
-			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.2] and [0.6]",
-			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.3] and [0.4]",
-			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.7]",
-			"[+4] to Fertility for Map Generation",
-			"A Region is formed with at least [30]% [Plains] tiles, with priority [6]",
-			"A Region can not contain more [Grassland] tiles than [Plains] tiles",
-			"Considered [Desirable] when determining start locations",
-			"Considered [Food] when determining start locations <in [Tundra] Regions>",
-			"Considered [Food] when determining start locations <in [Desert] Regions>",
-			"Considered [Food] when determining start locations <in [Hill] Regions>",
-			"Considered [Food] when determining start locations <in [Plains] Regions>",
-			"Considered [Food] when determining start locations <in [Hybrid] Regions>"
-		]
-	},
-	{
-		"name": "Lava",
-		"type": "Land",
-		"food": 2,
-		"movementCost": 1,
-		"RGB": [154, 107, 214],
-		"uniques": [
-			"Occurs at temperature between [-0.6] and [0.7] and humidity between [0.8] and [1]",
-			"Occurs at temperature between [-0.2] and [0.7] and humidity between [0.7] and [0.8]",
-			"Occurs at temperature between [0] and [0.5] and humidity between [0.6] and [0.7]",
-			"Occurs at temperature between [0.1] and [0.3] and humidity between [0.5] and [0.6]",
-			"Occurs at temperature between [0.1] and [0.2] and humidity between [0.4] and [0.5]",
-			"Occurs in groups of [2] to [5] tiles",
-			"[+3] to Fertility for Map Generation",
-			"A Region is formed with at least [30]% [Lava] tiles, with priority [6]",
-			"A Region can not contain more [Grassland] tiles than [Lava] tiles",
-			"Considered [Desirable] when determining start locations",
-			"Considered [Food] when determining start locations <in [Tundra] Regions>",
-			"Considered [Food] when determining start locations <in [Desert] Regions>",
-			"Considered [Food] when determining start locations <in [Hill] Regions>",
-			"Considered [Food] when determining start locations <in [Plains] Regions>",
-			"Considered [Food] when determining start locations <in [Hybrid] Regions>"
+            "Occurs at temperature between [-0.4] and [0.4] and humidity between [0.4] and [0.6]",
+            "Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
+            "Occurs at temperature between [-0.6] and [0.7] and humidity between [0.8] and [0.9]",
+            "Occurs at temperature between [-0.6] and [-0.5] and humidity between [0.9] and [1]",
+            "Occurs at temperature between [0.9] and [1] and humidity between [0] and [0.2]",
+            "Occurs at temperature between [0.8] and [0.9] and humidity between [0.2] and [0.6]",
+            "Occurs at temperature between [0.7] and [0.8] and humidity between [0.3] and [0.4]",
+            "Occurs at temperature between [0.6] and [0.8] and humidity between [0.6] and [0.7]",
+            "Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
+            "[+4] to Fertility for Map Generation",
+            "A Region is formed with at least [30]% [Plains] tiles, with priority [6]",
+            "A Region can not contain more [Grassland] tiles than [Plains] tiles",
+            "Considered [Desirable] when determining start locations",
+            "Considered [Food] when determining start locations <in [Tundra] Regions>",
+            "Considered [Food] when determining start locations <in [Desert] Regions>",
+            "Considered [Food] when determining start locations <in [Hill] Regions>",
+            "Considered [Food] when determining start locations <in [Plains] Regions>",
+            "Considered [Food] when determining start locations <in [Hybrid] Regions>"
 		]
 	},
 	{
@@ -99,40 +78,42 @@
 		"type": "Land",
 		"food": 2,
 		"movementCost": 1,
-		"RGB": [205, 204, 136],
+		"RGB": [124, 62, 57],
 		"uniques": [
 			"Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.8] and [1]",
-			"Occurs at temperature between [-0.8] and [-0.5] and humidity between [0.6] and [0.8]",
-			"Occurs at temperature between [-0.7] and [-0.4] and humidity between [0.4] and [0.6]",
-			"Occurs at temperature between [-0.6] and [-0.4] and humidity between [0.2] and [0.4]",
-			"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.2]",
-			"[+2] to Fertility for Map Generation",
-			"A Region is formed with at least [30]% [Tundra] tiles and [Snow] tiles, with priority [1]",
-			"Considered [Food] when determining start locations <in [Tundra] Regions>",
-			"Considered [Desirable] when determining start locations <in [Tundra] Regions>"
+            "Occurs at temperature between [-0.8] and [-0.5] and humidity between [0.6] and [0.8]",
+            "Occurs at temperature between [-0.7] and [-0.4] and humidity between [0.4] and [0.6]",
+            "Occurs at temperature between [-0.6] and [-0.4] and humidity between [0.2] and [0.4]",
+            "Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.2]",
+            "[+2] to Fertility for Map Generation",
+            "A Region is formed with at least [30]% [Tundra] tiles and [Snow] tiles, with priority [1]",
+            "Considered [Food] when determining start locations <in [Tundra] Regions>",
+            "Considered [Desirable] when determining start locations <in [Tundra] Regions>",
+            "Becomes [Plains] when adjacent to [River]"
 		]
 	},
 	{
 		"name": "Desert",
 		"type": "Land",
-		"food": 2,
 		"movementCost": 1,
-		"RGB": [212, 112, 70],
+		"food": 2,
+		"RGB": [230, 172, 0],
 		"uniques": [
 			"Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
-			"Occurs at temperature between [0.1] and [0.8] and humidity between [0.2] and [0.3]",
-			"Occurs at temperature between [0.2] and [0.7] and humidity between [0.3] and [0.4]",
-			"Occurs at temperature between [0.4] and [0.6] and humidity between [0.4] and [0.5]",
-			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]",
-			"[+1] to Fertility for Map Generation",
-			"A Region is formed with at least [25]% [Desert] tiles, with priority [4]"
+            "Occurs at temperature between [0.1] and [0.8] and humidity between [0.2] and [0.3]",
+            "Occurs at temperature between [0.2] and [0.7] and humidity between [0.3] and [0.4]",
+            "Occurs at temperature between [0.4] and [0.6] and humidity between [0.4] and [0.5]",
+            "Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]",
+            "[+1] to Fertility for Map Generation",
+            "A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
+            "Considered [Desirable] when determining start locations <in [Desert] Regions>"
 		]
 	},
 	{
 		"name": "Lakes",
 		"type": "Water",
 		"food": 2,
-		"RGB": [123, 202, 226],
+		"RGB": [0, 171, 169],
 		"uniques": [
 			"Fresh water",
 			"Considered [Food] when determining start locations",
@@ -157,18 +138,17 @@
 	{
 		"name": "Snow",
 		"type": "Land",
-		"food": 2,
 		"movementCost": 1,
-		"RGB": [231, 242, 249],
+		"RGB": [230, 238, 255],
 		"uniques": [
-			"Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
-			"Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
-			"Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
-			"Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.4]",
-			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]",
-			"Always Fertility [-1] for Map Generation",
-			"Considered [Desirable] when determining start locations",
-			"Becomes [Tundra] when adjacent to [River]"
+            "Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
+            "Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
+            "Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
+            "Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.4]",
+            "Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]",
+            "Always Fertility [-1] for Map Generation",
+            "Considered [Desirable] when determining start locations",
+            "Becomes [Tundra] when adjacent to [River]"
 		]
 	},
 
@@ -185,8 +165,7 @@
 			"Plains",
 			"Grassland",
 			"Desert",
-			"Snow",
-			"Lava"
+			"Snow"
 		],
 		"uniques": [
 			"Rough terrain",
@@ -242,7 +221,7 @@
 		]
 	},
 	{
-		"name": "Marsh",
+		"name": "Swamp",
 		"type": "TerrainFeature",
 		"movementCost": 3,
 		"unbuildable": true,
@@ -254,7 +233,7 @@
 		]
 	},
 	{
-		"name": "Fallout",
+		"name": "Fallout", // Blight
 		"type": "TerrainFeature",
 		"movementCost": 2,
 		"unbuildable": true,
@@ -273,9 +252,8 @@
 			"Forest",
 			"Jungle",
 			"Hill",
-			"Marsh",
-			"Oasis",
-			"Lava"
+			"Swamp",
+			"Oasis"
 		],
 		"defenceBonus": -0.15
 	},
