@@ -32,7 +32,7 @@
         "uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", "Unbuildable", "Cannot be purchased"]
     },
     {
-		"name": "Warrior",
+		"name": "Grunt",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 8,
@@ -53,12 +53,21 @@
     },
     {
         "name": "Bug",
-        "uniqueTo": "Beast",
+        "uniqueTo": "Barbarians",
         "unitType": "Sword",
         "movement": 2,
         "strength": 6,
         "cost": 20,
-        "uniques": ["Beastman", "Ignores terrain cost", "Unbuildable <for [Major] Civilizations> <in cities without a [Beast Lair]>", "Cannot be purchased <in cities without a [Beast Lair]>"]
+        "uniques": ["Beastman", "Ignores terrain cost", "Unavailable <if [Barracks] is constructed by anybody>"]
+    },
+    {
+        "name": "Bugman",
+        "uniqueTo": "Wildmen",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 6,
+        "cost": 40,
+        "uniques": ["Beastman", "Ignores terrain cost", "Can only be built <in cities with a [Beast Lair]>"]
     },
     {
         "name": "Crossbowman",
@@ -71,12 +80,53 @@
         "attackSound": "arrow",
         "uniques": ["Never appears as a Barbarian unit", "Can only be built <in cities with a [Barracks]>"]
     },
+    {
+        "name": "Big Bug",
+        "uniqueTo": "Barbarians",
+        "unitType": "Sword",
+        "movement": 2,
+        "strength": 12,
+        "cost": 100,
+        "uniques": ["Beastman", "Ignores terrain cost", "Only available <if [Barracks] is constructed by anybody>"]
+    },
+
+    {
+        "name": "Wizard",
+        "unitType": "Archery",
+        "movement": 2,
+        "strength": 15,
+        "rangedStrength": 20,
+        "range": 3,
+        "cost": 500,
+        "attackSound": "shot",
+        "uniques": [
+            "Costs [20] [Mana]",
+            "Consumes [1] [Mana]",
+            "[This Unit] gains the [Summon] promotion",
+            "Can carry [2] [Air] units",
+            "Never appears as a Barbarian unit",
+            "Instantly gain [-1] [Mana] <upon entering combat>",
+            "[This Unit] gains the [Tapped] status for [2] turn(s) <upon losing the [Summon] promotion>",
+            "[This Unit] gains the [Summon] promotion <upon losing the [Tapped] status>"
+        ]
+    },
+    {
+        "name": "Force Bolt",
+        "unitType": "Spell",
+        "movement": 1,
+        "range": 20,
+        "strength": 20,
+        "rangedStrength": 20,
+        "attackSound": "missile",
+        "uniques": ["Unbuildable", "Cannot be purchased"]
+    },
 
     {
         "name": "Fireball",
         "unitType": "Spell",
+        "requiredTech": "Fire",
         "movement": 1,
-        "range": 1000,
+        "range": 100,
         "strength": 30,
         "rangedStrength": 30,
         "attackSound": "missile",
@@ -86,35 +136,36 @@
         "name": "Chain Lightning",
         "unitType": "Spell",
         "movement": 1,
-        "range": 1000,
+        "range": 100,
         "strength": 20,
         "rangedStrength": 20,
         "attackSound": "missile",
         "uniques": [
             "Unbuildable",
             "Cannot be purchased",
-            "Free [Lightning] appears <upon losing at least [1] HP in a single attack>"
+            "Free [Lightning Bolt] appears <upon entering combat>"
         ]
     },
     {
-        "name": "Lightning",
+        "name": "Lightning Bolt",
         "unitType": "Spell",
+        "requiredTech": "Lightning",
         "movement": 1,
-        "range": 1000,
+        "range": 100,
         "strength": 15,
         "rangedStrength": 15,
         "attackSound": "missile",
         "uniques": [
             "Unbuildable",
             "Cannot be purchased",
-            "Free [Spark] appears <upon losing at least [1] HP in a single attack>"
+            "Free [Spark] appears <upon entering combat>"
         ]
     },
     {
         "name": "Spark",
         "unitType": "Spell",
         "movement": 1,
-        "range": 1000,
+        "range": 100,
         "strength": 10,
         "rangedStrength": 10,
         "attackSound": "missile",
@@ -126,8 +177,9 @@
     {
         "name": "Ice Storm",
         "unitType": "Spell",
+        "requiredTech": "Ice",
         "movement": 1,
-        "range": 1000,
+        "range": 100,
         "strength": 15,
         "rangedStrength": 15,
         "attackSound": "missile",
@@ -138,10 +190,27 @@
         ]
     },
     {
+        "name": "Plague",
+        "unitType": "Spell",
+        "requiredTech": "Doomsday Spells",
+        "movement": 1,
+        "range": 100,
+        "strength": 20,
+        "rangedStrength": 20,
+        "attackSound": "nuke",
+        "uniques": [
+            "Unbuildable",
+            "Cannot be purchased",
+            "Nuclear weapon of Strength [0]",
+            "Blast radius [3]"
+        ]
+    },
+    {
         "name": "Meteor",
         "unitType": "Spell",
+        "requiredTech": "Doomsday Spells",
         "movement": 1,
-        "range": 1000,
+        "range": 100,
         "strength": 150,
         "rangedStrength": 150,
         "attackSound": "nuke",
@@ -160,7 +229,11 @@
         "movement": 4,
         "uniques": [
             "Unbuildable",
-            "Can instantly construct a [Tame Beast den] improvement <by consuming this unit>"
+            "Uncapturable",
+            "Can instantly construct a [Tame Beast den] improvement <by consuming this unit>",
+            "May Paradrop to [Friendly] tiles up to [40] tiles away",
+            "Is part of Great Person group [Den Builder]",
+            "Great Person - [Science]"
         ]
     }
 ]

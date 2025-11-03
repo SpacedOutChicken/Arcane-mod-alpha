@@ -2,36 +2,13 @@
 	{
 		"name": "Palace",
 		"isNationalWonder": true,
-		"production": 3,
+		"production": 1,
 		"science": 3,
 		"gold": 3,
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": ["Indicates the capital city", "Provides [1] [Concentration]", "Provides [1] [Mana]"]
 	},
-
-	{
-		"name": "Doomspell Grimoire",
-		"isNationalWonder": true,
-		"science": 1,
-		"cost": 500,
-		"uniques": [
-			"Enables nuclear weapon",
-			"Triggers a global alert upon build start",
-			"Triggers a global alert upon completion",
-			"Cannot be hurried"
-		]
-	},
-
-	/*{
-		"name": "Hut",
-		"uniqueTo": "Human",
-		"food": 1,
-		"cost": 60,
-		"uniques": [
-			"Must have an owned [Farm] within [3] tiles"
-		]
-	},*/
 	{
 		"name": "Barracks",
 		"uniqueTo": "Human",
@@ -39,7 +16,8 @@
 		"cost": 100,
 		"uniques": [
 			"Must have an owned [Hut] within [3] tiles",
-			"New [non-[Air]] units start with [15] XP [in this city]"
+			"New [non-[Air]] units start with [15] XP [in this city]",
+			"Triggers a global alert upon completion <when number of [[Barracks] Buildings] is equal to [1]>"
 		]
 	},
 
@@ -48,7 +26,8 @@
 		"uniqueTo": "Demonic",
 		"cost": 30,
 		"science": 1,
-		"uniques": ["Provides [1] [Mana]"]
+		"production": 1,
+		"uniques": ["Provides [1] [Mana] <for [Demonic] Civilizations>", "Demon Tech"]
 	},
 
 	{
@@ -59,6 +38,22 @@
 		"uniques": [
 			"Automatically built in all cities where it is buildable",
 			"Must have an owned [Tame Beast den] within [3] tiles"
+		]
+	},
+
+
+	{
+		"name": "Wildmen's Curse",
+		"uniqueTo": "Wildmen",
+		"requiredTech": "Curses",
+		"isWonder": true,
+		"uniques": [
+			"Triggers a global alert upon completion",
+			"Curse",
+			"Unbuildable",
+			"Cannot be purchased",
+			"Will not be displayed in Civilopedia",
+			"Instantly gain [-1] [Curse Time] <upon turn start>"
 		]
 	}
 ]

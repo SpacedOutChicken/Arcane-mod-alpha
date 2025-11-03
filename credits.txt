@@ -1,0 +1,99 @@
+Tileset
+
+Base:
+https://thenounproject.com/icon/hexagon-1687948/
+
+Mountain:
+https://commons.wikimedia.org/wiki/File:Grey_rough_granite_rock_seamless_stone_surface_texture.jpg
+https://thenounproject.com/icon/mountain-7561593/
+
+Hills:
+https://thenounproject.com/icon/hills-550472/
+
+Tundra:
+https://commons.wikimedia.org/wiki/File:Dirt_-_Preview_(Charlotte_Baglioni_via_Poly_Haven).webp
+https://thenounproject.com/icon/mountain-road-331798/
+
+Grassland:
+https://commons.wikimedia.org/wiki/File:Grass-JW.jpg
+https://thenounproject.com/icon/grass-625802/
+
+
+Plains:
+https://commons.wikimedia.org/wiki/File:Jornada_del_Muerto_Plain_about_9_miles_southeast_of_Truth_or_Consequences_-_Flickr_-_aspidoscelis_(2).jpg
+https://thenounproject.com/icon/landscape-7967426/
+With modifications
+
+Snow:
+https://commons.wikimedia.org/wiki/File:Snow_top-down.jpg
+https://thenounproject.com/icon/snow-6773658/
+
+Volcano:
+https://thenounproject.com/icon/volcano-8048762/
+
+Swamp:
+https://commons.wikimedia.org/wiki/File:Viru_Bog_at_winter.jpg
+https://thenounproject.com/icon/dead-tree-7049925/
+
+Ocean:
+https://thenounproject.com/icon/wave-3061007/
+https://commons.wikimedia.org/wiki/File:Water_texture_1380390_Nevit.jpg
+
+Coast:
+https://commons.wikimedia.org/wiki/File:Water_texture_1400868_Nevit.jpg
+https://thenounproject.com/icon/wave-7247994/
+
+Lakes:
+https://commons.wikimedia.org/wiki/File:Ocean_water_surface_texture_2_-_Martha%27s_Vineyard.JPG
+
+Desert:
+https://commons.wikimedia.org/wiki/File:Morocco_Africa_Flickr_Rosino_December_2005_84514010_edited_by_Buchling.jpg
+https://thenounproject.com/icon/desert-dunes-7559258/
+
+Hill with forest:
+https://thenounproject.com/icon/scenery-1845600/
+
+Wild Beast den (Barbarian encampment):
+https://thenounproject.com/icon/cave-3681402/
+
+City center:
+https://thenounproject.com/icon/castle-7995083/
+
+Ruins:
+https://thenounproject.com/icon/ruins-6450987/
+
+City ruins:
+https://thenounproject.com/icon/ruin-4311549/
+
+Fallout:
+https://commons.wikimedia.org/wiki/File:Elk_Fire_Burned_Area_(52117312613).jpg
+https://thenounproject.com/icon/death-4435306/
+
+Settlement:
+https://thenounproject.com/icon/camping-tent-6865882/
+https://thenounproject.com/icon/refugee-camp-2120771/
+
+Tame Beast den:
+https://thenounproject.com/icon/nest-202532/
+https://thenounproject.com/icon/refugee-tent-6865872/
+
+River:
+https://thenounproject.com/icon/river-7845541/
+
+Runes:
+https://thenounproject.com/icon/rune-stone-6152086/
+https://thenounproject.com/icon/ing-5132034/
+
+Excavation site:
+https://thenounproject.com/icon/mine-entrance-2049986/
+
+Boneyard:
+https://thenounproject.com/icon/skeleton-8138912/
+https://thenounproject.com/icon/bone-7356672/
+
+
+
+Other images
+
+Preview image:
+https://commons.wikimedia.org/wiki/File:Wizard_white.png

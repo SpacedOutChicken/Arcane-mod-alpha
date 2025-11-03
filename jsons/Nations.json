@@ -84,13 +84,11 @@
 			"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [75]% chance>",
 			"When defeating a [Barbarian] unit, earn [10] Gold and recruit it <with [67]% chance>",
 			"[+33]% Strength <vs [Beastman] units>",
+			"[+33]% Strength <vs [Barbarian] units>",
 			"[-10]% Strength <for [{non-[Beastman]} {non-[Air]}] units> <vs [non-[Beastman]] units>",
 			"[+10]% Strength <for [Beastman] units>",
 			"[-75]% Production when constructing [{non-[Beastman]} {Military}] units [in all cities]",
 			"[Gold] cost of purchasing [{non-[Beastman]} {Military}] units [+50]%",
-			"[+15]% maintenance costs <for [{non-[Beastman]} {Military}] units>",
-			"[-15]% maintenance costs <for [Beastman] units>",
-			"Beast",
 			"Human",
 			"Adopt [Humanity]"
 		],
@@ -155,10 +153,9 @@
 		"cities": ["Lichtown", "Mummyville", "Zombieland"]
 	},
 	{
-		"name": "Wyrmfolk",
+		"name": "Wurmvolk",
 		"leaderName": "Guivre",
-		"adjective": ["Wyrm"],
-		"startBias": ["Lava"],
+		"adjective": ["Wurm"],
 		"preferredVictoryType": "Domination",
 		//"personality": "Nebuchadnezzar II",
 
@@ -177,10 +174,9 @@
 
 		"outerColor": [27,53,63],
 		"innerColor": [213,249,255],
-		"uniqueName": "Draconian Wrath",
+		"uniqueName": "Dragon's Wrath",
 		"uniques": [
             "New [Dragon] units start with [15] XP [in all cities]",
-			"[-33]% maintenance costs <for [Dragon] units>",
 			"Human",
 			"Adopt [Humanity]"
 		],
@@ -336,7 +332,7 @@
 		"uniques": [
 			"Can only heal by pillaging",
 			"Excluded from map editor",
-			"Beast",
+			"Human",
 			"Beastman"
 		]
 	}

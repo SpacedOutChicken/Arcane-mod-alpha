@@ -6,22 +6,15 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 ConstructionIcons/Circle
   rotate: false
-  xy: 212, 26
+  xy: 4, 4
   size: 178, 178
   orig: 178, 178
   offset: 0, 0
   index: -1
 UnitActionIcons/Paradrop
   rotate: false
-  xy: 398, 104
+  xy: 190, 82
   size: 100, 100
   orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Settler
-  rotate: false
-  xy: 4, 4
-  size: 200, 200
-  orig: 200, 200
   offset: 0, 0
   index: -1

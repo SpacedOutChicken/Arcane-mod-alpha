@@ -7,7 +7,7 @@
                 "text": "Summon an attack spell",
                 "uniques": [
                     "Triggers a [Attack Spell] event <hidden from users>",
-                    "Only available <when number of [[Air] Units] is less than [[Cities] * 6]> <hidden from users>"
+                    "Only available <when number of [[Air] Units] is less than [[Cities] * 6]> <when above [20] [Mana]> <after discovering [Fire]> <hidden from users>"
                 ],
                 "civilopediaText": [
                     {
@@ -18,7 +18,8 @@
             {
                 "text": "Bless our soldiers",
                 "uniques": [
-                    "Triggers a [Bless Soldiers] event <hidden from users>"
+                    "Triggers a [Bless Soldiers] event <hidden from users>",
+                    "Only available <when above [100] [Mana]> <after discovering [Healing]> <hidden from users>"
                 ],
                 "civilopediaText": [
                     {
@@ -29,7 +30,8 @@
             {
                 "text": "Bless our land",
                 "uniques": [
-                    "Triggers a [Bless Land] event <hidden from users>"
+                    "Triggers a [Bless Land] event <hidden from users>",
+                    "Only available <when above [100] [Mana]> <after discovering [Wards of Protection]> <hidden from users>"
                 ],
                 "civilopediaText": [
                     {
@@ -41,7 +43,7 @@
                 "text": "Summon a doomsday spell",
                 "uniques": [
                     "Triggers a [Doomsday Spell] event <hidden from users>",
-                    "Only available <when number of [[Air] Units] is less than [[Cities] * 6]> <when nuclear weapons are enabled> <hidden from users>"
+                    "Only available <when number of [[Air] Units] is less than [[Cities] * 6]> <when above [100] [Mana]> <after discovering [Doomsday Spells]> <when nuclear weapons are enabled> <hidden from users>"
                 ],
                 "civilopediaText": [
                     {
@@ -50,9 +52,21 @@
                 ]
             },
             {
+                "text": "Curse our enemies",
+                "uniques": [
+                    "Triggers a [Curse Enemies] event <hidden from users>",
+                    "Only available <when above [200] [Mana]> <after discovering [Curses]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    {
+                        "text": "Place a curse upon all nations"
+                    }
+                ]
+            },
+            {
                 "text": "Build up our mana",
                 "uniques": [
-                    "Instantly gain [5] [Mana] <hidden from users>"
+                    "Instantly gain [5] [Mana]"
                 ]
             }
         ]
@@ -66,7 +80,7 @@
                 "uniques": [
                     "Free [Fireball] appears <hidden from users>",
                     "Provides [-1] [Concentration] <for [1] turns> <hidden from users>",
-                    "Only available <after discovering [Fire]> <when above [0] [Concentration]> <when above [20] [Mana]>",
+                    "Only available <after discovering [Fire]> <when above [0] [Concentration]> <when above [20] [Mana]> <hidden from users>",
                     "Instantly gain [-20] [Mana] <hidden from users>"
                 ],
                 "civilopediaText": [
@@ -78,9 +92,9 @@
             {
                 "text": "Lightning Spell",
                 "uniques": [
-                    "Free [Chain Lightning] appears <hidden from users>",
+                    "Free [Lightning Bolt] appears <hidden from users>",
                     "Provides [-1] [Concentration] <for [1] turns> <hidden from users>",
-                    "Only available <after discovering [Fire]> <when above [0] [Concentration]> <when above [20] [Mana]>",
+                    "Only available <after discovering [Lightning]> <when above [0] [Concentration]> <when above [20] [Mana]> <hidden from users>",
                     "Instantly gain [-20] [Mana] <hidden from users>"
                 ],
                 "civilopediaText": [
@@ -94,7 +108,7 @@
                 "uniques": [
                     "Free [Ice Storm] appears <hidden from users>",
                     "Provides [-1] [Concentration] <for [1] turns> <hidden from users>",
-                    "Only available <after discovering [Fire]> <when above [0] [Concentration]> <when above [20] [Mana]>",
+                    "Only available <after discovering [Ice]> <when above [0] [Concentration]> <when above [20] [Mana]> <hidden from users>",
                     "Instantly gain [-20] [Mana] <hidden from users>"
                 ],
                 "civilopediaText": [
@@ -131,7 +145,7 @@
                     "[non-[Air]] units gain the [Grant Teleportation] promotion <hidden from users>",
                     "Provides [-10] [Mana] <for [5] turns> <hidden from users>",
                     "Instantly gain [-100] [Mana] <hidden from users>",
-                    "Only available <when above [0] [Concentration]> <after discovering [Healing]> <when above [100] [Mana]> <hidden from users>"
+                    "Only available <when above [0] [Concentration]> <after discovering [Flight]> <when above [100] [Mana]> <hidden from users>"
                 ],
                 "civilopediaText": [
                     {
@@ -153,8 +167,8 @@
                     "Instantly gain [-100] [Mana] <hidden from users>",
                     "[+25]% Strength for cities <for [3] turns> <hidden from users>",
                     "[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles> <for [3] turns> <hidden from users>",
-                    "Enemy [Land] units must spend [1] extra movement points when inside your territory <for [3] turns> <hidden from users>",
-                    "Only available <when above [0] [Concentration]> <after discovering [Healing]> <when above [100] [Mana]> <hidden from users>"
+                    "Enemy [Land] units must spend [1] extra movement points when inside your territory <for [3] turns> <hidden from users> <Suppress warning [*contains a conditional on a unit movement unique*]>",
+                    "Only available <when above [0] [Concentration]> <after discovering [Wards of Protection]> <when above [100] [Mana]> <hidden from users>"
                 ],
                 "civilopediaText": [
                     {
@@ -168,14 +182,15 @@
                     "Provides [-1] [Concentration] <for [5] turns> <hidden from users>",
                     "Provides [-5] [Mana] <for [5] turns> <hidden from users>",
                     "Instantly gain [-100] [Mana] <hidden from users>",
-                    "[+25]% growth [in all cities] <for [5] turns> <hidden from users>",
                     "[+25]% [Production] [in all cities] <for [5] turns> <hidden from users>",
                     "[+25]% [Gold] [in all cities] <for [5] turns> <hidden from users>",
-                    "Only available <when above [0] [Concentration]> <after discovering [Healing]> <when above [100] [Mana]> <hidden from users>"
+                    "[+25]% [Rations] resource production <for [5] turns> <hidden from users>",
+                    "[+25]% [Corpses] resource production <for [5] turns> <hidden from users>",
+                    "Only available <when above [0] [Concentration]> <after discovering [Blessings]> <when above [100] [Mana]> <hidden from users>"
                 ],
                 "civilopediaText": [
                     {
-                        "text": "Grant growth and productivity to all of our cities"
+                        "text": "Grant productivity to all of our cities and abundance of all our resources"
                     }
                 ]
             }
@@ -186,19 +201,65 @@
         "text": "Choose a doomsday spell",
         "choices": [
             {
+                "text": "Summon a Plague",
+                "uniques": [
+                    "Provides [-1] [Concentration] <for [2] turns> <hidden from users>",
+                    "Provides [-5] [Mana] <for [2] turns> <hidden from users>",
+                    "Instantly gain [-50] [Mana] <hidden from users>",
+                    "Free [Plague] appears <hidden from users>",
+                    "Only available <when above [0] [Concentration]> <after discovering [Doomsday Spells]> <when above [50] [Mana]> <when number of [[Air] Units] is less than [[Cities] * 6]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    {
+                        "text": "Summon a plague that blights a large area of land"
+                    }
+                ]
+            },
+            {
                 "text": "Summon a Meteor",
                 "uniques": [
                     "Provides [-1] [Concentration] <for [3] turns> <hidden from users>",
                     "Provides [-10] [Mana] <for [3] turns> <hidden from users>",
                     "Instantly gain [-100] [Mana] <hidden from users>",
                     "Free [Meteor] appears <hidden from users>",
-                    "Only available <when above [0] [Concentration]> <after discovering [Doom Spells]> <when above [100] [Mana]> <when number of [[Air] Units] is less than [[Cities] * 6]> <hidden from users>"
+                    "Only available <when above [0] [Concentration]> <after discovering [Doomsday Spells]> <when above [100] [Mana]> <when number of [[Air] Units] is less than [[Cities] * 6]> <hidden from users>"
                 ],
                 "civilopediaText": [
                     {
                         "text": "Summon a meteor that leaves a vast wound wherever it strikes"
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "name": "Curse Enemies",
+        "text": "Place a curse on all nations",
+        "choices": [
+            {
+                "text": "Place a curse",
+                "uniques": [
+                    "Instantly gain [5] [Curse Time] <hidden from users>",
+                    "Gain a free [Wildmen's Curse] [in capital] <for [Wildmen] Civilizations>",
+                    "Provides [-1] [Concentration] <for [5] turns> <hidden from users>",
+                    "Provides [-10] [Mana] <for [5] turns> <hidden from users>",
+                    "Instantly gain [-200] [Mana] <hidden from users>",
+                    "Only available <after discovering [Fire]> <when above [0] [Concentration]> <when above [200] [Mana]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    {
+                        "text": "Curse all of your enemies with weakness"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Build First Temple",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dictum justo vitae massa laoreet hendrerit. Sed id mi quam. Phasellus quam sapien, sagittis malesuada mattis nec, gravida non tortor. Duis ut felis porta, elementum nisi in, varius ipsum. In sit amet fermentum purus. Integer in libero tincidunt, condimentum urna eget, eleifend lorem. Proin vel felis vitae lorem rhoncus hendrerit ut sit amet lacus. Vivamus eu quam est. Praesent vitae libero fringilla turpis lacinia sollicitudin.\nSed ut magna lacus. Aliquam dictum, neque sit amet iaculis scelerisque, nunc erat blandit erat, nec pellentesque augue elit ut nisl. Donec dictum lobortis magna quis laoreet. Nulla tortor augue, dignissim id ex a, tempor rutrum purus. Aliquam dictum tristique lectus, et suscipit dui feugiat feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed id ligula tincidunt, tincidunt dui nec, facilisis magna. Aliquam vel sapien porta, fringilla urna sed, maximus ipsum. Praesent rutrum ex non luctus gravida. Curabitur tincidunt ex nec velit aliquet viverra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc non porta neque. Integer vel blandit nisi.\nSuspendisse at bibendum ipsum. Nam venenatis metus nec nisi egestas lacinia. Suspendisse sollicitudin metus augue, at elementum diam ullamcorper vel. Sed ullamcorper euismod mi, laoreet laoreet purus laoreet sit amet. Aliquam vitae mattis urna. Maecenas placerat nisl odio, quis tempus urna ultricies ut. Nulla facilisi. Nunc purus quam, elementum id tellus ut, sollicitudin interdum turpis. Ut tincidunt enim eu elit lobortis ultricies.\nUt turpis est, finibus nec neque ultrices, faucibus ullamcorper est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique elit sit amet ultrices eleifend. Maecenas nulla magna, facilisis sed nunc vel, porttitor blandit elit. Etiam convallis sem nec lectus scelerisque, sit amet consequat lacus facilisis. Praesent quis diam mi. Donec iaculis varius augue sed mollis. Proin nunc quam, gravida eget mattis et, ultrices quis purus. Nam tincidunt ligula a ligula consequat ultricies. Aliquam lacinia fringilla semper. Proin non magna at libero tempor vestibulum. Aliquam at tempor nibh. Etiam molestie accumsan mauris quis viverra.\nSuspendisse consequat ipsum enim, vel imperdiet elit mollis a. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean egestas purus egestas enim iaculis, eu tempus tortor condimentum. Cras semper suscipit erat, congue interdum nisi pulvinar id. Sed malesuada nunc tortor, vel tincidunt eros fringilla non. Ut non nisi nunc. Suspendisse sit amet pharetra turpis. Sed nec est eget quam semper hendrerit at nec arcu. Aliquam laoreet id dolor ut lacinia. Donec vel tempor augue. Ut eget libero orci. Duis at leo imperdiet, dignissim justo ut, vestibulum arcu.",
+        "choices": [
+            {
+                "text": "Proceed"
             }
         ]
     }

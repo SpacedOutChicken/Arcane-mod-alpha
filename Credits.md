@@ -19,6 +19,7 @@ Resources:
 Tile Improvements:
 * Catacomb (Railroad): [Tunnel](https://thenounproject.com/icon/tunnel-2803054/) by Angelo Troiano
 * Graveyard: [graveyard](https://thenounproject.com/term/graveyard/573169) by Nikita Kozin
+* Settlement: [Refugee Camp](https://thenounproject.com/icon/refugee-camp-2120771/) by OCHA Visual
 
 Other icons:
 * Aircraft: based on [abnormal magic decreased](https://thenounproject.com/icon/abnormal-magic-decreased-2359984/) by Maxicons

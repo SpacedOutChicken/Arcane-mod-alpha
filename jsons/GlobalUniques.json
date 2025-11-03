@@ -1,16 +1,14 @@
 {
-    "name": "Global uniques",
+    "name": "Global Uniques",
     "uniques": [
-        "[+2 Culture] [in all cities]",
-        "[-2 Culture] <for every [Cities]>",
-        "[-20]% [Culture] [in all cities] <during a Golden Age>",
+        "Nullifies [Culture] [in all cities]",
 
-        "[-100]% Golden Age length",
         "Instantly gain [-1] [Golden Age points] <for every [Happiness]> <upon turn end>",
 
         "Notified of new Barbarian encampments",
 
         "[+1] Unit Supply <for every [Units]>",
+        "[-100]% maintenance costs",
 
         "Triggers a [Cast Spell] event <upon turn start> <every [2] turns> <when above [20] [Mana]> <when above [0] [Concentration]>",
 
@@ -25,11 +23,20 @@
         "[{Zombie Slave} {Human}] units gain the [Dead Worker] promotion <upon turn end>",
 
         "Nullifies Growth [in all cities]",
-        "Population loss from nuclear attacks [-100]% [in all cities]"
+        "Nullifies [Food] [in all cities] <in cities with at least [2] [Population]>",
+        "Population loss from nuclear attacks [-100]% [in all cities]",
+
+        "[-100]% Yield from every [Demon Tech] <for [non-[Demonic]] Civilizations>",
+
+        "[-15]% Strength <if [Wildmen's Curse] is constructed by anybody> <if [Wildmen's Curse] is not constructed> <hidden from users>",
+
+        "Remove [Curse] [in all cities] <upon turn end> <when below [1] [Curse Time]> <hidden from users>"
     ],
     "unitUniques": [
         "Free [Serf] appears <upon defeating a [Military] unit> <for [Undead] Civilizations>",
         "Free [Serf] appears <upon defeating a [Military] unit> <for [Demonic] Civilizations>",
-        "Free [Den Builder] appears <upon entering a [Barbarian encampment] tile> <for [Wildmen] Civilizations> <for [non-[Den Builder]] units>"
+        "Free [Den Builder] appears <upon entering a [Barbarian encampment] tile> <for [Wildmen] Civilizations> <for [non-[Den Builder]] units>",
+
+        "Destroys [All] cities instead of capturing"
     ]
 }

@@ -1,15 +1,15 @@
 [
     {
 		  "name": "Vigor",
-		  "uniques": ["[This Unit] heals [25] HP", "[This Unit] gains [1] movement", "[This Unit] gains the [Invigorated] status for [3] turn(s)", "Doing so will consume this opportunity to choose a Promotion"]
+		  "uniques": ["[This Unit] heals [25] HP", "[This Unit] gains [1] movement", "[This Unit] gains the [Invigorated] status for [3] turn(s)", "[This Unit] loses the [Vigor] promotion"]
     },
     {
       "name": "Invigorated",
-      "uniques": ["[+1] Movement", "No damage penalty for wounded units"]
+      "uniques": ["[+1] Movement", "No damage penalty for wounded units", "[+10]% Strength"]
     },
     {
       "name": "Grant Teleportation",
-      "uniques": ["[This Unit] gains the [Teleportation] status for [3] turn(s)", "[This Unit] gains [1] movement", "Doing so will consume this opportunity to choose a Promotion"]
+      "uniques": ["[This Unit] gains the [Teleportation] status for [3] turn(s)", "[This Unit] gains [1] movement", "[This Unit] loses the [Grant Teleportation] promotion"]
     },
     {
       "name": "Teleportation",
@@ -20,7 +20,7 @@
         "Ignores Zone of Control",
         "[1] Movement point cost to disembark",
         "[1] Movement point cost to embark",
-        "May Paradrop to [Land] tiles up to [50] tiles away <in [{Friendly} {Land}] tiles>"
+        "May Paradrop to [Terrain] tiles up to [50] tiles away <in [Friendly] tiles>"
       ]
     },
     {
@@ -42,7 +42,11 @@
     },
 
     {
-      "name": "Tamer",
-      "uniques": ["May capture killed [Barbarian] units <with [25]% chance>"]
+      "name": "Summon",
+      "uniques": ["Free [Force Bolt] appears <costs [10] [Mana]> <for [1] movement> <removing the [Summon] promotion/status>"]
+    },
+    {
+      "name": "Tapped",
+      "uniques": ["[-1] HP when healing"]
     }
 ]

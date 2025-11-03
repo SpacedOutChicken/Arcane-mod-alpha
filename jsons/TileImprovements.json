@@ -5,25 +5,32 @@
 		"uniqueTo": "Wildmen",
 		"food": 1,
 		"production": 2,
-		"science": 1,
+		"science": 3,
+		"gold": 1,
 		"uniques": [
+			"Great Improvement",
+			"[+1 Gold] <for every adjacent [Improvement]>",
 			"Gives a defensive bonus of [25]%",
 			"Provides [1] [Rations]",
 			"Provides [1] [Mana]",
-			"Tile provides yield without assigned population"
+			"Tile provides yield without assigned population",
+			"Removes removable features when built",
+			"Only available <within [3] tiles of a [{your} {City center}]>",
+			"Gain control over [Unowned] tiles in a [1]-tile radius"
 		]
 	},
 
 	{
 		"name": "Hut",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniqueTo": "Human",
 		"food": 1,
 		"production": 1,
 		"turnsToBuild": 5,
 		"uniques": [
 			"Provides [1] [Rations]",
-			"Tile provides yield without assigned population"
+			"Tile provides yield without assigned population",
+			"Only available <within [3] tiles of a [{your} {City center}]>",
+			"Gain control over [Unowned] tiles in a [1]-tile radius"
 		]
 	},
 	{
@@ -37,19 +44,59 @@
 			"Only available <in cities with a [Barracks]>",
 			"Unavailable <in tiles adjacent to [Mine] tiles>",
 			"Tile provides yield without assigned population",
-			"Provides [1] [Rations]"
+			"Provides [1] [Rations]",
+			"Only available <within [3] tiles of a [{your} {City center}]>",
+			"Gain control over [Unowned] tiles in a [1]-tile radius"
 		]
 	},
 	{
 		"name": "Graveyard",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniqueTo": "Undead",
-		"food": 1,
-		"production": 1,
 		"turnsToBuild": 5,
 		"uniques": [
+			"Can only be built to improve a resource",
 			"Provides [1] [Corpses]",
-			"Tile provides yield without assigned population"
+			"Tile provides yield without assigned population",
+			"Only available <within [3] tiles of a [{your} {City center}]>",
+			"Gain control over [Unowned] tiles in a [1]-tile radius"
+		]
+	},
+	{
+		"name": "Summoning circle",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Demonic",
+		"turnsToBuild": 5,
+		"science": 1,
+		"uniques": [
+			"Can only be built to improve a resource",
+			"Provides [1] [Corpses] <for [Demonic] Civilizations>",
+			"Provides [1] [Mana] <for [Demonic] Civilizations>",
+			"Tile provides yield without assigned population",
+			"Only available <within [3] tiles of a [{your} {City center}]>",
+			"Gain control over [Unowned] tiles in a [1]-tile radius",
+			"Demon Tech"
+		]
+	},
+	{
+		"name": "Excavation site",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"techRequired": "Quest",
+		"food": 1,
+		"production": 1,
+		"gold": 1,
+		"science": 2,
+		"turnsToBuild": 5,
+		"uniques": [
+			"Provides [1] [Mana]",
+			"[+1 Gold] <for every adjacent [Improvement]>",
+			"Tile provides yield without assigned population",
+			"Only available <within [3] tiles of a [{your} {City center}]>",
+			"Gain control over [Unowned] tiles in a [1]-tile radius",
+			"Can only be built to improve a resource",
+			"Remove [Runes] resources from this tile",
+			"Triggers a [Build First Temple] event", // rename this
+			"Instantly gain [1] [Progress Marker]"
 		]
 	},
 
@@ -63,29 +110,29 @@
 			"Adjacent enemy units ending their turn take [5] damage"
 		]
 	},
-
-	{
-		"name": "Railroad",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"turnsToBuild": 4,
-		"uniques": [
-			"Can be built outside your borders",
-			"Unavailable <for [Undead] Civilizations> <before discovering [Doom Spells]>",
-			"Unavailable <for [Demonic] Civilizations> <before discovering [Fire]>",
-			"Unavailable <for [Human] Civilizations> <before discovering [Healing]>"
-		]
-	},
-	{
-		"name": "Remove Railroad",
-		"turnsToBuild": 2,
-		"uniques": ["Can be built outside your borders", "Excluded from map editor"]
-	},
 	{
 		"name": "Road",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "R"
+	},
+	{
+		"name": "Railroad",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+		"uniques": [
+			"Can be built outside your borders",
+			"Unavailable <for [Undead] Civilizations> <before discovering [Lightning]>",
+			"Unavailable <for [Demonic] Civilizations> <before discovering [Blessings]>",
+			"Unavailable <for [Human] Civilizations> <before discovering [Flight]>"
+		],
+		"shortcutKey": "R"
+	},
+	{
+		"name": "Remove Railroad",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"]
 	},
 	{
 		"name": "Remove Road",
@@ -111,7 +158,7 @@
 		"shortcutKey": "X"
 	},
 	{
-		"name": "Remove Marsh",
+		"name": "Remove Swamp",
 		"turnsToBuild": 6,
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
@@ -145,8 +192,7 @@
 			"Irremovable",
 			"Unbuildable",
 			"Ensures a minimum tile yield of [+2 Food, +1 Production]",
-			"Excluded from map editor",
-			"Improves [any] resource in this tile"
+			"Excluded from map editor"
 		]
 	},
 	{
@@ -155,12 +201,19 @@
 		"uniques": [
 			"Unpillagable",
 			"Unbuildable",
-			"Gives a defensive bonus of [25]%"
+			"Gives a defensive bonus of [25]%",
+			"Does not need removal of [Terrain]"
 		]
 	},
 	{
-		"name": "Ancient ruins",
+		"name": "Settlement",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable", "Provides a random bonus when entered", "Unbuildable"]
+		"uniques": [
+			"Unpillagable",
+			"Provides a random bonus when entered",
+			"Unbuildable",
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]"
+		]
 	}
 ]

@@ -1,7 +1,9 @@
 {
     "isBaseRuleset": true,
     "uniques": [
-        "Disable religion"
+        "Disable religion",
+        "Allow raze capital",
+        "Allow City States to spawn with additional units"
     ],
     "tileset": "ArcaneHex",
     "unitset": "None",

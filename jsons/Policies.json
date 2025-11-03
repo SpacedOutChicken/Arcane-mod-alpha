@@ -9,11 +9,9 @@
 		],
 		"policies": [
 			{
-				"name": "Beast Taming",
+				"name": "Battle Harvest",
 				"uniques": [
-					"[+25]% Strength <vs [Barbarian] units>",
-            		"Earn [10]% of killed [Barbarian] unit's [Strength] as [Rations]",
-					"[{non-[Air]} {Military}] units gain the [Tamer] promotion"
+            		"Earn [25]% of killed [Military] unit's [Strength] as [Rations]"
 				],
 				"row": 1,
 				"column": 1

@@ -6,6 +6,12 @@
 		"buildingCost": 40,
 		"wonderCost": 185,
 		"techs": [
+            {
+                "name": "Quest",
+                "row": 1,
+                "quote": "",
+                "uniques": ["Unavailable"]
+            },
 			{
 				"name": "Mysticism",
 				"row": 6,
@@ -34,24 +40,196 @@
 				"quote": ""
             },
             {
-				"name": "Doom Spells",
-				"row": 10,
+                "name": "Wards of Protection",
+                "row": 10,
                 "prerequisites": ["Mysticism"],
-				"quote": ""
+                "quote": ""
             }
         ]
     },
     {
         "columnNumber": 2,
-		"era": "Tier 0 Era",
-		"techCost": 35,
-		"buildingCost": 60,
+        "era": "Tier 0 Era",
+        "techCost": 35,
+        "buildingCost": 40,
+		"wonderCost": 185,
+        "techs": [
+            {
+                "name": "Lightning",
+                "row": 1,
+                "prerequisites": ["Fire"],
+                "quote": ""
+            },
+            {
+                "name": "Ice",
+                "row": 3,
+                "prerequisites": ["Fire"],
+                "quote": ""
+            },
+            {
+                "name": "Flight",
+                "row": 5,
+                "prerequisites": ["Fire", "Healing"],
+                "quote": ""
+            },
+            {
+                "name": "Vigor",
+                "row": 8,
+                "prerequisites": ["Healing", "Wards of Protection"],
+                "quote": ""
+            },
+            {
+                "name": "Blessings",
+                "row": 11,
+                "prerequisites": ["Wards of Protection"],
+                "quote": ""
+            }
+        ]
+    },
+    {
+        "columnNumber": 3,
+        "era": "Tier 1 Era",
+        "techCost": 105,
+        "buildingCost": 40,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "Poisons",
+                "row": 2,
+                "prerequisites": ["Lightning", "Ice"],
+                "quote": ""
+            },
+            {
+                "name": "Summoning",
+                "row": 4,
+                "prerequisites": ["Lightning", "Ice", "Flight"],
+                "quote": ""
+            },
+            {
+                "name": "Teleportation",
+                "row": 6,
+                "prerequisites": ["Flight", "Vigor"],
+                "quote": ""
+            },
+            {
+                "name": "Warrior's Rage",
+                "row": 9,
+                "prerequisites": ["Vigor", "Blessings"],
+                "quote": ""
+            },
+            {
+                "name": "Curses",
+                "row": 12,
+                "prerequisites": ["Blessings"],
+                "quote": ""
+            }
+        ]
+    },
+    {
+        "columnNumber": 4,
+        "era": "Tier 1 Era",
+        "techCost": 175,
+        "buildingCost": 40,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "Greater Attack",
+                "row": 3,
+                "prerequisites": ["Poisons", "Summoning"],
+                "quote": ""
+            },
+            {
+                "name": "Greater Teleportation",
+                "row": 5,
+                "prerequisites": ["Summoning", "Teleportation"],
+                "quote": ""
+            },
+            {
+                "name": "Greater Vigor",
+                "row": 8,
+                "prerequisites": ["Teleportation", "Warrior's Rage"],
+                "quote": ""
+            },
+            {
+                "name": "Greater Curses",
+                "row": 10,
+                "prerequisites": ["Warrior's Rage", "Curses"],
+                "quote": ""
+            }
+        ]
+    },
+    {
+        "columnNumber": 5,
+        "era": "Tier 2 Era",
+        "techCost": 275,
+        "buildingCost": 40,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "Greater Summoning",
+                "row": 4,
+                "prerequisites": ["Greater Attack", "Greater Teleportation"],
+                "quote": ""
+            },
+            {
+                "name": "Greater Blessings",
+                "row": 6,
+                "prerequisites": ["Greater Teleportation", "Greater Vigor"],
+                "quote": ""
+            },
+            {
+                "name": "Doomsday Spells",
+                "prerequisites": ["Greater Teleportation", "Greater Vigor", "Greater Curses"],
+                "row": 8,
+                "quote": "",
+                "uniques": ["Triggers the following global alert: [The chill of doom hangs in the air!]"]
+            }
+        ]
+    },
+    {
+        "columnNumber": 6,
+        "era": "Tier 2 Era",
+        "techCost": 485,
+        "buildingCost": 40,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "Epic Attack",
+                "row": 3,
+                "prerequisites": ["Greater Summoning"],
+                "quote": ""
+            },
+            {
+                "name": "Epic Flight",
+                "row": 5,
+                "prerequisites": ["Greater Summoning", "Greater Blessings"],
+                "quote": ""
+            },
+            {
+                "name": "Epic Healing",
+                "row": 7,
+                "prerequisites": ["Greater Blessings"],
+                "quote": ""
+            },
+            {
+                "name": "Final Judgment",
+                "row": 9,
+                "prerequisites": ["Doomsday Spells"],
+                "quote": ""
+            }
+        ]
+    },
+    {
+        "columnNumber": 7,
+		"era": "Tier 3 Era",
+		"techCost": 780,
+		"buildingCost": 40,
 		"wonderCost": 185,
         "techs": [
             {
                 "name": "Enlightenment",
                 "row": 6,
-                "prerequisites": ["Fire", "Healing", "Doom Spells"],
+                "prerequisites": ["Epic Attack", "Epic Flight", "Epic Healing", "Final Judgment"],
                 "quote": "",
                 "uniques": ["Can be continually researched", "Instantly gain [20] [Mana]"]
             }

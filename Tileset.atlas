@@ -6,56 +6,56 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/ArcaneHex/Borders/ConcaveConvexInner
   rotate: false
-  xy: 1241, 461
+  xy: 1457, 461
   size: 100, 43
   orig: 100, 43
   offset: 0, 0
   index: -1
 TileSets/ArcaneHex/Borders/ConcaveConvexOuter
   rotate: false
-  xy: 1349, 461
+  xy: 1565, 461
   size: 100, 43
   orig: 100, 43
   offset: 0, 0
   index: -1
 TileSets/ArcaneHex/Borders/ConcaveInner
   rotate: false
-  xy: 1457, 461
+  xy: 1673, 461
   size: 100, 43
   orig: 100, 43
   offset: 0, 0
   index: -1
 TileSets/ArcaneHex/Borders/ConcaveOuter
   rotate: false
-  xy: 1565, 461
+  xy: 1781, 461
   size: 100, 43
   orig: 100, 43
   offset: 0, 0
   index: -1
 TileSets/ArcaneHex/Borders/ConvexConcaveInner
   rotate: false
-  xy: 1673, 461
+  xy: 1889, 461
   size: 100, 43
   orig: 100, 43
   offset: 0, 0
   index: -1
 TileSets/ArcaneHex/Borders/ConvexConcaveOuter
   rotate: false
-  xy: 1781, 461
+  xy: 289, 217
   size: 100, 43
   orig: 100, 43
   offset: 0, 0
   index: -1
 TileSets/ArcaneHex/Borders/ConvexInner
   rotate: false
-  xy: 1889, 461
+  xy: 289, 166
   size: 100, 43
   orig: 100, 43
   offset: 0, 0
   index: -1
 TileSets/ArcaneHex/Borders/ConvexOuter
   rotate: false
-  xy: 289, 217
+  xy: 397, 217
   size: 100, 43
   orig: 100, 43
   offset: 0, 0
@@ -97,7 +97,7 @@ TileSets/ArcaneHex/Railroad
   index: -1
 TileSets/ArcaneHex/Road
   rotate: false
-  xy: 397, 38
+  xy: 1477, 136
   size: 60, 32
   orig: 60, 32
   offset: 0, 0
@@ -123,219 +123,282 @@ TileSets/ArcaneHex/Tiles/BarbarianEncampmentIcon
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/CityCenterIcon
+TileSets/ArcaneHex/Tiles/BoneyardIcon
   rotate: false
   xy: 917, 417
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/Coast
+TileSets/ArcaneHex/Tiles/CityCenterIcon
   rotate: false
   xy: 1025, 417
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/CoastIcon
+TileSets/ArcaneHex/Tiles/CityRuinsIcon
   rotate: false
   xy: 1133, 417
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
+TileSets/ArcaneHex/Tiles/Coast
+  rotate: false
+  xy: 1241, 417
+  size: 100, 87
+  orig: 100, 87
+  offset: 0, 0
+  index: -1
+TileSets/ArcaneHex/Tiles/CoastIcon
+  rotate: false
+  xy: 1349, 417
+  size: 100, 87
+  orig: 100, 87
+  offset: 0, 0
+  index: -1
 TileSets/ArcaneHex/Tiles/Desert
   rotate: false
-  xy: 289, 122
+  xy: 289, 71
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
 TileSets/ArcaneHex/Tiles/DesertIcon
   rotate: false
-  xy: 397, 173
+  xy: 397, 122
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/ForestHillIcon
-  rotate: false
-  xy: 289, 27
-  size: 100, 87
-  orig: 100, 87
-  offset: 0, 0
-  index: -1
-TileSets/ArcaneHex/Tiles/ForestIcon
-  rotate: false
-  xy: 397, 78
-  size: 100, 87
-  orig: 100, 87
-  offset: 0, 0
-  index: -1
-TileSets/ArcaneHex/Tiles/Grassland
+TileSets/ArcaneHex/Tiles/ExcavationSiteIcon
   rotate: false
   xy: 505, 173
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/GrasslandIcon
-  rotate: false
-  xy: 505, 78
-  size: 100, 87
-  orig: 100, 87
-  offset: 0, 0
-  index: -1
-TileSets/ArcaneHex/Tiles/HillIcon
-  rotate: false
-  xy: 1241, 366
-  size: 100, 87
-  orig: 100, 87
-  offset: 0, 0
-  index: -1
-TileSets/ArcaneHex/Tiles/IceIcon
-  rotate: false
-  xy: 1349, 366
-  size: 100, 87
-  orig: 100, 87
-  offset: 0, 0
-  index: -1
-TileSets/ArcaneHex/Tiles/JungleIcon
+TileSets/ArcaneHex/Tiles/Fallout
   rotate: false
   xy: 1457, 366
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/Lakes
+TileSets/ArcaneHex/Tiles/FalloutIcon
   rotate: false
   xy: 1565, 366
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/LakesIcon
+TileSets/ArcaneHex/Tiles/ForestHillIcon
   rotate: false
   xy: 1673, 366
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/Mountain
+TileSets/ArcaneHex/Tiles/ForestIcon
   rotate: false
   xy: 1781, 366
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/MountainIcon
+TileSets/ArcaneHex/Tiles/FortIcon
   rotate: false
   xy: 1889, 366
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/OasisIcon
+TileSets/ArcaneHex/Tiles/Grassland
   rotate: false
   xy: 613, 214
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/Ocean
+TileSets/ArcaneHex/Tiles/GrasslandIcon
   rotate: false
   xy: 613, 119
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/OceanIcon
-  rotate: false
-  xy: 613, 24
-  size: 100, 87
-  orig: 100, 87
-  offset: 0, 0
-  index: -1
-TileSets/ArcaneHex/Tiles/Plains
+TileSets/ArcaneHex/Tiles/HillIcon
   rotate: false
   xy: 685, 309
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/PlainsIcon
+TileSets/ArcaneHex/Tiles/IceIcon
   rotate: false
   xy: 793, 322
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/River-Bottom
+TileSets/ArcaneHex/Tiles/JungleIcon
   rotate: false
   xy: 901, 322
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/River-BottomLeft
+TileSets/ArcaneHex/Tiles/Lakes
   rotate: false
   xy: 1009, 322
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/River-BottomRight
+TileSets/ArcaneHex/Tiles/LakesIcon
   rotate: false
   xy: 1117, 322
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/Snow
+TileSets/ArcaneHex/Tiles/Mountain
+  rotate: false
+  xy: 1225, 322
+  size: 100, 87
+  orig: 100, 87
+  offset: 0, 0
+  index: -1
+TileSets/ArcaneHex/Tiles/MountainIcon
+  rotate: false
+  xy: 1333, 322
+  size: 100, 87
+  orig: 100, 87
+  offset: 0, 0
+  index: -1
+TileSets/ArcaneHex/Tiles/OasisIcon
   rotate: false
   xy: 721, 214
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/SnowIcon
+TileSets/ArcaneHex/Tiles/Ocean
   rotate: false
   xy: 721, 119
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/Swamp
-  rotate: false
-  xy: 721, 24
-  size: 100, 87
-  orig: 100, 87
-  offset: 0, 0
-  index: -1
-TileSets/ArcaneHex/Tiles/SwampIcon
+TileSets/ArcaneHex/Tiles/OceanIcon
   rotate: false
   xy: 829, 227
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/Tundra
+TileSets/ArcaneHex/Tiles/Plains
   rotate: false
   xy: 829, 132
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/TundraIcon
+TileSets/ArcaneHex/Tiles/PlainsIcon
   rotate: false
   xy: 937, 227
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
+TileSets/ArcaneHex/Tiles/River-Bottom
+  rotate: false
+  xy: 937, 132
+  size: 100, 87
+  orig: 100, 87
+  offset: 0, 0
+  index: -1
+TileSets/ArcaneHex/Tiles/River-BottomLeft
+  rotate: false
+  xy: 1045, 227
+  size: 100, 87
+  orig: 100, 87
+  offset: 0, 0
+  index: -1
+TileSets/ArcaneHex/Tiles/River-BottomRight
+  rotate: false
+  xy: 1045, 132
+  size: 100, 87
+  orig: 100, 87
+  offset: 0, 0
+  index: -1
+TileSets/ArcaneHex/Tiles/RunesIcon
+  rotate: false
+  xy: 1153, 227
+  size: 100, 87
+  orig: 100, 87
+  offset: 0, 0
+  index: -1
+TileSets/ArcaneHex/Tiles/SettlementIcon
+  rotate: false
+  xy: 1153, 132
+  size: 100, 87
+  orig: 100, 87
+  offset: 0, 0
+  index: -1
+TileSets/ArcaneHex/Tiles/Snow
+  rotate: false
+  xy: 1261, 227
+  size: 100, 87
+  orig: 100, 87
+  offset: 0, 0
+  index: -1
+TileSets/ArcaneHex/Tiles/SnowIcon
+  rotate: false
+  xy: 1261, 132
+  size: 100, 87
+  orig: 100, 87
+  offset: 0, 0
+  index: -1
+TileSets/ArcaneHex/Tiles/Swamp
+  rotate: false
+  xy: 1369, 227
+  size: 100, 87
+  orig: 100, 87
+  offset: 0, 0
+  index: -1
+TileSets/ArcaneHex/Tiles/SwampIcon
+  rotate: false
+  xy: 1369, 132
+  size: 100, 87
+  orig: 100, 87
+  offset: 0, 0
+  index: -1
+TileSets/ArcaneHex/Tiles/TameBeastDenIcon
+  rotate: false
+  xy: 1477, 271
+  size: 100, 87
+  orig: 100, 87
+  offset: 0, 0
+  index: -1
+TileSets/ArcaneHex/Tiles/Tundra
+  rotate: false
+  xy: 1477, 176
+  size: 100, 87
+  orig: 100, 87
+  offset: 0, 0
+  index: -1
+TileSets/ArcaneHex/Tiles/TundraIcon
+  rotate: false
+  xy: 1585, 271
+  size: 100, 87
+  orig: 100, 87
+  offset: 0, 0
+  index: -1
 TileSets/ArcaneHex/Tiles/VolcanoIcon
   rotate: false
-  xy: 829, 37
+  xy: 1585, 176
   size: 100, 87
   orig: 100, 87
   offset: 0, 0

@@ -1,42 +1,22 @@
 [
     {
-        "name": "gain supplies",
-        "notification": "We have found treasure in the den! (+[goldAmount] supplies)",
-        "uniques": ["Gain [50]-[100] [Gold] <(modified by game speed)>"]
+        "name": "gain rations",
+        "notification": "The settlers have shared their rations with us!",
+        "uniques": ["Instantly gain [20] [Rations] <(modified by game speed)>", "Only available <for [Human] Civilizations>"]
     },
     {
-        "name": "reveal wild beast activity",
-        "notification": "You find evidence of Wild Beast activity. Nearby Wild Beast's dens are revealed!",
-        "uniques": ["Reveal up to [All] [Barbarian encampment] within a [10] tile radius"]
+        "name": "gain more rations",
+        "notification": "The settlers have shared their rations with us!",
+        "uniques": ["Instantly gain [30] [Rations] <(modified by game speed)>", "Only available <for [Human] Civilizations>"]
     },
     {
-        "name": "squatters willing to work for you",
-        "notification": "A [Serf] has joined us!",
-        "uniques": ["Free [Serf] found in the ruins"]
+        "name": "gain lots more rations",
+        "notification": "The settlers have shared their rations with us!",
+        "uniques": ["Instantly provides [40] [Rations]", "Only available <for [Human] Civilizations>"]
     },
     {
-        "name": "squatters wishing to settle under your rule",
-        "notification": "A [Settler] has joined us!",
-        "uniques": ["Free [Settler] found in the ruins"]
-    },
-    {
-        "name": "your exploring unit receives training",
-        "notification": "An ancient tribe trained us in their ways of combat!",
-        "uniques": ["[This Unit] gains [10] XP", "Only available <after turn number [10]>"]
-    },
-    {
-        "name": "survivors (adds population to a city)",
-        "notification": "We have found survivors in the ruins! Population added to [cityName].",
-        "uniques": ["[+1] population in a random city"]
-    },
-    {
-        "name": "discover a lost technology",
-        "notification": "We have discovered the lost art of [techName] in the ruins!",
-        "uniques": ["[1] free random researchable Tech(s) from the [Tier 0 Era]"]
-    },
-    {
-        "name": "find a crudely-drawn map",
-        "notification": "We have found a crudely-drawn map in the ruins!",
-        "uniques": ["From a randomly chosen tile [4] tiles away from the ruins, reveal tiles up to [4] tiles away with [80]% chance"]
+        "name": "gain corpses",
+        "notification": "We have raided the settlement and harvested their corpses!",
+        "uniques": ["Instantly gain [20] [Corpses] <(modified by game speed)>", "Only available <for [non-[Human]] Civilizations>"]
     }
 ]
