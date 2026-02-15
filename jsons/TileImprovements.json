@@ -14,9 +14,7 @@
 			"Provides [1] [Rations]",
 			"Provides [1] [Mana]",
 			"Tile provides yield without assigned population",
-			"Removes removable features when built",
-			"Only available <within [3] tiles of a [{your} {City center}]>",
-			"Gain control over [Unowned] tiles in a [1]-tile radius"
+			"Removes removable features when built"
 		]
 	},
 
@@ -28,9 +26,7 @@
 		"turnsToBuild": 5,
 		"uniques": [
 			"Provides [1] [Rations]",
-			"Tile provides yield without assigned population",
-			"Only available <within [3] tiles of a [{your} {City center}]>",
-			"Gain control over [Unowned] tiles in a [1]-tile radius"
+			"Tile provides yield without assigned population"
 		]
 	},
 	{
@@ -40,13 +36,32 @@
 		"food": 1,
 		"turnsToBuild": 5,
 		"uniques": [
-			"[+1 Gold] <for every adjacent [Hut]>",
+			"[+1 Gold] <for every adjacent [Improvement]>",
 			"Only available <in cities with a [Barracks]>",
 			"Unavailable <in tiles adjacent to [Mine] tiles>",
+			"Unavailable <in [resource] tiles>",
 			"Tile provides yield without assigned population",
+			"Provides [1] [Rations]"
+		]
+	},
+	{
+		"name": "Barn",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 5,
+		"uniques": [
 			"Provides [1] [Rations]",
-			"Only available <within [3] tiles of a [{your} {City center}]>",
-			"Gain control over [Unowned] tiles in a [1]-tile radius"
+			"Tile provides yield without assigned population",
+			"Can only be built to improve a resource"
+		]
+	},
+	{
+		"name": "Forge",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 5,
+		"uniques": [
+			"Provides [1] [Rations]",
+			"Tile provides yield without assigned population",
+			"Can only be built to improve a resource"
 		]
 	},
 	{
@@ -57,9 +72,7 @@
 		"uniques": [
 			"Can only be built to improve a resource",
 			"Provides [1] [Corpses]",
-			"Tile provides yield without assigned population",
-			"Only available <within [3] tiles of a [{your} {City center}]>",
-			"Gain control over [Unowned] tiles in a [1]-tile radius"
+			"Tile provides yield without assigned population"
 		]
 	},
 	{
@@ -73,15 +86,12 @@
 			"Provides [1] [Corpses] <for [Demonic] Civilizations>",
 			"Provides [1] [Mana] <for [Demonic] Civilizations>",
 			"Tile provides yield without assigned population",
-			"Only available <within [3] tiles of a [{your} {City center}]>",
-			"Gain control over [Unowned] tiles in a [1]-tile radius",
 			"Demon Tech"
 		]
 	},
 	{
 		"name": "Excavation site",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"techRequired": "Quest",
 		"food": 1,
 		"production": 1,
 		"gold": 1,
@@ -91,12 +101,9 @@
 			"Provides [1] [Mana]",
 			"[+1 Gold] <for every adjacent [Improvement]>",
 			"Tile provides yield without assigned population",
-			"Only available <within [3] tiles of a [{your} {City center}]>",
-			"Gain control over [Unowned] tiles in a [1]-tile radius",
 			"Can only be built to improve a resource",
 			"Remove [Runes] resources from this tile",
-			"Triggers a [Build First Temple] event", // rename this
-			"Instantly gain [1] [Progress Marker]"
+			"Triggers a [Build First Temple] event <after discovering [Quest]>" // rename this
 		]
 	},
 
@@ -192,7 +199,9 @@
 			"Irremovable",
 			"Unbuildable",
 			"Ensures a minimum tile yield of [+2 Food, +1 Production]",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Gain control over [Unowned] tiles in a [3]-tile radius",
+			"Adjacent enemy units ending their turn take [5] damage <in cities with a [Tower]>"
 		]
 	},
 	{

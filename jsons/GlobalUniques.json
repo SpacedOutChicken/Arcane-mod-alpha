@@ -3,6 +3,8 @@
     "uniques": [
         "Nullifies [Culture] [in all cities]",
 
+        "Each city founded increases Science cost of Technologies [100]% less than normal",
+
         "Instantly gain [-1] [Golden Age points] <for every [Happiness]> <upon turn end>",
 
         "Notified of new Barbarian encampments",
@@ -25,17 +27,25 @@
         "Nullifies Growth [in all cities]",
         "Nullifies [Food] [in all cities] <in cities with at least [2] [Population]>",
         "Population loss from nuclear attacks [-100]% [in all cities]",
+        "Damage to garrison from nuclear attacks [-100]% [in all cities]",
 
         "[-100]% Yield from every [Demon Tech] <for [non-[Demonic]] Civilizations>",
+        //"[-100]% Yield from every [non-[Demon Tech]] <for [Demonic] Civilizations>",
 
         "[-15]% Strength <if [Wildmen's Curse] is constructed by anybody> <if [Wildmen's Curse] is not constructed> <hidden from users>",
 
-        "Remove [Curse] [in all cities] <upon turn end> <when below [1] [Curse Time]> <hidden from users>"
+        "Remove [Curse] [in all cities] <upon turn end> <when below [1] [Curse Time]> <hidden from users>",
+
+        "Gain control over [1] tiles [in all cities] <upon turn end>"
     ],
     "unitUniques": [
         "Free [Serf] appears <upon defeating a [Military] unit> <for [Undead] Civilizations>",
         "Free [Serf] appears <upon defeating a [Military] unit> <for [Demonic] Civilizations>",
         "Free [Den Builder] appears <upon entering a [Barbarian encampment] tile> <for [Wildmen] Civilizations> <for [non-[Den Builder]] units>",
+
+        "May enter foreign tiles without open borders",
+
+        "Cannot intercept [Air] units <for units without [Counterspell]>",
 
         "Destroys [All] cities instead of capturing"
     ]

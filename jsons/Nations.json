@@ -34,10 +34,10 @@
 		"cities": ["Oradour"]
 	},
 	{
-		"name": "Kartvel", //  isolationist humans
+		"name": "Mountaineers", //  isolationist humans
 		"leaderName": "Temur",
 		"preferredVictoryType": "Domination",
-		"adjective": ["Kartvelian"],
+		"adjective": ["Mountaineer"],
 
         "startIntroPart1": "Sample text.",
         "startIntroPart2": "Sample text.",
@@ -96,10 +96,10 @@
 	},
 
 	{
-		"name": "Revenants",
+		"name": "The Legion",
 		"leaderName": "Koschei",
 		"preferredVictoryType": "Domination",
-		"adjective": ["Revenant"],
+		"adjective": ["Legion"],
 
 		"startIntroPart1": "Sample text.",
 		"startIntroPart2": "Sample text",
@@ -111,7 +111,13 @@
 		"outerColor": [179, 178, 184],
 		"innerColor": [37, 43, 33],
 		"uniqueName": "Resurrection",
-		"uniques": ["Undead", "Adopt [Undeath]"],
+		"uniques": [
+			"[+15]% Production when constructing [Military] units [in all cities]",
+			"[+25]% [Rations] resource production",
+			"[+25]% [Corpses] resource production",
+			"Undead",
+			"Adopt [Undeath]"
+		],
 		"cities": ["Lichtown", "Mummyville", "Zombieland"]
 	},
 	{
@@ -129,8 +135,14 @@
 		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
 		"outerColor": [0, 0, 50],
 		"innerColor": [239, 180, 0],
-		"uniqueName": "Fleshcraft",
-		"uniques": ["Undead", "Adopt [Undeath]", "[+1 Science] [in all cities]"],
+		"uniqueName": "Undying Beauty",
+		"uniques": [
+			"Undead",
+			"Adopt [Undeath]",
+			"[+1 Science] [in all cities]",
+			"Great General provides double combat bonus",
+			"[Great General] is earned [50]% faster"
+		],
 		"cities": ["Lichtown", "Mummyville", "Zombieland"]
 	},
 	{
@@ -149,7 +161,11 @@
 		"outerColor": [255, 255, 255],
 		"innerColor": [184, 0, 0],
 		"uniqueName": "Fleshcraft",
-		"uniques": ["Undead", "Adopt [Undeath]"],
+		"uniques": [
+			"Undead",
+			"Adopt [Undeath]",
+			"[+10] HP when healing"
+		],
 		"cities": ["Lichtown", "Mummyville", "Zombieland"]
 	},
 	{
@@ -183,7 +199,7 @@
 		"cities": ["Draco"]
 	},
 	{
-		"name": "Sol Invictus",
+		"name": "Disciples of Sol",
 		"leaderName": "Aurelian",
 		"adjective": ["Sol"],
 		"startBias": ["Plains"],
@@ -240,7 +256,6 @@
 		"uniqueName": "Harvest of Souls",
 		"uniques": [
 			"Earn [10]% of killed [Military] unit's [Strength] as [Corpses]",
-			"Provides [2] [Mana] <for every [[Annexed] Cities]>",
 			"Demonic",
 			"Adopt [Demonology]"
 		],
@@ -303,8 +318,8 @@
 		
 		"uniqueName": "Leave No Stone Unturned",
 		"uniques": [
-			"Each city founded increases Science cost of Technologies [75]% less than normal",
-			"[+2 Science] [in all cities]",
+			"Earn [100]% of killed [Military] unit's [Strength] as [Science]",
+			"Provides [1] [Mana] <for every [Cities]>",
 			"Demonic",
 			"Adopt [Demonology]"
 		],
@@ -331,9 +346,7 @@
         "innerColor": [185,12,12],
 		"uniques": [
 			"Can only heal by pillaging",
-			"Excluded from map editor",
-			"Human",
-			"Beastman"
+			"Excluded from map editor"
 		]
 	}
 ]

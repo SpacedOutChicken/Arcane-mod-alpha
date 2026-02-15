@@ -1,6 +1,6 @@
 {
-    "useColorAsBaseTerrain": "false",
-    "fallbackTileSet": "FantasyHex",
+    "useColorAsBaseTerrain": false,
+    "fallbackTileSet": null,
     "ruleVariants": {
         // for civilopedia
         "Grassland+River": ["Grassland","River-BottomLeft","River-Bottom","River-BottomRight"],
@@ -234,6 +234,26 @@
         "Tundra+Forest+Fallout+Fort": ["Fallout","FortIcon"],
         "Grassland+Jungle+Fallout+Fort": ["Fallout","FortIcon"],
         "Plains+Jungle+Fallout+Fort": ["Fallout","FortIcon"],
+        "Grassland+Boneyard+Fort": ["Grassland","FortIcon"],
+        "Plains+Boneyard+Fort": ["Plains","FortIcon"],
+        "Tundra+Boneyard+Fort": ["Tundra","FortIcon"],
+        "Desert+Boneyard+Fort": ["Desert","FortIcon"],
+        "Snow+Boneyard+Fort": ["Snow","FortIcon"],
+        "Grassland+Hill+Boneyard+Fort": ["Grassland","FortIcon"],
+        "Plains+Hill+Boneyard+Fort": ["Plains","FortIcon"],
+        "Desert+Hill+Boneyard+Fort": ["Desert","FortIcon"],
+        "Tundra+Hill+Boneyard+Fort": ["Tundra", "FortIcon"],
+        "Snow+Hill+Boneyard+Fort": ["Snow","FortIcon"],
+        "Grassland+Hill+Forest+Boneyard+Fort": ["Grassland","FortIcon"],
+        "Plains+Hill+Forest+Boneyard+Fort": ["Plains","FortIcon"],
+        "Tundra+Hill+Forest+Boneyard+Fort": ["Tundra","FortIcon"],
+        "Grassland+Swamp+Boneyard+Fort": ["Swamp","FortIcon"],
+        "Desert+Oasis+Boneyard+Fort": ["Desert","FortIcon"],
+        "Grassland+Forest+Boneyard+Fort": ["Grassland","FortIcon"],
+        "Plains+Forest+Boneyard+Fort": ["Plains","FortIcon"],
+        "Tundra+Forest+Boneyard+Fort": ["Tundra","FortIcon"],
+        "Grassland+Jungle+Boneyard+Fort": ["Grassland","FortIcon"],
+        "Plains+Jungle+Boneyard+Fort": ["Plains","FortIcon"],
 
 
         // city center
@@ -338,6 +358,16 @@
         "Tundra+Forest+Fallout+Runes": ["Fallout","RunesIcon"],
         "Grassland+Jungle+Fallout+Runes": ["Fallout","RunesIcon"],
         "Plains+Jungle+Fallout+Runes": ["Fallout","RunesIcon"],
+        "Grassland+Runes+City center": ["Grassland","CityCenterIcon"],
+        "Plains+Runes+City center": ["Plains","CityCenterIcon"],
+        "Tundra+Runes+City center": ["Tundra","CityCenterIcon"],
+        "Desert+Runes+City center": ["Desert","CityCenterIcon"],
+        "Snow+Runes+City center": ["Snow","CityCenterIcon"],
+        "Grassland+Hill+Runes+City center": ["Grassland","CityCenterIcon"],
+        "Plains+Hill+Runes+City center": ["Plains","CityCenterIcon"],
+        "Desert+Hill+Runes+City center": ["Desert","CityCenterIcon"],
+        "Tundra+Hill+Runes+City center": ["Tundra", "CityCenterIcon"],
+        "Snow+Hill+Runes+City center": ["Snow","CityCenterIcon"],
 
         // excavation site
         "Grassland+Excavation site": ["Grassland","ExcavationSiteIcon"],
@@ -403,6 +433,16 @@
         "Plains+Forest+Fallout+Boneyard": ["Fallout","BoneyardIcon"],
         "Tundra+Forest+Fallout+Boneyard": ["Fallout","BoneyardIcon"],
         "Grassland+Jungle+Fallout+Boneyard": ["Fallout","BoneyardIcon"],
-        "Plains+Jungle+Fallout+Boneyard": ["Fallout","BoneyardIcon"]
+        "Plains+Jungle+Fallout+Boneyard": ["Fallout","BoneyardIcon"],
+        "Grassland+Boneyard+City center": ["Grassland","CityCenterIcon"],
+        "Plains+Boneyard+City center": ["Plains","CityCenterIcon"],
+        "Tundra+Boneyard+City center": ["Tundra","CityCenterIcon"],
+        "Desert+Boneyard+City center": ["Desert","CityCenterIcon"],
+        "Snow+Boneyard+City center": ["Snow","CityCenterIcon"],
+        "Grassland+Hill+Boneyard+City center": ["Grassland","CityCenterIcon"],
+        "Plains+Hill+Boneyard+City center": ["Plains","CityCenterIcon"],
+        "Desert+Hill+Boneyard+City center": ["Desert","CityCenterIcon"],
+        "Tundra+Hill+Boneyard+City center": ["Tundra", "CityCenterIcon"],
+        "Snow+Hill+Boneyard+City center": ["Snow","CityCenterIcon"]
     }
 }

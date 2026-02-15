@@ -1,13 +1,12 @@
 ## From the Noun Project:
 
 Nations:
-* Kartvel: [element earth](https://thenounproject.com/icon/element-earth-2360053/) by Maxicons
+* Mountaineers: [element earth](https://thenounproject.com/icon/element-earth-2360053/) by Maxicons
 * Wild Beasts (Barbarians): [skill beast wolf](https://thenounproject.com/icon/skill-beast-wolf-2360189/) by Maxicons
-* Infernal Army: [Satan](https://thenounproject.com/icon/satan-584348/) by Hea Poh Lin
 * Wildmen: [classes beast master](https://thenounproject.com/icon/classes-beast-master-2360013/) by Maxicons
-* Revenants: [boss fight](https://thenounproject.com/icon/boss-fight-6742414/) by gravisio
-* Sol Invictus: [classes monk](https://thenounproject.com/icon/classes-monk-2360006/) by Maxicons
-* Wyrmfolk: [hydra](https://thenounproject.com/icon/hydra-2128288/) by Buztas Linggar
+* The Legion: [boss fight](https://thenounproject.com/icon/boss-fight-6742414/) by gravisio
+* Disciples of Sol: [classes monk](https://thenounproject.com/icon/classes-monk-2360006/) by Maxicons
+* Wurmvolk: [hydra](https://thenounproject.com/icon/hydra-2128288/) by Buztas Linggar
 * The Aberrant: based on [clay](https://thenounproject.com/icon/clay-2058597/) by glyph.faisalovers
 * The Vanity: [mouth](https://thenounproject.com/icon/mouth-7727093/) by Yosua Bungaran
 
@@ -26,3 +25,13 @@ Other icons:
 * Domain Air: [skill magic soul strike](https://thenounproject.com/icon/skill-magic-soul-strike-2360160/) by Maxicons
 * Teleport (Paradrop): [Flying](https://thenounproject.com/icon/flying-746828/) by Ilaria Bernareggi
 * Wisdom (Science): [Book](https://thenounproject.com/icon/book-7890475/) by Trident
+
+
+Cheap credits that may be replaced later:
+Wizard: https://thenounproject.com/icon/witch-hat-7117909/
+Ice Storm: https://thenounproject.com/icon/ice-5979014/
+Shadows: https://thenounproject.com/icon/eclipse-7666379/
+The Second Empire: https://thenounproject.com/icon/crown-7950646/
+The Abyssals: https://thenounproject.com/icon/antlers-4388540/
+Mystagogues: https://thenounproject.com/icon/eye-646102/
+Summoning circle: https://thenounproject.com/icon/pentagram-6147578/

@@ -31,6 +31,21 @@
 	},
 
 	{
+		"name": "Wizard's Tower",
+		"uniqueTo": "Human",
+		"cost": 300,
+		"cityHealth": 25,
+		"cityStrength": 10,
+		"science": 1,
+		"production": 1,
+		"uniques": [
+			"Provides [1] [Mana]",
+			"Can carry [4] extra [Air] units",
+			"Tower"
+		]
+	},
+
+	{
 		"name": "Beast Lair",
 		"uniqueTo": "Wildmen",
 		"cost": 1,

@@ -25,6 +25,18 @@
         ]
     },
     {
+        "name": "Mage",
+        "movementType": "Land",
+        "uniques": [
+            "Can pass through impassable tiles",
+			"Ignores terrain cost",
+            "May travel on Water tiles without embarking",
+			"Ignores Zone of Control",
+			"Eliminates combat penalty for attacking across a coast",
+			"Eliminates combat penalty for attacking over a river"
+        ]
+    },
+    {
         "name": "Melee Water",
         "movementType": "Water"
     },
@@ -35,6 +47,20 @@
     {
         "name": "Spell",
         "movementType": "Air",
-        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+        "uniques": ["Self-destructs when attacking"]
+    },
+    {
+        "name": "Cantrip",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking"]
+    },
+    {
+        "name": "Spirit",
+        "movementType": "Air",
+        "uniques": [
+            "[+4] Sight",
+            "Can see over obstacles",
+            "Can perform Air Sweep"
+        ]
     }
 ]

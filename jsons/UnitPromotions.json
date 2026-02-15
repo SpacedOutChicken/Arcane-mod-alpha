@@ -31,6 +31,10 @@
       ]
     },
     {
+      "name": "Counterspell",
+      "uniques": ["[100]% chance to intercept air attacks"]
+    },
+    {
       "name": "Heal Instantly",
       "uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
       "unitTypes": ["Sword", "Archery"]
@@ -43,10 +47,6 @@
 
     {
       "name": "Summon",
-      "uniques": ["Free [Force Bolt] appears <costs [10] [Mana]> <for [1] movement> <removing the [Summon] promotion/status>"]
-    },
-    {
-      "name": "Tapped",
-      "uniques": ["[-1] HP when healing"]
+      "uniques": ["Free [Force Bolt] appears <costs [10] [Mana]> <for [1] movement> <removing the [Summon] promotion/status> <when number of [Carried [Air] units] is less than [2]>"]
     }
 ]

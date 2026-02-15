@@ -134,15 +134,22 @@
         "techs": [
             {
                 "name": "Greater Attack",
-                "row": 3,
+                "row": 2,
                 "prerequisites": ["Poisons", "Summoning"],
                 "quote": ""
             },
             {
                 "name": "Greater Teleportation",
-                "row": 5,
+                "row": 4,
                 "prerequisites": ["Summoning", "Teleportation"],
                 "quote": ""
+            },
+            {
+                "name": "Counterspells",
+                "row": 6,
+                "prerequisites": ["Summoning", "Teleportation"],
+                "quote": "",
+                "uniques": ["[Mage] units gain the [Counterspell] promotion"]
             },
             {
                 "name": "Greater Vigor",
@@ -174,12 +181,12 @@
             {
                 "name": "Greater Blessings",
                 "row": 6,
-                "prerequisites": ["Greater Teleportation", "Greater Vigor"],
+                "prerequisites": ["Greater Teleportation", "Counterspells"],
                 "quote": ""
             },
             {
                 "name": "Doomsday Spells",
-                "prerequisites": ["Greater Teleportation", "Greater Vigor", "Greater Curses"],
+                "prerequisites": ["Counterspells", "Greater Vigor", "Greater Curses"],
                 "row": 8,
                 "quote": "",
                 "uniques": ["Triggers the following global alert: [The chill of doom hangs in the air!]"]

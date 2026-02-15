@@ -11,7 +11,7 @@
         "unitType": "Civilian",
         "cost": 30,
         "movement": 2,
-        "uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"]
+        "uniques": ["Can build [Terrain] improvements on tiles", "Automation is a primary action"]
     },
     {
         "name": "Zombie Slave",
@@ -20,7 +20,7 @@
         "unitType": "Civilian",
         "cost": 30,
         "movement": 2,
-        "uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", "Unbuildable", "Cannot be purchased"]
+        "uniques": ["Can build [Terrain] improvements on tiles", "Automation is a primary action", "Unbuildable", "Cannot be purchased"]
     },
     {
         "name": "Slave",
@@ -29,7 +29,7 @@
         "unitType": "Civilian",
         "cost": 30,
         "movement": 2,
-        "uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", "Unbuildable", "Cannot be purchased"]
+        "uniques": ["Can build [Terrain] improvements on tiles", "Automation is a primary action", "Unbuildable", "Cannot be purchased"]
     },
     {
 		"name": "Grunt",
@@ -92,27 +92,46 @@
 
     {
         "name": "Wizard",
-        "unitType": "Archery",
+        "unitType": "Mage",
         "movement": 2,
         "strength": 15,
         "rangedStrength": 20,
         "range": 3,
+        "interceptRange": 3,
         "cost": 500,
         "attackSound": "shot",
         "uniques": [
             "Costs [20] [Mana]",
             "Consumes [1] [Mana]",
-            "[This Unit] gains the [Summon] promotion",
+            "[This Unit] gains the [Summon] promotion <upon turn end> <every [2] turns> <for units without [Summon]>",
             "Can carry [2] [Air] units",
+            "[+150]% Strength <vs [Air] units>",
             "Never appears as a Barbarian unit",
             "Instantly gain [-1] [Mana] <upon entering combat>",
-            "[This Unit] gains the [Tapped] status for [2] turn(s) <upon losing the [Summon] promotion>",
-            "[This Unit] gains the [Summon] promotion <upon losing the [Tapped] status>"
+            "[+1] Strength <for every [Researched [All] Technologies]>"
         ]
     },
     {
+        "name": "Familiar",
+        "unitType": "Spirit",
+        "strength": 30,
+        "rangedStrength": 30,
+        "range": 10,
+        "interceptRange": 10,
+        "cost": 500,
+        "attackSound": "shot",
+        "requiredTech": "Counterspells",
+        "uniques": [
+            "Costs [10] [Mana]",
+            "Instantly gain [-1] [Mana] <upon entering combat>",
+            "[100]% chance to intercept air attacks",
+            "[+100]% Strength <vs [Air] units>"
+        ],
+        "promotions": ["Counterspell"]
+    },
+    {
         "name": "Force Bolt",
-        "unitType": "Spell",
+        "unitType": "Cantrip",
         "movement": 1,
         "range": 20,
         "strength": 20,
@@ -129,12 +148,19 @@
         "range": 100,
         "strength": 30,
         "rangedStrength": 30,
+        "cost": 500,
         "attackSound": "missile",
-        "uniques": ["Unbuildable", "Cannot be purchased"]
+        "uniques": [
+            "Unbuildable",
+            "Can be purchased for [100] [Gold] [in all cities]",
+            "Costs [30] [Mana]",
+            "Only available <when above [0] [Concentration]>"
+        ]
     },
     {
         "name": "Chain Lightning",
         "unitType": "Spell",
+        "requiredTech": "Lightning",
         "movement": 1,
         "range": 100,
         "strength": 20,
@@ -142,8 +168,10 @@
         "attackSound": "missile",
         "uniques": [
             "Unbuildable",
-            "Cannot be purchased",
-            "Free [Lightning Bolt] appears <upon entering combat>"
+            "Can be purchased for [100] [Gold] [in all cities]",
+            "Costs [30] [Mana]",
+            "Free [Lightning Bolt] appears <upon entering combat>",
+            "Only available <when above [0] [Concentration]>"
         ]
     },
     {
@@ -157,8 +185,10 @@
         "attackSound": "missile",
         "uniques": [
             "Unbuildable",
-            "Cannot be purchased",
-            "Free [Spark] appears <upon entering combat>"
+            "Can be purchased for [100] [Gold] [in all cities]",
+            "Costs [30] [Mana]",
+            "Free [Spark] appears <upon entering combat>",
+            "Only available <when above [0] [Concentration]>"
         ]
     },
     {
@@ -185,8 +215,10 @@
         "attackSound": "missile",
         "uniques": [
             "Unbuildable",
-            "Cannot be purchased",
-            "[Target Unit] gains the [Frozen] status for [3] turn(s) <upon damaging a [non-[Air]] unit>"
+            "Can be purchased for [100] [Gold] [in all cities]",
+            "Costs [30] [Mana]",
+            "[Target Unit] gains the [Frozen] status for [3] turn(s) <upon damaging a [non-[Air]] unit>",
+            "Only available <when above [0] [Concentration]>"
         ]
     },
     {
@@ -200,9 +232,11 @@
         "attackSound": "nuke",
         "uniques": [
             "Unbuildable",
-            "Cannot be purchased",
+            "Can be purchased for [500] [Gold] [in all cities]",
+            "Costs [100] [Mana]",
             "Nuclear weapon of Strength [0]",
-            "Blast radius [3]"
+            "Blast radius [3]",
+            "Only available <when above [0] [Concentration]>"
         ]
     },
     {
@@ -216,9 +250,11 @@
         "attackSound": "nuke",
         "uniques": [
             "Unbuildable",
-            "Cannot be purchased",
+            "Can be purchased for [500] [Gold] [in all cities]",
+            "Costs [100] [Mana]",
             "Nuclear weapon of Strength [1]",
-            "Blast radius [2]"
+            "Blast radius [2]",
+            "Only available <when above [0] [Concentration]>"
         ]
     },
 
@@ -229,11 +265,26 @@
         "movement": 4,
         "uniques": [
             "Unbuildable",
+            "Cannot be purchased",
             "Uncapturable",
+            "Free [Settler] appears <by consuming this unit>",
             "Can instantly construct a [Tame Beast den] improvement <by consuming this unit>",
             "May Paradrop to [Friendly] tiles up to [40] tiles away",
             "Is part of Great Person group [Den Builder]",
             "Great Person - [Science]"
         ]
+    },
+
+    {
+        "name": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            //"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat",
+            "Is part of Great Person group [General]",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"
+        ],
+		"movement": 2
     }
 ]

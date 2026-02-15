@@ -7,7 +7,7 @@
                 "text": "Summon an attack spell",
                 "uniques": [
                     "Triggers a [Attack Spell] event <hidden from users>",
-                    "Only available <when number of [[Air] Units] is less than [[Cities] * 6]> <when above [20] [Mana]> <after discovering [Fire]> <hidden from users>"
+                    "Only available <when number of [[Spell] Units] is less than [[Cities] * 6 + [[Tower] Buildings] * 4]> <when above [20] [Mana]> <after discovering [Fire]> <hidden from users>"
                 ],
                 "civilopediaText": [
                     {
@@ -43,7 +43,7 @@
                 "text": "Summon a doomsday spell",
                 "uniques": [
                     "Triggers a [Doomsday Spell] event <hidden from users>",
-                    "Only available <when number of [[Air] Units] is less than [[Cities] * 6]> <when above [100] [Mana]> <after discovering [Doomsday Spells]> <when nuclear weapons are enabled> <hidden from users>"
+                    "Only available <when number of [[Spell] Units] is less than [[Cities] * 6 + [[Tower] Buildings] * 4]> <when above [100] [Mana]> <after discovering [Doomsday Spells]> <when nuclear weapons are enabled> <hidden from users>"
                 ],
                 "civilopediaText": [
                     {
@@ -207,7 +207,7 @@
                     "Provides [-5] [Mana] <for [2] turns> <hidden from users>",
                     "Instantly gain [-50] [Mana] <hidden from users>",
                     "Free [Plague] appears <hidden from users>",
-                    "Only available <when above [0] [Concentration]> <after discovering [Doomsday Spells]> <when above [50] [Mana]> <when number of [[Air] Units] is less than [[Cities] * 6]> <hidden from users>"
+                    "Only available <when above [0] [Concentration]> <after discovering [Doomsday Spells]> <when above [50] [Mana]> <when number of [[Spell] Units] is less than [[Cities] * 6 + [[Tower] Buildings] * 4]> <hidden from users>"
                 ],
                 "civilopediaText": [
                     {
@@ -222,7 +222,7 @@
                     "Provides [-10] [Mana] <for [3] turns> <hidden from users>",
                     "Instantly gain [-100] [Mana] <hidden from users>",
                     "Free [Meteor] appears <hidden from users>",
-                    "Only available <when above [0] [Concentration]> <after discovering [Doomsday Spells]> <when above [100] [Mana]> <when number of [[Air] Units] is less than [[Cities] * 6]> <hidden from users>"
+                    "Only available <when above [0] [Concentration]> <after discovering [Doomsday Spells]> <when above [100] [Mana]> <when number of [[Spell] Units] is less than [[Cities] * 6 + [[Tower] Buildings] * 4]> <hidden from users>"
                 ],
                 "civilopediaText": [
                     {
@@ -240,11 +240,11 @@
                 "text": "Place a curse",
                 "uniques": [
                     "Instantly gain [5] [Curse Time] <hidden from users>",
-                    "Gain a free [Wildmen's Curse] [in capital] <for [Wildmen] Civilizations>",
+                    "Gain a free [Wildmen's Curse] [in capital] <for [Wildmen] Civilizations> <hidden from users>",
                     "Provides [-1] [Concentration] <for [5] turns> <hidden from users>",
                     "Provides [-10] [Mana] <for [5] turns> <hidden from users>",
                     "Instantly gain [-200] [Mana] <hidden from users>",
-                    "Only available <after discovering [Fire]> <when above [0] [Concentration]> <when above [200] [Mana]> <hidden from users>"
+                    "Only available <after discovering [Curses]> <when above [0] [Concentration]> <when above [200] [Mana]> <hidden from users>"
                 ],
                 "civilopediaText": [
                     {

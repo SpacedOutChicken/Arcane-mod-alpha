@@ -6,7 +6,7 @@
         "Allow City States to spawn with additional units"
     ],
     "tileset": "ArcaneHex",
-    "unitset": "None",
+    "unitset": "ArcaneHex",
     "constants": {
         "maxXPfromBarbarians":60,
         "cityStrengthBase": 10,
@@ -17,6 +17,7 @@
         "unitSupplyPerPopulation": 0,
         "minimalCityDistance": 3,
         "minimalCityDistanceOnDifferentContinents":3,
-        "baseCityBombardRange": 2
+        "baseCityBombardRange": 2,
+        "cityExpandRange": 3
     }
 }
