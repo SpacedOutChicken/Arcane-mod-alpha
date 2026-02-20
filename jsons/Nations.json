@@ -21,13 +21,14 @@
 		"neutralHello": "Oh, welcome!",
 		"hateHello": "Oh, it is you.",
 		"tradeRequest": "My friend, it is my belief that this settlement can benefit both our peoples.",
-        "outerColor": [8, 8, 166],
-		"innerColor": [249, 247, 3],
+        "outerColor": [28,51,119],
+        "innerColor": [255,255,255],
 
 		"uniqueName": "Ingenuity",
 		"uniques": [
-			"[+1 Science] [in all cities]",
-			"Each city founded increases Science cost of Technologies [50]% less than normal",
+			"[+25]% Production when constructing [All] buildings [in all cities]",
+			"Can build [All] improvements at a [+25]% rate",
+			"Provides [5] [Magic Strength]",
 			"Human",
 			"Adopt [Humanity]"
 		],
@@ -58,7 +59,7 @@
 		"uniques": [
 			"[+15]% Strength <for [non-[Air]] units> <when fighting in [Friendly Land] tiles>",
 			"Provides [1] [Mana] <for every [Cities]>",
-			"[-10]% Strength <for [Spell] units>",
+			"Provides [4] [Magic Strength]",
 			"Human",
 			"Adopt [Humanity]"
 		],
@@ -89,6 +90,7 @@
 			"[+10]% Strength <for [Beastman] units>",
 			"[-75]% Production when constructing [{non-[Beastman]} {Military}] units [in all cities]",
 			"[Gold] cost of purchasing [{non-[Beastman]} {Military}] units [+50]%",
+			"Provides [6] [Magic Strength]",
 			"Human",
 			"Adopt [Humanity]"
 		],
@@ -115,6 +117,7 @@
 			"[+15]% Production when constructing [Military] units [in all cities]",
 			"[+25]% [Rations] resource production",
 			"[+25]% [Corpses] resource production",
+			"Provides [5] [Magic Strength]",
 			"Undead",
 			"Adopt [Undeath]"
 		],
@@ -139,6 +142,7 @@
 		"uniques": [
 			"Undead",
 			"Adopt [Undeath]",
+			"Provides [6] [Magic Strength]",
 			"[+1 Science] [in all cities]",
 			"Great General provides double combat bonus",
 			"[Great General] is earned [50]% faster"
@@ -164,7 +168,8 @@
 		"uniques": [
 			"Undead",
 			"Adopt [Undeath]",
-			"[+10] HP when healing"
+			"[+10] HP when healing",
+			"Provides [5] [Magic Strength]"
 		],
 		"cities": ["Lichtown", "Mummyville", "Zombieland"]
 	},
@@ -193,6 +198,7 @@
 		"uniqueName": "Dragon's Wrath",
 		"uniques": [
             "New [Dragon] units start with [15] XP [in all cities]",
+			"Provides [5] [Magic Strength]",
 			"Human",
 			"Adopt [Humanity]"
 		],
@@ -225,6 +231,7 @@
 		"uniques": [
 			"[+50]% XP gained from combat <for [Military] units>",
 			"[+25]% Strength <for [Wounded] units>",
+			"Provides [5] [Magic Strength]",
 			"Human",
 			"Adopt [Humanity]"
 		],
@@ -256,6 +263,7 @@
 		"uniqueName": "Harvest of Souls",
 		"uniques": [
 			"Earn [10]% of killed [Military] unit's [Strength] as [Corpses]",
+			"Provides [5] [Magic Strength]",
 			"Demonic",
 			"Adopt [Demonology]"
 		],
@@ -288,7 +296,7 @@
 			"Gain [15] Influence with a [Military] gift to a City-State",
 			"[-25]% City-State Influence degradation",
 			"City-State Influence recovers at twice the normal rate",
-			"City-State territory always counts as friendly territory",
+			"Provides [6] [Magic Strength]",
 			"Demonic",
 			"Adopt [Demonology]"
 		],
@@ -320,6 +328,7 @@
 		"uniques": [
 			"Earn [100]% of killed [Military] unit's [Strength] as [Science]",
 			"Provides [1] [Mana] <for every [Cities]>",
+			"Provides [7] [Magic Strength]",
 			"Demonic",
 			"Adopt [Demonology]"
 		],
@@ -327,17 +336,20 @@
 	},
 
 	{
-		"name": "Brussels",
-		"adjective": ["Bruxellois"],
-		"cityStateType": "Magical",
-		"uniques": ["Human"],
+		"name": "Tyrol",
+		"adjective": ["Tyrolean"],
+		"cityStateType": "Farming",
+		"uniques": [
+			"Human",
+			"Provides [5] [Magic Strength]"
+		],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "I guess you weren't here for the sprouts after all...",
+		"defeated": "Unacceptable!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [127, 177, 236],
-		"cities": ["Brussels"]
+		"cities": ["Tyrol"]
 	},
 
 	{

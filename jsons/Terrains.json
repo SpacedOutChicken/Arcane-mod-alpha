@@ -284,7 +284,8 @@
 		"occursOn": ["Mountain"],
 		"uniques": [
 			"Rare feature",
-			"[+2] to Fertility for Map Generation"
+			"[+2] to Fertility for Map Generation",
+			"Rough terrain"
 		]
 	},
 	{
@@ -307,6 +308,21 @@
 		"production": 1,
 		"occursOn": ["Coast"],
 		"uniques": ["Rare feature"]
+	},
+	{
+		"name": "Rough seas",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"overrideStats": true,
+		"occursOn": ["Ocean"],
+		"uniques": [
+			"Rare feature",
+			"Rough terrain",
+			"Units ending their turn on this terrain take [5] damage",
+			"Blocks line-of-sight from tiles at same elevation",
+			"[-1] Sight",
+			"[-2] to Fertility for Map Generation"
+		]
 	},
 	{
         "name": "River",

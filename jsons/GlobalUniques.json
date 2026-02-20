@@ -9,10 +9,14 @@
 
         "Notified of new Barbarian encampments",
 
+        "City-State territory always counts as friendly territory",
+
         "[+1] Unit Supply <for every [Units]>",
         "[-100]% maintenance costs",
 
-        "Triggers a [Cast Spell] event <upon turn start> <every [2] turns> <when above [20] [Mana]> <when above [0] [Concentration]>",
+        "Triggers a [Cast Spell] event <upon turn start> <every [3] turns> <when above [20] [Mana]> <without [Spell Time]>",
+
+        "Triggers a [Feast] event <upon turn start> <when above [100] [Rations]> <for [Demonic] Civilizations>",
 
         "Improves movement speed on roads",
         "Roads connect tiles across rivers",
@@ -32,9 +36,14 @@
         "[-100]% Yield from every [Demon Tech] <for [non-[Demonic]] Civilizations>",
         //"[-100]% Yield from every [non-[Demon Tech]] <for [Demonic] Civilizations>",
 
+        "[+5]% Strength <for [Air] units> <for every [Magic Strength]>",
+
         "[-15]% Strength <if [Wildmen's Curse] is constructed by anybody> <if [Wildmen's Curse] is not constructed> <hidden from users>",
 
-        "Remove [Curse] [in all cities] <upon turn end> <when below [1] [Curse Time]> <hidden from users>",
+        "[2] [Scourge]s rebel <upon turn start> <if [Legion's Curse] is constructed by anybody> <if [Legion's Curse] is not constructed> <hidden from users>",
+
+        "Provides [-1] [Spell Time] <when above [0] [Spell Time]> <hidden from users>",
+        "Remove [Enchantment] [in all cities] <upon turn end> <when below [1] [Spell Time]> <hidden from users>",
 
         "Gain control over [1] tiles [in all cities] <upon turn end>"
     ],

@@ -39,6 +39,9 @@
         "Coast+Ice": ["Coast","IceIcon"],
         "Ocean+Ice": ["Ocean","IceIcon"],
 
+        // rough seas
+        "Ocean+Rough seas": ["Ocean","RoughSeasIcon"],
+
         // features
         "Grassland+Swamp": ["Swamp","SwampIcon"],
         "Mountain+Volcano": ["Mountain","VolcanoIcon"],

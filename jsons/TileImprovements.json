@@ -211,7 +211,7 @@
 			"Unpillagable",
 			"Unbuildable",
 			"Gives a defensive bonus of [25]%",
-			"Does not need removal of [Terrain]"
+			"Excluded from map editor"
 		]
 	},
 	{

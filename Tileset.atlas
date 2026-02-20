@@ -333,72 +333,79 @@ TileSets/ArcaneHex/Tiles/River-BottomRight
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/RunesIcon
+TileSets/ArcaneHex/Tiles/RoughSeasIcon
   rotate: false
   xy: 1153, 227
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/SettlementIcon
+TileSets/ArcaneHex/Tiles/RunesIcon
   rotate: false
   xy: 1153, 132
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/Snow
+TileSets/ArcaneHex/Tiles/SettlementIcon
   rotate: false
   xy: 1261, 227
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/SnowIcon
+TileSets/ArcaneHex/Tiles/Snow
   rotate: false
   xy: 1261, 132
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/Swamp
+TileSets/ArcaneHex/Tiles/SnowIcon
   rotate: false
   xy: 1369, 227
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/SwampIcon
+TileSets/ArcaneHex/Tiles/Swamp
   rotate: false
   xy: 1369, 132
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/TameBeastDenIcon
+TileSets/ArcaneHex/Tiles/SwampIcon
   rotate: false
   xy: 1477, 271
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/Tundra
+TileSets/ArcaneHex/Tiles/TameBeastDenIcon
   rotate: false
   xy: 1477, 176
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/TundraIcon
+TileSets/ArcaneHex/Tiles/Tundra
   rotate: false
   xy: 1585, 271
   size: 100, 87
   orig: 100, 87
   offset: 0, 0
   index: -1
-TileSets/ArcaneHex/Tiles/VolcanoIcon
+TileSets/ArcaneHex/Tiles/TundraIcon
   rotate: false
   xy: 1585, 176
+  size: 100, 87
+  orig: 100, 87
+  offset: 0, 0
+  index: -1
+TileSets/ArcaneHex/Tiles/VolcanoIcon
+  rotate: false
+  xy: 1693, 271
   size: 100, 87
   orig: 100, 87
   offset: 0, 0

@@ -1,26 +1,35 @@
 [
     {
-		  "name": "Vigor",
-		  "uniques": ["[This Unit] heals [25] HP", "[This Unit] gains [1] movement", "[This Unit] gains the [Invigorated] status for [3] turn(s)", "[This Unit] loses the [Vigor] promotion"]
-    },
-    {
       "name": "Invigorated",
-      "uniques": ["[+1] Movement", "No damage penalty for wounded units", "[+10]% Strength"]
-    },
-    {
-      "name": "Grant Teleportation",
-      "uniques": ["[This Unit] gains the [Teleportation] status for [3] turn(s)", "[This Unit] gains [1] movement", "[This Unit] loses the [Grant Teleportation] promotion"]
-    },
-    {
-      "name": "Teleportation",
       "uniques": [
+        "[This Unit] heals [25] HP",
+        "[This Unit] gains [1] movement",
+        "[+1] Movement",
+        "No damage penalty for wounded units",
+        "[+2]% Strength <for every [Magic Strength]>",
+        "[This Unit] loses the [Invigorated] promotion <upon turn end> <when below [1] [Spell Time]>"
+      ]
+    },
+    {
+      "name": "Teleporter",
+      "uniques": [
+        "[This Unit] gains [1] movement",
         "[+1] Movement",
         "Can pass through impassable tiles",
         "Ignores terrain cost",
         "Ignores Zone of Control",
         "[1] Movement point cost to disembark",
         "[1] Movement point cost to embark",
-        "May Paradrop to [Terrain] tiles up to [50] tiles away <in [Friendly] tiles>"
+        "May Paradrop to [Terrain] tiles up to [50] tiles away <in [Friendly] tiles>",
+        "[This Unit] loses the [Teleporter] promotion <upon turn end> <when below [1] [Spell Time]>"
+      ]
+    },
+    {
+      "name": "Invisible",
+      "uniques": [
+        "Invisible to others",
+        "[This Unit] loses the [Invisible] promotion <upon entering combat>",
+        "[This Unit] loses the [Invisible] promotion <upon turn end> <when below [1] [Spell Time]>"
       ]
     },
     {

@@ -35,3 +35,5 @@ The Second Empire: https://thenounproject.com/icon/crown-7950646/
 The Abyssals: https://thenounproject.com/icon/antlers-4388540/
 Mystagogues: https://thenounproject.com/icon/eye-646102/
 Summoning circle: https://thenounproject.com/icon/pentagram-6147578/
+Rough Seas: https://thenounproject.com/icon/typhoon-76248/
+Magic Strength: https://thenounproject.com/icon/eye-8116580/

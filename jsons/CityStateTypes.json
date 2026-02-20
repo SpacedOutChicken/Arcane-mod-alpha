@@ -1,12 +1,26 @@
 [
     {
-        "name": "Magical",
+        "name": "Farming",
         "friendBonusUniques": [
-            "Provides [2] [Rations] <for [non-[Demonic]] Civilizations>"
+            "Provides [2] [Rations] <for [Human] Civilizations>",
+            "Provides [2] [Corpses] <for [non-[Human]] Civilizations>"
         ],
         "allyBonusUniques": [
-            "Provides [4] [Rations] <for [non-[Demonic]] Civilizations>"
+            "Provides [4] [Rations] <for [Human] Civilizations>",
+            "Provides [4] [Corpses] <for [non-[Human]] Civilizations>"
         ],
         "color": [139, 96, 255]
+    },
+    {
+        "name": "Mystical",
+        "friendBonusUniques": [
+            "Provides [2] [Mana]",
+            "[+5 Science]"
+        ],
+        "allyBonusUniques": [
+            "Provides [4] [Mana]",
+            "[+10 Science]"
+        ],
+        "color": [255, 255, 255]
     }
 ]

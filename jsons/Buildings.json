@@ -7,16 +7,14 @@
 		"gold": 3,
 		"cityStrength": 2,
 		"cost": 1,
-		"uniques": ["Indicates the capital city", "Provides [1] [Concentration]", "Provides [1] [Mana]"]
+		"uniques": ["Indicates the capital city", "Provides [1] [Mana]"]
 	},
 	{
 		"name": "Barracks",
-		"uniqueTo": "Human",
 		"production": 1,
 		"cost": 100,
 		"uniques": [
-			"Must have an owned [Hut] within [3] tiles",
-			"New [non-[Air]] units start with [15] XP [in this city]",
+			"New [non-[Spell]] units start with [15] XP [in this city]",
 			"Triggers a global alert upon completion <when number of [[Barracks] Buildings] is equal to [1]>"
 		]
 	},
@@ -27,7 +25,11 @@
 		"cost": 30,
 		"science": 1,
 		"production": 1,
-		"uniques": ["Provides [1] [Mana] <for [Demonic] Civilizations>", "Demon Tech"]
+		"uniques": [
+			"Provides [1] [Mana] <for [Demonic] Civilizations>",
+			"Limited to [0] per Civilization <for [non-[Demonic]] Civilizations>",
+			"Demon Tech"
+		]
 	},
 
 	{
@@ -52,7 +54,48 @@
 		"production": 1,
 		"uniques": [
 			"Automatically built in all cities where it is buildable",
-			"Must have an owned [Tame Beast den] within [3] tiles"
+			"Must have an owned [Tame Beast den] within [3] tiles",
+			"Limited to [0] per Civilization <for [Demonic] Civilizations>"
+		]
+	},
+
+	{
+		"name": "Mausoleum",
+		"uniqueTo": "Human",
+		"science": 2,
+		"cost": 50,
+		"uniques": [
+			"Costs [100] [Corpses]",
+			"Provides [10] [Mana] <for [non-[Demonic]] Civilizations>",
+			"Limited to [0] per Civilization <for [Demonic] Civilizations>"
+		]
+	},
+
+	{
+		"name": "Defense Spell",
+		"isNationalWonder": true,
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"[+25]% Strength for cities",
+            "[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+            "Enemy [non-[Air]] units must spend [1] extra movement points when inside your territory",
+			"Moves to new capital when capital changes",
+			"Enchantment"
+		]
+	},
+	{
+		"name": "Prosperity Spell",
+		"isNationalWonder": true,
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"[+25]% [Production] [in all cities]",
+			"[+25]% [Gold] [in all cities]",
+			"[+25]% [Rations] resource production",
+			"[+25]% [Corpses] resource production",
+			"Moves to new capital when capital changes",
+			"Enchantment"
 		]
 	},
 
@@ -64,11 +107,21 @@
 		"isWonder": true,
 		"uniques": [
 			"Triggers a global alert upon completion",
-			"Curse",
+			"Enchantment",
 			"Unbuildable",
-			"Cannot be purchased",
-			"Will not be displayed in Civilopedia",
-			"Instantly gain [-1] [Curse Time] <upon turn start>"
+			"Cannot be purchased"
+		]
+	},
+	{
+		"name": "Legion's Curse",
+		"uniqueTo": "The Legion",
+		"requiredTech": "Curses",
+		"isWonder": true,
+		"uniques": [
+			"Triggers a global alert upon completion",
+			"Enchantment",
+			"Unbuildable",
+			"Cannot be purchased"
 		]
 	}
 ]

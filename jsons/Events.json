@@ -55,7 +55,7 @@
                 "text": "Curse our enemies",
                 "uniques": [
                     "Triggers a [Curse Enemies] event <hidden from users>",
-                    "Only available <when above [200] [Mana]> <after discovering [Curses]> <hidden from users>"
+                    "Only available <when above [200] [Mana]> <after discovering [Curses]> <for [Major] Civilizations> <hidden from users>"
                 ],
                 "civilopediaText": [
                     {
@@ -78,10 +78,9 @@
             {
                 "text": "Fire Spell",
                 "uniques": [
-                    "Free [Fireball] appears <hidden from users>",
-                    "Provides [-1] [Concentration] <for [1] turns> <hidden from users>",
-                    "Only available <after discovering [Fire]> <when above [0] [Concentration]> <when above [20] [Mana]> <hidden from users>",
-                    "Instantly gain [-20] [Mana] <hidden from users>"
+                    "Free [Fireball] appears",
+                    "Only available <after discovering [Fire]> <when above [20] [Mana]> <hidden from users>",
+                    "Instantly gain [-20] [Mana]"
                 ],
                 "civilopediaText": [
                     {
@@ -92,10 +91,9 @@
             {
                 "text": "Lightning Spell",
                 "uniques": [
-                    "Free [Lightning Bolt] appears <hidden from users>",
-                    "Provides [-1] [Concentration] <for [1] turns> <hidden from users>",
-                    "Only available <after discovering [Lightning]> <when above [0] [Concentration]> <when above [20] [Mana]> <hidden from users>",
-                    "Instantly gain [-20] [Mana] <hidden from users>"
+                    "Free [Lightning Bolt] appears",
+                    "Only available <after discovering [Lightning]> <when above [20] [Mana]> <hidden from users>",
+                    "Instantly gain [-20] [Mana]"
                 ],
                 "civilopediaText": [
                     {
@@ -106,10 +104,9 @@
             {
                 "text": "Ice Spell",
                 "uniques": [
-                    "Free [Ice Storm] appears <hidden from users>",
-                    "Provides [-1] [Concentration] <for [1] turns> <hidden from users>",
-                    "Only available <after discovering [Ice]> <when above [0] [Concentration]> <when above [20] [Mana]> <hidden from users>",
-                    "Instantly gain [-20] [Mana] <hidden from users>"
+                    "Free [Ice Storm] appears",
+                    "Only available <after discovering [Ice]> <when above [20] [Mana]> <hidden from users>",
+                    "Instantly gain [-20] [Mana]"
                 ],
                 "civilopediaText": [
                     {
@@ -126,11 +123,10 @@
             {
                 "text": "Invigorate our soldiers",
                 "uniques": [
-                    "Provides [-1] [Concentration] <for [2] turns> <hidden from users>",
-                    "[non-[Air]] units gain the [Vigor] promotion <hidden from users>",
-                    "Provides [-10] [Mana] <for [2] turns> <hidden from users>",
-                    "Instantly gain [-100] [Mana] <hidden from users>",
-                    "Only available <when above [0] [Concentration]> <after discovering [Healing]> <when above [100] [Mana]> <hidden from users>"
+                    "[non-[Air]] units gain the [Invigorated] promotion",
+                    "Instantly gain [-100] [Mana]",
+                    "Instantly gain [1] [Spell Time] <for every [Magic Strength]>",
+                    "Only available <after discovering [Healing]> <when above [100] [Mana]> <hidden from users>"
                 ],
                 "civilopediaText": [
                     {
@@ -141,15 +137,28 @@
             {
                 "text": "Mobilize our soldiers",
                 "uniques": [
-                    "Provides [-1] [Concentration] <for [5] turns> <hidden from users>",
-                    "[non-[Air]] units gain the [Grant Teleportation] promotion <hidden from users>",
-                    "Provides [-10] [Mana] <for [5] turns> <hidden from users>",
-                    "Instantly gain [-100] [Mana] <hidden from users>",
-                    "Only available <when above [0] [Concentration]> <after discovering [Flight]> <when above [100] [Mana]> <hidden from users>"
+                    "[non-[Air]] units gain the [Teleporter] promotion",
+                    "Instantly gain [-100] [Mana]",
+                    "Instantly gain [1] [Spell Time] <for every [Magic Strength]>",
+                    "Only available <after discovering [Flight]> <when above [100] [Mana]> <hidden from users>"
                 ],
                 "civilopediaText": [
                     {
                         "text": "Grant our soldiers the power of extraordinarily swift movement"
+                    }
+                ]
+            },
+            {
+                "text": "Conceal our soldiers",
+                "uniques": [
+                    "[non-[Air]] units gain the [Invisible] promotion",
+                    "Instantly gain [-100] [Mana]",
+                    "Instantly gain [2] [Spell Time] <for every [Magic Strength]>",
+                    "Only available <after discovering [Blessings]> <when above [100] [Mana]> <hidden from users>"
+                ],
+                "civilopediaText": [
+                    {
+                        "text": "Hide our soldiers from our enemies' eyes"
                     }
                 ]
             }
@@ -162,13 +171,10 @@
             {
                 "text": "Grant us defense",
                 "uniques": [
-                    "Provides [-1] [Concentration] <for [5] turns> <hidden from users>",
-                    "Provides [-10] [Mana] <for [3] turns> <hidden from users>",
-                    "Instantly gain [-100] [Mana] <hidden from users>",
-                    "[+25]% Strength for cities <for [3] turns> <hidden from users>",
-                    "[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles> <for [3] turns> <hidden from users>",
-                    "Enemy [Land] units must spend [1] extra movement points when inside your territory <for [3] turns> <hidden from users> <Suppress warning [*contains a conditional on a unit movement unique*]>",
-                    "Only available <when above [0] [Concentration]> <after discovering [Wards of Protection]> <when above [100] [Mana]> <hidden from users>"
+                    "Instantly gain [1] [Spell Time] <for every [Magic Strength]>",
+                    "Instantly gain [-100] [Mana]",
+                    "Gain a free [Defense Spell] [in capital]",
+                    "Only available <after discovering [Wards of Protection]> <when above [100] [Mana]> <hidden from users>"
                 ],
                 "civilopediaText": [
                     {
@@ -179,14 +185,10 @@
             {
                 "text": "Grant us prosperity",
                 "uniques": [
-                    "Provides [-1] [Concentration] <for [5] turns> <hidden from users>",
-                    "Provides [-5] [Mana] <for [5] turns> <hidden from users>",
-                    "Instantly gain [-100] [Mana] <hidden from users>",
-                    "[+25]% [Production] [in all cities] <for [5] turns> <hidden from users>",
-                    "[+25]% [Gold] [in all cities] <for [5] turns> <hidden from users>",
-                    "[+25]% [Rations] resource production <for [5] turns> <hidden from users>",
-                    "[+25]% [Corpses] resource production <for [5] turns> <hidden from users>",
-                    "Only available <when above [0] [Concentration]> <after discovering [Blessings]> <when above [100] [Mana]> <hidden from users>"
+                    "Instantly gain [1] [Spell Time] <for every [Magic Strength]>",
+                    "Instantly gain [-100] [Mana]",
+                    "Gain a free [Prosperity Spell] [in capital]",
+                    "Only available <after discovering [Blessings]> <when above [100] [Mana]> <hidden from users>"
                 ],
                 "civilopediaText": [
                     {
@@ -203,11 +205,9 @@
             {
                 "text": "Summon a Plague",
                 "uniques": [
-                    "Provides [-1] [Concentration] <for [2] turns> <hidden from users>",
-                    "Provides [-5] [Mana] <for [2] turns> <hidden from users>",
-                    "Instantly gain [-50] [Mana] <hidden from users>",
-                    "Free [Plague] appears <hidden from users>",
-                    "Only available <when above [0] [Concentration]> <after discovering [Doomsday Spells]> <when above [50] [Mana]> <when number of [[Spell] Units] is less than [[Cities] * 6 + [[Tower] Buildings] * 4]> <hidden from users>"
+                    "Instantly gain [-50] [Mana]",
+                    "Free [Plague] appears",
+                    "Only available <after discovering [Doomsday Spells]> <when above [50] [Mana]> <when number of [[Spell] Units] is less than [[Cities] * 6 + [[Tower] Buildings] * 4]> <hidden from users>"
                 ],
                 "civilopediaText": [
                     {
@@ -218,11 +218,9 @@
             {
                 "text": "Summon a Meteor",
                 "uniques": [
-                    "Provides [-1] [Concentration] <for [3] turns> <hidden from users>",
-                    "Provides [-10] [Mana] <for [3] turns> <hidden from users>",
-                    "Instantly gain [-100] [Mana] <hidden from users>",
-                    "Free [Meteor] appears <hidden from users>",
-                    "Only available <when above [0] [Concentration]> <after discovering [Doomsday Spells]> <when above [100] [Mana]> <when number of [[Spell] Units] is less than [[Cities] * 6 + [[Tower] Buildings] * 4]> <hidden from users>"
+                    "Instantly gain [-100] [Mana]",
+                    "Free [Meteor] appears",
+                    "Only available <after discovering [Doomsday Spells]> <when above [100] [Mana]> <when number of [[Spell] Units] is less than [[Cities] * 6 + [[Tower] Buildings] * 4]> <hidden from users>"
                 ],
                 "civilopediaText": [
                     {
@@ -239,16 +237,32 @@
             {
                 "text": "Place a curse",
                 "uniques": [
-                    "Instantly gain [5] [Curse Time] <hidden from users>",
+                    "Instantly gain [1] [Spell Time] <for every [Magic Strength]>",
                     "Gain a free [Wildmen's Curse] [in capital] <for [Wildmen] Civilizations> <hidden from users>",
-                    "Provides [-1] [Concentration] <for [5] turns> <hidden from users>",
-                    "Provides [-10] [Mana] <for [5] turns> <hidden from users>",
-                    "Instantly gain [-200] [Mana] <hidden from users>",
-                    "Only available <after discovering [Curses]> <when above [0] [Concentration]> <when above [200] [Mana]> <hidden from users>"
+                    "Instantly gain [-200] [Mana]",
+                    "Only available <after discovering [Curses]> <when above [200] [Mana]> <hidden from users>"
                 ],
                 "civilopediaText": [
                     {
                         "text": "Curse all of your enemies with weakness"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Feast",
+        "text": "We have gathered enough food for a great feast!",
+        "choices": [
+            {
+                "text": "Feast together",
+                "uniques": [
+                    "Instantly gain [50] [Mana] <hidden from users>",
+                    "Instantly gain [-100] [Rations] <hidden from users>"
+                ],
+                "civilopediaText": [
+                    {
+                        "text": "Dine on this surplus food and receive a blessing of Mana"
                     }
                 ]
             }

@@ -11,7 +11,11 @@
         "unitType": "Civilian",
         "cost": 30,
         "movement": 2,
-        "uniques": ["Can build [Terrain] improvements on tiles", "Automation is a primary action"]
+        "uniques": [
+            "Can build [Land] improvements on tiles",
+            "Can build [Water] improvements on tiles",
+            "Automation is a primary action"
+        ]
     },
     {
         "name": "Zombie Slave",
@@ -20,7 +24,13 @@
         "unitType": "Civilian",
         "cost": 30,
         "movement": 2,
-        "uniques": ["Can build [Terrain] improvements on tiles", "Automation is a primary action", "Unbuildable", "Cannot be purchased"]
+        "uniques": [
+            "Can build [Land] improvements on tiles",
+            "Can build [Water] improvements on tiles",
+            "Automation is a primary action",
+            "Unbuildable",
+            "Cannot be purchased"
+        ]
     },
     {
         "name": "Slave",
@@ -29,7 +39,13 @@
         "unitType": "Civilian",
         "cost": 30,
         "movement": 2,
-        "uniques": ["Can build [Terrain] improvements on tiles", "Automation is a primary action", "Unbuildable", "Cannot be purchased"]
+        "uniques": [
+            "Can build [Land] improvements on tiles",
+            "Can build [Water] improvements on tiles",
+            "Automation is a primary action",
+            "Unbuildable",
+            "Cannot be purchased"
+        ]
     },
     {
 		"name": "Grunt",
@@ -108,7 +124,8 @@
             "[+150]% Strength <vs [Air] units>",
             "Never appears as a Barbarian unit",
             "Instantly gain [-1] [Mana] <upon entering combat>",
-            "[+1] Strength <for every [Researched [All] Technologies]>"
+            "[+1] Strength <for every [Researched [All] Technologies]>",
+            "[+1] Strength <for every [Magic Strength]>"
         ]
     },
     {
@@ -154,7 +171,7 @@
             "Unbuildable",
             "Can be purchased for [100] [Gold] [in all cities]",
             "Costs [30] [Mana]",
-            "Only available <when above [0] [Concentration]>"
+            "Only available <without [Spell Time]>"
         ]
     },
     {
@@ -171,7 +188,7 @@
             "Can be purchased for [100] [Gold] [in all cities]",
             "Costs [30] [Mana]",
             "Free [Lightning Bolt] appears <upon entering combat>",
-            "Only available <when above [0] [Concentration]>"
+            "Only available <without [Spell Time]>"
         ]
     },
     {
@@ -188,7 +205,7 @@
             "Can be purchased for [100] [Gold] [in all cities]",
             "Costs [30] [Mana]",
             "Free [Spark] appears <upon entering combat>",
-            "Only available <when above [0] [Concentration]>"
+            "Only available <without [Spell Time]>"
         ]
     },
     {
@@ -218,7 +235,7 @@
             "Can be purchased for [100] [Gold] [in all cities]",
             "Costs [30] [Mana]",
             "[Target Unit] gains the [Frozen] status for [3] turn(s) <upon damaging a [non-[Air]] unit>",
-            "Only available <when above [0] [Concentration]>"
+            "Only available <without [Spell Time]>"
         ]
     },
     {
@@ -236,7 +253,7 @@
             "Costs [100] [Mana]",
             "Nuclear weapon of Strength [0]",
             "Blast radius [3]",
-            "Only available <when above [0] [Concentration]>"
+            "Only available <without [Spell Time]>"
         ]
     },
     {
@@ -254,7 +271,7 @@
             "Costs [100] [Mana]",
             "Nuclear weapon of Strength [1]",
             "Blast radius [2]",
-            "Only available <when above [0] [Concentration]>"
+            "Only available <without [Spell Time]>"
         ]
     },
 
@@ -286,5 +303,18 @@
 			"Great Person - [War]", "Unbuildable", "Uncapturable"
         ],
 		"movement": 2
+    },
+
+    {
+        "name": "Scourge",
+        "unitType": "Sword",
+        "strength": 10,
+        "movement": 2,
+        "attackSound": "metalhit",
+        "uniques": [
+            "Unbuildable",
+            "Cannot be purchased",
+            "Never appears as a Barbarian unit"
+        ]
     }
 ]
