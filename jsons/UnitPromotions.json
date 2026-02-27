@@ -4,24 +4,18 @@
       "uniques": [
         "[This Unit] heals [25] HP",
         "[This Unit] gains [1] movement",
-        "[+1] Movement",
-        "No damage penalty for wounded units",
-        "[+2]% Strength <for every [Magic Strength]>",
-        "[This Unit] loses the [Invigorated] promotion <upon turn end> <when below [1] [Spell Time]>"
+        "[This Unit] loses the [Invigorated] promotion"
       ]
     },
     {
       "name": "Teleporter",
       "uniques": [
         "[This Unit] gains [1] movement",
-        "[+1] Movement",
         "Can pass through impassable tiles",
         "Ignores terrain cost",
         "Ignores Zone of Control",
-        "[1] Movement point cost to disembark",
-        "[1] Movement point cost to embark",
         "May Paradrop to [Terrain] tiles up to [50] tiles away <in [Friendly] tiles>",
-        "[This Unit] loses the [Teleporter] promotion <upon turn end> <when below [1] [Spell Time]>"
+        "[This Unit] loses the [Teleporter] promotion <upon turn start> <when below [1] [Spell Time]>"
       ]
     },
     {
@@ -29,7 +23,7 @@
       "uniques": [
         "Invisible to others",
         "[This Unit] loses the [Invisible] promotion <upon entering combat>",
-        "[This Unit] loses the [Invisible] promotion <upon turn end> <when below [1] [Spell Time]>"
+        "[This Unit] loses the [Invisible] promotion <upon turn start> <when below [1] [Spell Time]>"
       ]
     },
     {
@@ -46,7 +40,7 @@
     {
       "name": "Heal Instantly",
       "uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-      "unitTypes": ["Sword", "Archery"]
+      "unitTypes": ["Sword", "Archery", "Winged", "Melee Water", "Ranged Water", "Mage", "Spirit"]
     },
     
     {
@@ -55,7 +49,7 @@
     },
 
     {
-      "name": "Summon",
-      "uniques": ["Free [Force Bolt] appears <costs [10] [Mana]> <for [1] movement> <removing the [Summon] promotion/status> <when number of [Carried [Air] units] is less than [2]>"]
+      "name": "Summon Force Bolt",
+      "uniques": ["Free [Force Bolt] appears <costs [10] [Mana]> <for [1] movement> <removing the [Summon Force Bolt] promotion/status> <when number of [Carried [Air] units] is less than [2]>"]
     }
 ]

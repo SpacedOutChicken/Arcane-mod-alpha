@@ -5,7 +5,7 @@
 
         "Each city founded increases Science cost of Technologies [100]% less than normal",
 
-        "Instantly gain [-1] [Golden Age points] <for every [Happiness]> <upon turn end>",
+        "Set [Golden Age points] to [0] <upon turn start>",
 
         "Notified of new Barbarian encampments",
 
@@ -14,7 +14,7 @@
         "[+1] Unit Supply <for every [Units]>",
         "[-100]% maintenance costs",
 
-        "Triggers a [Cast Spell] event <upon turn start> <every [3] turns> <when above [20] [Mana]> <without [Spell Time]>",
+        "Triggers a [Cast Spell] event <upon turn start> <every [3] turns> <without [Spell Time]>",
 
         "Triggers a [Feast] event <upon turn start> <when above [100] [Rations]> <for [Demonic] Civilizations>",
 
@@ -31,31 +31,73 @@
         "Nullifies Growth [in all cities]",
         "Nullifies [Food] [in all cities] <in cities with at least [2] [Population]>",
         "Population loss from nuclear attacks [-100]% [in all cities]",
-        "Damage to garrison from nuclear attacks [-100]% [in all cities]",
+        "Damage to garrison from nuclear attacks [-50]% [in all cities]",
 
         "[-100]% Yield from every [Demon Tech] <for [non-[Demonic]] Civilizations>",
-        //"[-100]% Yield from every [non-[Demon Tech]] <for [Demonic] Civilizations>",
+        "[-100]% Yield from every [Human Tech] <for [non-[Human]] Civilizations>",
+        "[-100]% Yield from every [Undead Tech] <for [non-[Undead]] Civilizations>",
 
         "[+5]% Strength <for [Air] units> <for every [Magic Strength]>",
 
-        "[-15]% Strength <if [Wildmen's Curse] is constructed by anybody> <if [Wildmen's Curse] is not constructed> <hidden from users>",
+        // Curses
+        "[-10]% Strength <if [Wildmen's Curse] is constructed by anybody> <if [Wildmen's Curse] is not constructed> <hidden from users>",
+        //"[-10]% Strength <vs [Beastman] units> <if [Wildmen's Curse] is constructed by anybody> <if [Wildmen's Curse] is not constructed> <hidden from users>",
+        //"[-10]% Strength <vs [Barbarian] units> <if [Wildmen's Curse] is constructed by anybody> <if [Wildmen's Curse] is not constructed> <hidden from users>",
 
-        "[2] [Scourge]s rebel <upon turn start> <if [Legion's Curse] is constructed by anybody> <if [Legion's Curse] is not constructed> <hidden from users>",
+        "[-10]% Strength <if [Wurmvolk's Curse] is constructed by anybody> <if [Wurmvolk's Curse] is not constructed> <hidden from users>",
+        //"[-10]% Strength <vs [Dragon] units> <if [Wurmvolk's Curse] is constructed by anybody> <if [Wurmvolk's Curse] is not constructed> <hidden from users>",
 
-        "Provides [-1] [Spell Time] <when above [0] [Spell Time]> <hidden from users>",
-        "Remove [Enchantment] [in all cities] <upon turn end> <when below [1] [Spell Time]> <hidden from users>",
+        "[-10]% Strength <if [Mountaineers' Curse] is constructed by anybody> <if [Mountaineers' Curse] is not constructed> <hidden from users>",
+
+        "[-10]% Strength <if [Second Empire's Curse] is constructed by anybody> <if [Second Empire's Curse] is not constructed> <hidden from users>",
+        //"[+50]% construction time for [All] improvements <if [Second Empire's Curse] is constructed by anybody> <if [Second Empire's Curse] is not constructed> <hidden from users>",
+        //"[-5]% Production when constructing [All] buildings [in all cities] <if [Second Empire's Curse] is constructed by anybody> <if [Second Empire's Curse] is not constructed> <hidden from users>",
+
+        "[-10]% Strength <if [Sol's Curse] is constructed by anybody> <if [Sol's Curse] is not constructed> <hidden from users>",
+        //"[-50]% XP gained from combat <if [Sol's Curse] is constructed by anybody> <if [Sol's Curse] is not constructed> <hidden from users>",
+
+        "[-10]% Strength <if [Legion's Curse] is constructed by anybody> <if [Legion's Curse] is not constructed> <hidden from users>",
+        //"[2] [Scourge]s rebel <upon turn start> <if [Legion's Curse] is constructed by anybody> <if [Legion's Curse] is not constructed> <hidden from users>",
+
+        "[-10]% Strength <if [Aberrant's Curse] is constructed by anybody> <if [Aberrant's Curse] is not constructed> <hidden from users>",
+        //"A [Scourge] rebels <upon turn start> <if [Aberrant's Curse] is constructed by anybody> <if [Aberrant's Curse] is not constructed> <hidden from users>",
+        //"[-5] HP when healing <if [Aberrant's Curse] is constructed by anybody> <if [Aberrant's Curse] is not constructed> <hidden from users>",
+
+        "[-10]% Strength <if [Vanity's Curse] is constructed by anybody> <if [Vanity's Curse] is not constructed> <hidden from users>",
+        //"A [Scourge] rebels <upon turn start> <if [Vanity's Curse] is constructed by anybody> <if [Vanity's Curse] is not constructed> <hidden from users>",
+        //"[-1 Science] [in all cities] <if [Vanity's Curse] is constructed by anybody> <if [Vanity's Curse] is not constructed> <hidden from users>",
+
+        "[-10]% Strength <if [Abyssals' Curse] is constructed by anybody> <if [Abyssals' Curse] is not constructed> <hidden from users>",
+        //"[-1 Science] [in all cities] <if [Abyssals' Curse] is constructed by anybody> <if [Abyssals' Curse] is not constructed> <hidden from users>",
+
+        "[-10]% Strength <if [Mystagogues' Curse] is constructed by anybody> <if [Mystagogues' Curse] is not constructed> <hidden from users>",
+        //"[-1 Science] [in all cities] <if [Mystagogues' Curse] is constructed by anybody> <if [Mystagogues' Curse] is not constructed> <hidden from users>",
+        //"[-1] Sight <if [Mystagogues' Curse] is constructed by anybody> <if [Mystagogues' Curse] is not constructed> <hidden from users>",
+        //"Provides [-5] [Mana] <if [Mystagogues' Curse] is constructed by anybody> <if [Mystagogues' Curse] is not constructed> <hidden from users>",
+        
+        "[-10]% Strength <if [Shadows' Curse] is constructed by anybody> <if [Shadows' Curse] is not constructed> <hidden from users>",
+        //"[-1 Science] [in all cities] <if [Shadows' Curse] is constructed by anybody> <if [Shadows' Curse] is not constructed> <hidden from users>",
+        //"[-25]% [Gold] [in all cities] <if [Shadows' Curse] is constructed by anybody> <if [Shadows' Curse] is not constructed> <hidden from users>",
+
+        // Spell time
+        "Provides [-1] [Spell Time] <when above [0] [Spell Time]>",
+        "Remove [Enchantment] [in all cities] <upon turn start> <when below [1] [Spell Time]>",
+        "Set [Spell Time] to [0] <upon turn end> <if [Enchantment] is not constructed>",
 
         "Gain control over [1] tiles [in all cities] <upon turn end>"
     ],
     "unitUniques": [
         "Free [Serf] appears <upon defeating a [Military] unit> <for [Undead] Civilizations>",
         "Free [Serf] appears <upon defeating a [Military] unit> <for [Demonic] Civilizations>",
-        "Free [Den Builder] appears <upon entering a [Barbarian encampment] tile> <for [Wildmen] Civilizations> <for [non-[Den Builder]] units>",
+        "Free [Den Builder] appears <upon entering a [Barbarian encampment] tile> <for [Wildmen] Civilizations> <for [non-[Den Builder]] units> <when number of [Owned [Tame Beast den] Tiles] is less than [[Cities] * 3]>",
+        "Free [Settler] appears <upon entering a [Barbarian encampment] tile> <for [Wildmen] Civilizations> <for [non-[Den Builder]] units> <when number of [Owned [Tame Beast den] Tiles] is more than [[Cities] * 3 - 1]>",
 
         "May enter foreign tiles without open borders",
 
         "Cannot intercept [Air] units <for units without [Counterspell]>",
 
-        "Destroys [All] cities instead of capturing"
+        "Destroys [All] cities instead of capturing",
+
+        "Triggers a [What Is This] event <for [Human] Civilizations> <upon discovering a [Undead Tech] tile>"
     ]
 }

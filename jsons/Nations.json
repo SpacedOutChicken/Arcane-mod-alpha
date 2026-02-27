@@ -351,9 +351,69 @@
 		"innerColor": [127, 177, 236],
 		"cities": ["Tyrol"]
 	},
+	{
+		"name": "Quedlinburg",
+		"adjective": ["Quedlinburg"],
+		"cityStateType": "Mystical",
+		"uniques": [
+			"Human",
+			"Provides [6] [Magic Strength]"
+		],
+		"declaringWar": "After thorough deliberation, we finds ourselves at a crossroads. Prepare yourself, for war is upon us.",
+		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
+		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [51, 97, 242],
+		"cities": ["Quedlinburg"]
+	},
+	{
+		"name": "Meissen",
+		"adjective": ["Meissen"],
+		"cityStateType": "Labor",
+		"uniques": [
+			"Human",
+			"Provides [5] [Magic Strength]"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "How could we fall to the likes of you?!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [217, 158, 78],
+		"cities": ["Meissen"]
+	},
+	{
+		"name": "Görlitz",
+		"adjective": ["Görlitz"],
+		"cityStateType": "Tillage",
+		"uniques": [
+			"Human",
+			"Provides [5] [Magic Strength]"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [172, 172, 172],
+		"cities": ["Görlitz"]
+	},
+	{
+		"name": "Lüneburg",
+		"adjective": ["Lüneburg"],
+		"cityStateType": "Blacksmith",
+		"uniques": [
+			"Human",
+			"Provides [5] [Magic Strength]"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "So this is how it feels to die...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [167, 162, 216],
+		"cities": ["Lüneburg"]
+	},
 
 	{
-		"name": "Barbarians",
+		"name": "Barbarians", // wild beasts
 		"outerColor": [0,0,0],
         "innerColor": [185,12,12],
 		"uniques": [

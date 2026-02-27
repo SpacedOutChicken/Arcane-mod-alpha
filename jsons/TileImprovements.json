@@ -9,24 +9,30 @@
 		"gold": 1,
 		"uniques": [
 			"Great Improvement",
+			"Will not be replaced by automated units <for [Wildmen] Civilizations>",
 			"[+1 Gold] <for every adjacent [Improvement]>",
 			"Gives a defensive bonus of [25]%",
-			"Provides [1] [Rations]",
-			"Provides [1] [Mana]",
+			"Provides [1] [Rations] <for [non-[Demonic]] Civilizations>",
+			"Provides [1] [Mana] <for [non-[Demonic]] Civilizations>",
 			"Tile provides yield without assigned population",
-			"Removes removable features when built"
+			"Removes removable features when built",
+			"Human Tech",
+			"Tier 1"
 		]
 	},
 
 	{
 		"name": "Hut",
 		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Human",
 		"food": 1,
 		"production": 1,
 		"turnsToBuild": 5,
 		"uniques": [
-			"Provides [1] [Rations]",
-			"Tile provides yield without assigned population"
+			"Unavailable <for [Demonic] Civilizations>",
+			"Tile provides yield without assigned population",
+			"Human Tech",
+			"Tier 1"
 		]
 	},
 	{
@@ -37,31 +43,52 @@
 		"turnsToBuild": 5,
 		"uniques": [
 			"[+1 Gold] <for every adjacent [Improvement]>",
-			"Only available <in cities with a [Barracks]>",
+			"Only available <in cities with a [Level 1]>",
 			"Unavailable <in tiles adjacent to [Mine] tiles>",
 			"Unavailable <in [resource] tiles>",
 			"Tile provides yield without assigned population",
-			"Provides [1] [Rations]"
+			"Provides [1] [Rations] <for [Human] Civilizations>",
+			"Human Tech",
+			"Tier 2"
 		]
 	},
 	{
 		"name": "Barn",
+		"uniqueTo": "Human",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 5,
 		"uniques": [
-			"Provides [1] [Rations]",
+			"Provides [1] [Rations] <for [Human] Civilizations>",
 			"Tile provides yield without assigned population",
-			"Can only be built to improve a resource"
+			"Can only be built to improve a resource",
+			"Human Tech",
+			"Tier 1"
+		]
+	},
+	{
+		"name": "Slaughterhouse",
+		"uniqueTo": "Undead",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 5,
+		"uniques": [
+			"Provides [1] [Rations] <for [Undead] Civilizations>",
+			"Provides [1] [Corpses] <for [Undead] Civilizations>",
+			"Tile provides yield without assigned population",
+			"Can only be built to improve a resource",
+			"Undead Tech",
+			"Tier 1"
 		]
 	},
 	{
 		"name": "Forge",
 		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Human",
 		"turnsToBuild": 5,
 		"uniques": [
-			"Provides [1] [Rations]",
 			"Tile provides yield without assigned population",
-			"Can only be built to improve a resource"
+			"Can only be built to improve a resource",
+			"Human Tech",
+			"Tier 1"
 		]
 	},
 	{
@@ -71,8 +98,10 @@
 		"turnsToBuild": 5,
 		"uniques": [
 			"Can only be built to improve a resource",
-			"Provides [1] [Corpses]",
-			"Tile provides yield without assigned population"
+			"Provides [1] [Corpses] <for [non-[Demonic]] Civilizations>",
+			"Tile provides yield without assigned population",
+			"Undead Tech",
+			"Tier 1"
 		]
 	},
 	{
@@ -86,7 +115,8 @@
 			"Provides [1] [Corpses] <for [Demonic] Civilizations>",
 			"Provides [1] [Mana] <for [Demonic] Civilizations>",
 			"Tile provides yield without assigned population",
-			"Demon Tech"
+			"Demon Tech",
+			"Tier 1"
 		]
 	},
 	{
@@ -97,6 +127,7 @@
 		"gold": 1,
 		"science": 2,
 		"turnsToBuild": 5,
+		"techRequired": "Quest",
 		"uniques": [
 			"Provides [1] [Mana]",
 			"[+1 Gold] <for every adjacent [Improvement]>",

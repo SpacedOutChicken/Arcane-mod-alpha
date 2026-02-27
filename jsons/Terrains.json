@@ -5,7 +5,7 @@
 		"type": "Water",
 		"food": 2,
 		"movementCost": 1,
-		"RGB": [2, 104, 100],
+		"RGB": [43, 87, 151],
 		"uniques": []
 	},
 	{
@@ -13,7 +13,7 @@
 		"type": "Water",
 		"food": 2,
 		"movementCost": 1,
-		"RGB": [42, 206, 179],
+		"RGB": [70, 138, 216],
 		"uniques": [
 			"[+2] to Fertility for Map Generation",
 			"Considered [Desirable] when determining start locations <on water maps>"
@@ -262,6 +262,7 @@
 		"name": "Oasis",
 		"type": "TerrainFeature",
 		"gold": 1,
+		"production": 1,
 		"movementCost": 1,
 		"unbuildable": true,
 		"defenceBonus": -0.1,
@@ -272,7 +273,8 @@
 			"Only [All Road] improvements may be built on this tile",
 			"Always Fertility [4] for Map Generation",
 			"Considered [Food] when determining start locations",
-			"Considered [Desirable] when determining start locations"
+			"Considered [Desirable] when determining start locations",
+			"Tile provides yield without assigned population"
 		]
 	},
 	{
@@ -306,8 +308,9 @@
 		"type": "TerrainFeature",
 		"movementCost": 1,
 		"production": 1,
+		"gold": 1,
 		"occursOn": ["Coast"],
-		"uniques": ["Rare feature"]
+		"uniques": ["Rare feature", "Tile provides yield without assigned population"]
 	},
 	{
 		"name": "Rough seas",
@@ -321,13 +324,12 @@
 			"Units ending their turn on this terrain take [5] damage",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[-1] Sight",
-			"[-2] to Fertility for Map Generation"
+			"[-3] to Fertility for Map Generation"
 		]
 	},
 	{
         "name": "River",
         "type": "TerrainFeature",
-        "gold": 1,
         "movementCost": 0,
         "uniques": [
 			"Doesn't generate naturally",

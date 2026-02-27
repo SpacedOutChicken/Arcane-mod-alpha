@@ -15,20 +15,65 @@
 		"cost": 100,
 		"uniques": [
 			"New [non-[Spell]] units start with [15] XP [in this city]",
-			"Triggers a global alert upon completion <when number of [[Barracks] Buildings] is equal to [1]>"
+			"Triggers a global alert upon completion <when number of [[Level 1] Buildings] is equal to [1]>",
+			"Level 1",
+			"Must have an owned [Tier 1] within [3] tiles",
+			"Free [Settler] appears"
 		]
 	},
-
+	{
+		"name": "Warrior's Hut",
+		"uniqueTo": "Human",
+		"replaces": "Barracks",
+		"production": 1,
+		"cost": 100,
+		"uniques": [
+			"New [non-[Spell]] units start with [15] XP [in this city]",
+			"Triggers a global alert upon completion <when number of [[Level 1] Buildings] is equal to [1]>",
+			"Level 1",
+			"Must have an owned [{Tier 1} {Human Tech}] within [3] tiles",
+			"Provides [1] [Rations]",
+			"Free [Settler] appears"
+		]
+	},
+	{
+		"name": "Warrior's Tomb",
+		"uniqueTo": "Undead",
+		"replaces": "Barracks",
+		"production": 1,
+		"cost": 100,
+		"uniques": [
+			"New [non-[Spell]] units start with [15] XP [in this city]",
+			"Triggers a global alert upon completion <when number of [[Level 1] Buildings] is equal to [1]>",
+			"Level 1",
+			"Must have an owned [{Tier 1} {Undead Tech}] within [3] tiles",
+			"Provides [1] [Corpses]",
+			"Free [Settler] appears"
+		]
+	},
 	{
 		"name": "Altar",
 		"uniqueTo": "Demonic",
-		"cost": 30,
+		"replaces": "Barracks",
+		"cost": 100,
 		"science": 1,
 		"production": 1,
 		"uniques": [
-			"Provides [1] [Mana] <for [Demonic] Civilizations>",
-			"Limited to [0] per Civilization <for [non-[Demonic]] Civilizations>",
-			"Demon Tech"
+			"Provides [1] [Mana]",
+			"New [non-[Spell]] units start with [15] XP [in this city]",
+			"Triggers a global alert upon completion <when number of [[Level 1] Buildings] is equal to [1]>",
+			"Level 1",
+			"Must have an owned [{Tier 1} {Demon Tech}] within [3] tiles",
+			"Free [Settler] appears"
+		]
+	},
+	{
+		"name": "Walls",
+		"cost": 150,
+		"cityHealth": 50,
+		"cityStrength": 10,
+		"uniques": [
+			"Can only be built <in cities with a [Level 1]>"
 		]
 	},
 
@@ -67,26 +112,28 @@
 		"uniques": [
 			"Costs [100] [Corpses]",
 			"Provides [10] [Mana] <for [non-[Demonic]] Civilizations>",
-			"Limited to [0] per Civilization <for [Demonic] Civilizations>"
+			"Limited to [0] per Civilization <for [Demonic] Civilizations>",
+			"Only available <when above [99] [Corpses]>"
 		]
 	},
 
 	{
-		"name": "Defense Spell",
+		"name": "Defense Blessing",
 		"isNationalWonder": true,
+		"requiredTech": "Wards of Protection",
 		"uniques": [
 			"Unbuildable",
 			"Cannot be purchased",
 			"[+25]% Strength for cities",
             "[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
             "Enemy [non-[Air]] units must spend [1] extra movement points when inside your territory",
-			"Moves to new capital when capital changes",
 			"Enchantment"
 		]
 	},
 	{
-		"name": "Prosperity Spell",
+		"name": "Prosperity Blessing",
 		"isNationalWonder": true,
+		"requiredTech": "Blessings",
 		"uniques": [
 			"Unbuildable",
 			"Cannot be purchased",
@@ -94,12 +141,63 @@
 			"[+25]% [Gold] [in all cities]",
 			"[+25]% [Rations] resource production",
 			"[+25]% [Corpses] resource production",
-			"Moves to new capital when capital changes",
+			"Enchantment"
+		]
+	},
+	{
+		"name": "Vigor Blessing",
+		"isNationalWonder": true,
+		"requiredTech": "Healing",
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"[non-[Air]] units gain the [Invigorated] promotion",
+			"[+1] Movement <for [non-[Air]] units>",
+        	"No damage penalty for wounded units",
+        	"[+2]% Strength <for every [Magic Strength]> <for [non-[Air]] units>",
+			"Enchantment"
+		]
+	},
+	{
+		"name": "Teleport Blessing",
+		"isNationalWonder": true,
+		"requiredTech": "Flight",
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"[non-[Air]] units gain the [Teleporter] promotion",
+			"[+1] Movement <for [non-[Air]] units>",
+			"[1] Movement point cost to disembark",
+        	"[1] Movement point cost to embark",
+			"Enchantment"
+		]
+	},
+	{
+		"name": "Invisibility Blessing",
+		"isNationalWonder": true,
+		"requiredTech": "Blessings",
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"[non-[Air]] units gain the [Invisible] promotion",
 			"Enchantment"
 		]
 	},
 
-
+	{
+		"name": "Mountaineers' Curse",
+		"uniqueTo": "Mountaineers",
+		"requiredTech": "Curses",
+		"isWonder": true,
+		"uniques": [
+			"Triggers a global alert upon completion",
+			"Enchantment",
+			"Unbuildable",
+			"Cannot be purchased",
+			"Comment [[-10]% Strength [for [Enemy] units]]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
 	{
 		"name": "Wildmen's Curse",
 		"uniqueTo": "Wildmen",
@@ -109,7 +207,51 @@
 			"Triggers a global alert upon completion",
 			"Enchantment",
 			"Unbuildable",
-			"Cannot be purchased"
+			"Cannot be purchased",
+			"Comment [[-10]% Strength [for [Enemy] units]]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Wurmvolk's Curse",
+		"uniqueTo": "Wurmvolk",
+		"requiredTech": "Curses",
+		"isWonder": true,
+		"uniques": [
+			"Triggers a global alert upon completion",
+			"Enchantment",
+			"Unbuildable",
+			"Cannot be purchased",
+			"Comment [[-10]% Strength [for [Enemy] units]]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Sol's Curse",
+		"uniqueTo": "Disciples of Sol",
+		"requiredTech": "Curses",
+		"isWonder": true,
+		"uniques": [
+			"Triggers a global alert upon completion",
+			"Enchantment",
+			"Unbuildable",
+			"Cannot be purchased",
+			"Comment [[-10]% Strength [for [Enemy] units]]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Second Empire's Curse",
+		"uniqueTo": "The Second Empire",
+		"requiredTech": "Curses",
+		"isWonder": true,
+		"uniques": [
+			"Triggers a global alert upon completion",
+			"Enchantment",
+			"Unbuildable",
+			"Cannot be purchased",
+			"Comment [[-10]% Strength [for [Enemy] units]]",
+			"Will not be displayed in Civilopedia"
 		]
 	},
 	{
@@ -121,7 +263,79 @@
 			"Triggers a global alert upon completion",
 			"Enchantment",
 			"Unbuildable",
-			"Cannot be purchased"
+			"Cannot be purchased",
+			"Comment [[-10]% Strength [for [Enemy] units]]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Aberrant's Curse",
+		"uniqueTo": "The Aberrant",
+		"requiredTech": "Curses",
+		"isWonder": true,
+		"uniques": [
+			"Triggers a global alert upon completion",
+			"Enchantment",
+			"Unbuildable",
+			"Cannot be purchased",
+			"Comment [[-10]% Strength [for [Enemy] units]]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Vanity's Curse",
+		"uniqueTo": "The Vanity",
+		"requiredTech": "Curses",
+		"isWonder": true,
+		"uniques": [
+			"Triggers a global alert upon completion",
+			"Enchantment",
+			"Unbuildable",
+			"Cannot be purchased",
+			"Comment [[-10]% Strength [for [Enemy] units]]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Abyssals' Curse",
+		"uniqueTo": "The Abyssals",
+		"requiredTech": "Curses",
+		"isWonder": true,
+		"uniques": [
+			"Triggers a global alert upon completion",
+			"Enchantment",
+			"Unbuildable",
+			"Cannot be purchased",
+			"Comment [[-10]% Strength [for [Enemy] units]]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Mystagogues' Curse",
+		"uniqueTo": "Mystagogues",
+		"requiredTech": "Curses",
+		"isWonder": true,
+		"uniques": [
+			"Triggers a global alert upon completion",
+			"Enchantment",
+			"Unbuildable",
+			"Cannot be purchased",
+			"Comment [[-10]% Strength [for [Enemy] units]]",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Shadows' Curse",
+		"uniqueTo": "Shadows",
+		"requiredTech": "Curses",
+		"isWonder": true,
+		"uniques": [
+			"Triggers a global alert upon completion",
+			"Enchantment",
+			"Unbuildable",
+			"Cannot be purchased",
+			"Comment [[-10]% Strength [for [Enemy] units]]",
+			"Will not be displayed in Civilopedia"
 		]
 	}
 ]

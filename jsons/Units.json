@@ -4,7 +4,7 @@
         "unitType": "Civilian",
         "cost": 40,
         "movement": 2,
-        "uniques": ["Founds a new city <by consuming this unit>"]
+        "uniques": ["Founds a new city <by consuming this unit> <in [non-[resource]] tiles>"]
     },
     {
         "name": "Serf",
@@ -68,13 +68,13 @@
         "uniques": ["Never appears as a Barbarian unit"]
     },
     {
-        "name": "Bug",
+        "name": "Wolpertinger",
         "uniqueTo": "Barbarians",
         "unitType": "Sword",
         "movement": 2,
         "strength": 6,
         "cost": 20,
-        "uniques": ["Beastman", "Ignores terrain cost", "Unavailable <if [Barracks] is constructed by anybody>"]
+        "uniques": ["Beastman", "Ignores terrain cost", "Unavailable <if [Level 1] is constructed by anybody>"]
     },
     {
         "name": "Bugman",
@@ -103,7 +103,7 @@
         "movement": 2,
         "strength": 12,
         "cost": 100,
-        "uniques": ["Beastman", "Ignores terrain cost", "Only available <if [Barracks] is constructed by anybody>"]
+        "uniques": ["Beastman", "Ignores terrain cost", "Only available <if [Level 1] is constructed by anybody>"]
     },
 
     {
@@ -119,13 +119,14 @@
         "uniques": [
             "Costs [20] [Mana]",
             "Consumes [1] [Mana]",
-            "[This Unit] gains the [Summon] promotion <upon turn end> <every [2] turns> <for units without [Summon]>",
+            "[This Unit] gains the [Summon Force Bolt] promotion <upon turn end> <every [2] turns> <for units without [Summon Force Bolt]>",
             "Can carry [2] [Air] units",
             "[+150]% Strength <vs [Air] units>",
             "Never appears as a Barbarian unit",
             "Instantly gain [-1] [Mana] <upon entering combat>",
             "[+1] Strength <for every [Researched [All] Technologies]>",
-            "[+1] Strength <for every [Magic Strength]>"
+            "[+1] Strength <for every [Magic Strength]>",
+            "Can only be built <in cities with a [Tower]>"
         ]
     },
     {
@@ -142,7 +143,8 @@
             "Costs [10] [Mana]",
             "Instantly gain [-1] [Mana] <upon entering combat>",
             "[100]% chance to intercept air attacks",
-            "[+100]% Strength <vs [Air] units>"
+            "[+100]% Strength <vs [Air] units>",
+            "Can only be built <in cities with a [Tower]>"
         ],
         "promotions": ["Counterspell"]
     },
@@ -244,8 +246,8 @@
         "requiredTech": "Doomsday Spells",
         "movement": 1,
         "range": 100,
-        "strength": 20,
-        "rangedStrength": 20,
+        "strength": 50,
+        "rangedStrength": 50,
         "attackSound": "nuke",
         "uniques": [
             "Unbuildable",
@@ -276,6 +278,17 @@
     },
 
     {
+        "name": "Seducer",
+        "uniqueTo": "Shadows",
+        "unitType": "Civilian",
+        "movement": 2,
+        "cost": 100,
+        "uniques": [
+            "Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence"
+        ]
+    },
+
+    {
         "name": "Den Builder",
         "unitType": "Civilian",
         "uniqueTo": "Wildmen",
@@ -284,7 +297,7 @@
             "Unbuildable",
             "Cannot be purchased",
             "Uncapturable",
-            "Free [Settler] appears <by consuming this unit>",
+            "Instantly gain [100] [Mana] <by consuming this unit>",
             "Can instantly construct a [Tame Beast den] improvement <by consuming this unit>",
             "May Paradrop to [Friendly] tiles up to [40] tiles away",
             "Is part of Great Person group [Den Builder]",
@@ -297,6 +310,7 @@
 		"unitType": "Civilian",
 		"uniques": [
             "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Instantly gain [100] [Mana] <by consuming this unit>",
             //"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Can be earned through combat",
             "Is part of Great Person group [General]",

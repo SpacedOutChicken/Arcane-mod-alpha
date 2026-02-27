@@ -22,19 +22,13 @@
 			"Snow",
 			"Forest",
 			"Jungle",
-			"Hill"
+			"Hill",
+			"Swamp"
 		],
-		"science": 1,
 		"improvement": "Excavation site",
 		"improvementStats": {"science": 1},
 		"uniques": [
-			"Generated on every [100] tiles <in [Jungle] tiles>",
-			"Generated on every [100] tiles <in [Forest] tiles>",
-			"Generated on every [100] tiles <in [Grassland] tiles>",
-			"Generated on every [100] tiles <in [Plains] tiles>",
-			"Generated on every [100] tiles <in [Desert] tiles>",
-			"Generated on every [100] tiles <in [Tundra] tiles>",
-			"Generated on every [100] tiles <in [Snow] tiles>"
+			"Doesn't generate naturally"
 		]
 	},
 

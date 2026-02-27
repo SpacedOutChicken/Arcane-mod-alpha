@@ -1,9 +1,93 @@
 
 Constructions.png
-size: 1024, 256
+size: 2048, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+BuildingIcons/Aberrant's Curse
+  rotate: false
+  xy: 190, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Abyssals' Curse
+  rotate: false
+  xy: 298, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Legion's Curse
+  rotate: false
+  xy: 838, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mausoleum
+  rotate: false
+  xy: 1054, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mountaineers' Curse
+  rotate: false
+  xy: 1270, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mystagogues' Curse
+  rotate: false
+  xy: 1378, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Second Empire's Curse
+  rotate: false
+  xy: 1594, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Shadows' Curse
+  rotate: false
+  xy: 1918, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sol's Curse
+  rotate: false
+  xy: 298, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Vanity's Curse
+  rotate: false
+  xy: 514, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Wildmen's Curse
+  rotate: false
+  xy: 622, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Wurmvolk's Curse
+  rotate: false
+  xy: 946, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ConstructionIcons/Circle
   rotate: false
   xy: 4, 34
@@ -13,49 +97,63 @@ ConstructionIcons/Circle
   index: -1
 UnitActionIcons/Paradrop
   rotate: false
-  xy: 730, 112
+  xy: 1486, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Fireball
-  rotate: false
-  xy: 190, 112
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Grunt
-  rotate: false
-  xy: 298, 112
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Ice Storm
+UnitIcons/Chain Lightning
   rotate: false
   xy: 406, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Lightning Bolt
+UnitIcons/Fireball
   rotate: false
   xy: 514, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Meteor
+UnitIcons/Grunt
   rotate: false
   xy: 622, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Ice Storm
+  rotate: false
+  xy: 730, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Lightning Bolt
+  rotate: false
+  xy: 946, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Meteor
+  rotate: false
+  xy: 1162, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Seducer
+  rotate: false
+  xy: 1702, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Serf
   rotate: false
-  xy: 838, 112
+  xy: 1810, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -67,9 +165,30 @@ UnitIcons/Slave
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Spark
+  rotate: false
+  xy: 406, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Wizard
   rotate: false
-  xy: 298, 4
+  xy: 730, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Wolpertinger
+  rotate: false
+  xy: 838, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Zombie Slave
+  rotate: false
+  xy: 1054, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

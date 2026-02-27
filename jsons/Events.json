@@ -1,7 +1,7 @@
 [
     {
         "name": "Cast Spell",
-        "text": "We have accumulated enough mana to cast a spell!",
+        "text": "What do you wish to do with our mana?",
         "choices": [
             {
                 "text": "Summon an attack spell",
@@ -123,7 +123,7 @@
             {
                 "text": "Invigorate our soldiers",
                 "uniques": [
-                    "[non-[Air]] units gain the [Invigorated] promotion",
+                    "Gain a free [Vigor Blessing] [in capital]",
                     "Instantly gain [-100] [Mana]",
                     "Instantly gain [1] [Spell Time] <for every [Magic Strength]>",
                     "Only available <after discovering [Healing]> <when above [100] [Mana]> <hidden from users>"
@@ -137,7 +137,7 @@
             {
                 "text": "Mobilize our soldiers",
                 "uniques": [
-                    "[non-[Air]] units gain the [Teleporter] promotion",
+                    "Gain a free [Teleport Blessing] [in capital]",
                     "Instantly gain [-100] [Mana]",
                     "Instantly gain [1] [Spell Time] <for every [Magic Strength]>",
                     "Only available <after discovering [Flight]> <when above [100] [Mana]> <hidden from users>"
@@ -151,7 +151,7 @@
             {
                 "text": "Conceal our soldiers",
                 "uniques": [
-                    "[non-[Air]] units gain the [Invisible] promotion",
+                    "Gain a free [Invisibility Blessing] [in capital]",
                     "Instantly gain [-100] [Mana]",
                     "Instantly gain [2] [Spell Time] <for every [Magic Strength]>",
                     "Only available <after discovering [Blessings]> <when above [100] [Mana]> <hidden from users>"
@@ -173,7 +173,7 @@
                 "uniques": [
                     "Instantly gain [1] [Spell Time] <for every [Magic Strength]>",
                     "Instantly gain [-100] [Mana]",
-                    "Gain a free [Defense Spell] [in capital]",
+                    "Gain a free [Defense Blessing] [in capital]",
                     "Only available <after discovering [Wards of Protection]> <when above [100] [Mana]> <hidden from users>"
                 ],
                 "civilopediaText": [
@@ -187,7 +187,7 @@
                 "uniques": [
                     "Instantly gain [1] [Spell Time] <for every [Magic Strength]>",
                     "Instantly gain [-100] [Mana]",
-                    "Gain a free [Prosperity Spell] [in capital]",
+                    "Gain a free [Prosperity Blessing] [in capital]",
                     "Only available <after discovering [Blessings]> <when above [100] [Mana]> <hidden from users>"
                 ],
                 "civilopediaText": [
@@ -238,13 +238,24 @@
                 "text": "Place a curse",
                 "uniques": [
                     "Instantly gain [1] [Spell Time] <for every [Magic Strength]>",
+                    "Comment [Gain a free [Curse] [in capital]]",
                     "Gain a free [Wildmen's Curse] [in capital] <for [Wildmen] Civilizations> <hidden from users>",
+                    "Gain a free [Mountaineers' Curse] [in capital] <for [Mountaineers] Civilizations> <hidden from users>",
+                    "Gain a free [Wurmvolk's Curse] [in capital] <for [Wurmvolk] Civilizations> <hidden from users>",
+                    "Gain a free [Sol's Curse] [in capital] <for [Disciples of Sol] Civilizations> <hidden from users>",
+                    "Gain a free [Second Empire's Curse] [in capital] <for [The Second Empire] Civilizations> <hidden from users>",
+                    "Gain a free [Legion's Curse] [in capital] <for [The Legion] Civilizations> <hidden from users>",
+                    "Gain a free [Aberrant's Curse] [in capital] <for [The Aberrant] Civilizations> <hidden from users>",
+                    "Gain a free [Vanity's Curse] [in capital] <for [The Vanity] Civilizations> <hidden from users>",
+                    "Gain a free [Abyssals' Curse] [in capital] <for [The Abyssals] Civilizations> <hidden from users>",
+                    "Gain a free [Mystagogues' Curse] [in capital] <for [Mystagogues] Civilizations> <hidden from users>",
+                    "Gain a free [Shadows' Curse] [in capital] <for [Shadows] Civilizations> <hidden from users>",
                     "Instantly gain [-200] [Mana]",
                     "Only available <after discovering [Curses]> <when above [200] [Mana]> <hidden from users>"
                 ],
                 "civilopediaText": [
                     {
-                        "text": "Curse all of your enemies with weakness"
+                        "text": "Curse your enemies with weakness and misfortune"
                     }
                 ]
             }
@@ -257,8 +268,8 @@
             {
                 "text": "Feast together",
                 "uniques": [
-                    "Instantly gain [50] [Mana] <hidden from users>",
-                    "Instantly gain [-100] [Rations] <hidden from users>"
+                    "Instantly gain [20] [Mana]",
+                    "Instantly gain [-100] [Rations]"
                 ],
                 "civilopediaText": [
                     {
@@ -271,6 +282,15 @@
     {
         "name": "Build First Temple",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dictum justo vitae massa laoreet hendrerit. Sed id mi quam. Phasellus quam sapien, sagittis malesuada mattis nec, gravida non tortor. Duis ut felis porta, elementum nisi in, varius ipsum. In sit amet fermentum purus. Integer in libero tincidunt, condimentum urna eget, eleifend lorem. Proin vel felis vitae lorem rhoncus hendrerit ut sit amet lacus. Vivamus eu quam est. Praesent vitae libero fringilla turpis lacinia sollicitudin.\nSed ut magna lacus. Aliquam dictum, neque sit amet iaculis scelerisque, nunc erat blandit erat, nec pellentesque augue elit ut nisl. Donec dictum lobortis magna quis laoreet. Nulla tortor augue, dignissim id ex a, tempor rutrum purus. Aliquam dictum tristique lectus, et suscipit dui feugiat feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed id ligula tincidunt, tincidunt dui nec, facilisis magna. Aliquam vel sapien porta, fringilla urna sed, maximus ipsum. Praesent rutrum ex non luctus gravida. Curabitur tincidunt ex nec velit aliquet viverra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc non porta neque. Integer vel blandit nisi.\nSuspendisse at bibendum ipsum. Nam venenatis metus nec nisi egestas lacinia. Suspendisse sollicitudin metus augue, at elementum diam ullamcorper vel. Sed ullamcorper euismod mi, laoreet laoreet purus laoreet sit amet. Aliquam vitae mattis urna. Maecenas placerat nisl odio, quis tempus urna ultricies ut. Nulla facilisi. Nunc purus quam, elementum id tellus ut, sollicitudin interdum turpis. Ut tincidunt enim eu elit lobortis ultricies.\nUt turpis est, finibus nec neque ultrices, faucibus ullamcorper est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique elit sit amet ultrices eleifend. Maecenas nulla magna, facilisis sed nunc vel, porttitor blandit elit. Etiam convallis sem nec lectus scelerisque, sit amet consequat lacus facilisis. Praesent quis diam mi. Donec iaculis varius augue sed mollis. Proin nunc quam, gravida eget mattis et, ultrices quis purus. Nam tincidunt ligula a ligula consequat ultricies. Aliquam lacinia fringilla semper. Proin non magna at libero tempor vestibulum. Aliquam at tempor nibh. Etiam molestie accumsan mauris quis viverra.\nSuspendisse consequat ipsum enim, vel imperdiet elit mollis a. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean egestas purus egestas enim iaculis, eu tempus tortor condimentum. Cras semper suscipit erat, congue interdum nisi pulvinar id. Sed malesuada nunc tortor, vel tincidunt eros fringilla non. Ut non nisi nunc. Suspendisse sit amet pharetra turpis. Sed nec est eget quam semper hendrerit at nec arcu. Aliquam laoreet id dolor ut lacinia. Donec vel tempor augue. Ut eget libero orci. Duis at leo imperdiet, dignissim justo ut, vestibulum arcu.",
+        "choices": [
+            {
+                "text": "Proceed"
+            }
+        ]
+    },
+    {
+        "name": "What Is This",
+        "text": "What is this? I don't understand it.",
         "choices": [
             {
                 "text": "Proceed"

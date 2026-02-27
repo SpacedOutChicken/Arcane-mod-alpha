@@ -37,3 +37,11 @@ Mystagogues: https://thenounproject.com/icon/eye-646102/
 Summoning circle: https://thenounproject.com/icon/pentagram-6147578/
 Rough Seas: https://thenounproject.com/icon/typhoon-76248/
 Magic Strength: https://thenounproject.com/icon/eye-8116580/
+Hill icon: https://thenounproject.com/icon/hill-5706287/
+Hut: https://thenounproject.com/icon/hut-6096916/
+Wolpertinger: https://thenounproject.com/icon/jackalope-23788/
+Seducer: https://thenounproject.com/icon/mask-8219667/
+Zombie Slave: https://thenounproject.com/icon/skull-8094061/
+
+From Wikimedia:
+New swamp background: https://commons.wikimedia.org/wiki/File:Rural_swamp.jpg

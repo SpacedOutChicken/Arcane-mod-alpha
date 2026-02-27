@@ -1,22 +1,42 @@
 [
     {
-        "name": "gain rations",
+        "name": "receive rations",
         "notification": "The settlers have shared their rations with us!",
         "uniques": ["Instantly gain [20] [Rations] <(modified by game speed)>", "Only available <for [Human] Civilizations>"]
     },
     {
-        "name": "gain more rations",
-        "notification": "The settlers have shared their rations with us!",
-        "uniques": ["Instantly gain [30] [Rations] <(modified by game speed)>", "Only available <for [Human] Civilizations>"]
+        "name": "receive supplies",
+        "notification": "The settlers have given us supplies! (+[goldAmount] Supplies)",
+        "uniques": ["Gain [50]-[100] [Gold] <(modified by game speed)>", "Only available <for [Human] Civilizations>"]
     },
     {
-        "name": "gain lots more rations",
-        "notification": "The settlers have shared their rations with us!",
-        "uniques": ["Instantly provides [40] [Rations]", "Only available <for [Human] Civilizations>"]
+        "name": "receive mana",
+        "notification": "The settlers have given us precious mana!",
+        "uniques": ["Instantly gain [20] [Mana] <(modified by game speed)>", "Only available <for [Human] Civilizations>"]
     },
     {
-        "name": "gain corpses",
+        "name": "gain a settler",
+        "notification": "The settlers have joined us to found a city!",
+        "uniques": ["Free [Settler] found in the ruins", "Only available <for [Human] Civilizations>"]
+    },
+    {
+        "name": "harvest corpses",
         "notification": "We have raided the settlement and harvested their corpses!",
         "uniques": ["Instantly gain [20] [Corpses] <(modified by game speed)>", "Only available <for [non-[Human]] Civilizations>"]
+    },
+    {
+        "name": "steal mana",
+        "notification": "We have sacrificed the settlers and obtained mana!",
+        "uniques": ["Instantly gain [20] [Mana] <(modified by game speed)>", "Only available <for [non-[Human]] Civilizations>"]
+    },
+    {
+        "name": "steal supplies",
+        "notification": "We have robbed the settlers of their supplies! (+[goldAmount] Supplies)",
+        "uniques": ["Gain [50]-[100] [Gold] <(modified by game speed)>", "Only available <for [non-[Human]] Civilizations>"]
+    },
+    {
+        "name": "gain a slave",
+        "notification": "We have enslaved the settlers to labor for us!",
+        "uniques": ["Free [Serf] found in the ruins", "Only available <for [non-[Human]] Civilizations>"]
     }
 ]

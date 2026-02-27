@@ -22,5 +22,39 @@
             "[+10 Science]"
         ],
         "color": [255, 255, 255]
+    },
+    {
+        "name": "Labor",
+        "friendBonusUniques": [
+            "[+1 Production] [in all cities]",
+            "[+5]% [Production] [in all cities]"
+        ],
+        "allyBonusUniques": [
+            "[+2 Production] [in all cities]",
+            "[+10]% [Production] [in all cities]"
+        ],
+        "color": [220, 100, 15]
+    },
+    {
+        "name": "Tillage",
+        "friendBonusUniques": [
+            "Can build [All] improvements at a [+20]% rate"
+        ],
+        "allyBonusUniques": [
+            "Can build [All] improvements at a [+40]% rate"
+            //"Free [Serf] appears <upon turn end> <every [5] turns> <when number of [[Civilian] Units] is less than [[Cities] * 2]>"
+        ],
+        "color": [100, 220, 5]
+    },
+    {
+        "name": "Blacksmith",
+        "friendBonusUniques": [
+            "[+5]% Strength <for [non-[Air]] units>"
+        ],
+        "allyBonusUniques": [
+            "[+10]% Strength <for [non-[Air]] units>",
+            "[+25]% XP gained from combat"
+        ],
+        "color": [255, 0, 0]
     }
 ]
